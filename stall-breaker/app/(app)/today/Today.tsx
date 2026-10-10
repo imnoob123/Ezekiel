@@ -1,31 +1,32 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import ScoreCard from "@/components/ScoreCard";
-import Timer from "@/components/Timer";
+import ProgressCard from "@/components/ProgressCard";
+import Work from "@/components/Work";
 import ProofForm, { type Proof } from "@/components/ProofForm";
-import { keptLast30, missedYesterday, staleOpen } from "@/lib/score";
+import { loadLedger } from "@/lib/ledger";
+import { keptLast30, missedYesterday } from "@/lib/score";
 import {
   createPromise,
   daysAgo,
-  listPromises,
   today,
   updatePromise,
   uploadProof,
   type PromiseEntry,
+  type Step as MicroStep,
 } from "@/lib/store";
 
 type Draft = {
   building: string;
   callout: string | null;
-  research: string[] | null;
   task: string;
+  steps: MicroStep[];
   finish_line: string;
   proof_hint: string;
   minutes: number;
 };
 
-type Step = "loading" | "input" | "thinking" | "task" | "timer" | "proof" | "kept";
+type Stage = "loading" | "input" | "thinking" | "plan" | "work" | "proof" | "kept";
 
 const REVIEW_KEY = "stallbreaker.lastReview";
 
@@ -38,18 +39,6 @@ async function coach(body: object) {
   const json = await res.json();
   if (!res.ok) throw new Error(json.error ?? "Something broke.");
   return json;
-}
-
-async function loadLedger() {
-  let list = await listPromises();
-  // Anything left open on an earlier day never got proof: it's missed. No drama.
-  const stale = staleOpen(list);
-  if (stale.length) {
-    await Promise.all(stale.map((r) => updatePromise(r.id, { status: "missed" })));
-    list = await listPromises();
-  }
-  const open = list.find((r) => r.status === "open" && r.date === today()) ?? null;
-  return { list, open };
 }
 
 // Once a week: a short stewardship review of the last 7 days.
@@ -73,7 +62,7 @@ async function fetchReview(list: PromiseEntry[]): Promise<string | null> {
 
 export default function Today() {
   const [rows, setRows] = useState<PromiseEntry[]>([]);
-  const [step, setStep] = useState<Step>("loading");
+  const [stage, setStage] = useState<Stage>("loading");
   const [building, setBuilding] = useState("");
   const [draft, setDraft] = useState<Draft | null>(null);
   const [active, setActive] = useState<PromiseEntry | null>(null);
@@ -82,6 +71,9 @@ export default function Today() {
   const [error, setError] = useState<string | null>(null);
   const [review, setReview] = useState<string | null>(null);
   const [dateLabel, setDateLabel] = useState("");
+
+  const stageFor = (p: PromiseEntry): Stage =>
+    !p.started_at ? "plan" : p.steps_done >= p.steps.length ? "proof" : "work";
 
   useEffect(() => {
     let alive = true;
@@ -92,7 +84,10 @@ export default function Today() {
         setDateLabel(new Date().toLocaleDateString("en-US", { weekday: "short", month: "short", day: "numeric" }));
         setMissed(missedYesterday(list));
         setActive(open);
-        setStep(open ? (open.started_at ? "timer" : "task") : "input");
+        setStage(open ? stageFor(open) : "input");
+        // Coming from Setback Mode with a next move: pre-fill it.
+        const fromSetback = new URLSearchParams(location.search).get("b");
+        if (!open && fromSetback) setBuilding(fromSetback);
         return fetchReview(list);
       })
       .then((text) => alive && text && setReview(text))
@@ -109,18 +104,23 @@ export default function Today() {
     setReview(null);
   }
 
+  const save = (p: PromiseEntry) => {
+    setActive(p);
+    setRows((r) => [p, ...r.filter((x) => x.id !== p.id)]);
+  };
+
   async function breakStall() {
     if (!building.trim()) return;
     setError(null);
-    setStep("thinking");
+    setStage("thinking");
     try {
       const recent = rows.slice(0, 5).map((r) => ({ promise: r.task, status: r.status }));
       const ai = await coach({ mode: "diagnose", building, missedYesterday: missed, recent });
       setDraft({ building, ...ai });
-      setStep("task");
+      setStage("plan");
     } catch (e) {
       setError((e as Error).message);
-      setStep("input");
+      setStage("input");
     }
   }
 
@@ -130,17 +130,23 @@ export default function Today() {
     setBusy(true);
     setError(null);
     try {
-      const ai = await coach({ mode: "shrink", building: cur.building, task: cur.task, minutes: cur.minutes });
+      const ai = await coach({
+        mode: "shrink",
+        building: cur.building,
+        task: cur.task,
+        minutes: cur.minutes,
+        steps: cur.steps.map((s) => s.text),
+      });
       const next = {
         task: ai.task,
+        steps: ai.steps,
         finish_line: ai.finish_line,
         proof_hint: ai.proof_hint,
         minutes: ai.minutes,
         callout: ai.callout,
-        research: cur.research,
       };
-      if (active) setActive(await updatePromise(active.id, next));
-      else setDraft({ ...draft!, ...next });
+      if (active) save(await updatePromise(active.id, next));
+      else setDraft({ ...cur, ...next });
     } catch (e) {
       setError((e as Error).message);
     } finally {
@@ -148,32 +154,39 @@ export default function Today() {
     }
   }
 
-  // Starting the timer is the promise. That's when it hits the ledger.
+  // Starting is the promise. That's when it hits the ledger.
   async function start() {
     setBusy(true);
     setError(null);
     try {
-      const startedAt = new Date().toISOString();
+      const started_at = new Date().toISOString();
       const p = active
-        ? await updatePromise(active.id, { started_at: startedAt })
+        ? await updatePromise(active.id, { started_at })
         : await createPromise({
             date: today(),
             building: draft!.building,
             task: draft!.task,
+            steps: draft!.steps,
             finish_line: draft!.finish_line,
             proof_hint: draft!.proof_hint,
             callout: draft!.callout,
-            research: draft!.research,
             minutes: draft!.minutes,
-          }).then((row) => updatePromise(row.id, { started_at: startedAt }));
-      setActive(p);
-      setRows((r) => [p, ...r.filter((x) => x.id !== p.id)]);
-      setStep("timer");
+          }).then((row) => updatePromise(row.id, { started_at }));
+      save(p);
+      setStage("work");
     } catch {
       setError("Couldn't save that. Check your connection.");
     } finally {
       setBusy(false);
     }
+  }
+
+  async function stepDone(stepsDone: number) {
+    if (!active) return;
+    const optimistic = { ...active, steps_done: stepsDone };
+    save(optimistic);
+    if (stepsDone >= active.steps.length) setStage("proof");
+    updatePromise(active.id, { steps_done: stepsDone }).catch(() => setError("Couldn't save that step."));
   }
 
   async function submitProof(proof: Proof) {
@@ -182,16 +195,16 @@ export default function Today() {
     setError(null);
     try {
       const path = proof.file ? await uploadProof(proof.file) : null;
-      const p = await updatePromise(active.id, {
-        status: "kept",
-        proof_type: proof.type,
-        proof_text: proof.text ?? proof.file?.name ?? null,
-        proof_path: path,
-        completed_at: new Date().toISOString(),
-      });
-      setActive(p);
-      setRows((r) => r.map((x) => (x.id === p.id ? p : x)));
-      setStep("kept");
+      save(
+        await updatePromise(active.id, {
+          status: "kept",
+          proof_type: proof.type,
+          proof_text: proof.text ?? proof.file?.name ?? null,
+          proof_path: path,
+          completed_at: new Date().toISOString(),
+        }),
+      );
+      setStage("kept");
     } catch {
       setError("Upload failed. Try again.");
     } finally {
@@ -204,19 +217,26 @@ export default function Today() {
     setDraft(null);
     setBuilding("");
     setMissed(false);
-    setStep("input");
+    setStage("input");
   }
 
-  const shown = active ?? draft;
+  const plan = active ?? draft;
 
   return (
-    <div className="space-y-5">
-      <header className="flex items-end justify-between">
-        <h1 className="font-display text-[68px] leading-[0.8] tracking-wide">TODAY</h1>
-        <span className="label pb-1">{dateLabel}</span>
+    <div className="space-y-4">
+      <header className="flex items-end justify-between pb-1">
+        <h1 className="font-display text-[56px] leading-[0.8] tracking-wide">TODAY</h1>
+        <span className="label pb-0.5">{dateLabel}</span>
       </header>
 
-      {step !== "loading" && <ScoreCard rows={rows} />}
+      {stage === "loading" ? (
+        <>
+          <div className="card breathe h-[150px]" />
+          <div className="card breathe h-56" />
+        </>
+      ) : (
+        <ProgressCard rows={rows} />
+      )}
 
       {review && (
         <section className="card rise p-5">
@@ -228,16 +248,9 @@ export default function Today() {
         </section>
       )}
 
-      {step === "loading" && (
-        <>
-          <div className="card h-[150px] breathe" />
-          <div className="card h-56 breathe" />
-        </>
-      )}
-
-      {step === "input" && (
+      {stage === "input" && (
         <section className="glow rise p-5">
-          {missed && <p className="mb-4 text-[15px] font-medium text-text">Missed yesterday. Today&apos;s task is smaller.</p>}
+          {missed && <p className="mb-4 font-medium">Missed yesterday. Today&apos;s task is smaller.</p>}
           <label htmlFor="building" className="label">What are you building today?</label>
           <textarea
             id="building"
@@ -247,89 +260,73 @@ export default function Today() {
             onKeyDown={(e) => {
               if (e.key === "Enter" && (e.metaKey || e.ctrlKey)) breakStall();
             }}
-            placeholder="Plain words. e.g. “Film my first YouTube video but I need a better camera first”"
+            placeholder="Plain words. What are you trying to get done?"
             className="field mt-3 resize-none leading-relaxed"
           />
           <button onClick={breakStall} disabled={!building.trim()} className="btn btn-primary mt-4 w-full">
-            Break the stall
+            Break it down
           </button>
         </section>
       )}
 
-      {step === "thinking" && (
-        <section className="glow rise p-6">
-          <p className="label">Finding the real stall</p>
-          <p className="mt-3 text-muted">&ldquo;{building}&rdquo;</p>
-          <div className="mt-5 flex gap-1.5">
-            {[0, 1, 2].map((i) => (
-              <span key={i} className="breathe h-1.5 w-8 rounded-full bg-accent" style={{ animationDelay: `${i * 0.2}s` }} />
+      {stage === "thinking" && (
+        <section className="glow rise flex flex-col items-center p-8">
+          <div className="flex h-10 items-end gap-1.5">
+            {[0, 1, 2, 3, 4].map((i) => (
+              <span
+                key={i}
+                className="breathe w-2.5 rounded-sm bg-accent"
+                style={{ height: `${30 + i * 17}%`, animationDelay: `${i * 0.15}s` }}
+              />
             ))}
           </div>
+          <p className="label mt-4">Breaking it down</p>
         </section>
       )}
 
-      {step === "task" && shown && (
+      {stage === "plan" && plan && (
         <section className="glow rise p-5">
-          {missed && !active && <p className="mb-3 text-[15px] font-medium">Missed yesterday. Today&apos;s task is smaller.</p>}
-          {shown.callout && <p className="glow-text text-[19px] font-semibold leading-snug">{shown.callout}</p>}
+          {missed && !active && <p className="mb-3 font-medium">Missed yesterday. Today&apos;s task is smaller.</p>}
+          {plan.callout && <p className="text-[15px] leading-snug text-text/80">{plan.callout}</p>}
 
-          {shown.research && shown.research.length > 0 && (
-            <div className="mt-4 rounded-2xl border border-line bg-black/30 p-4">
-              <p className="label">Research · handled</p>
-              <ul className="mt-2 space-y-1.5 text-[14px] leading-relaxed text-text/85">
-                {shown.research.map((r, i) => (
-                  <li key={i} className="flex gap-2">
-                    <span className="text-accent-hi">→</span>
-                    {r}
-                  </li>
-                ))}
-              </ul>
-            </div>
-          )}
+          <p className={`label ${plan.callout ? "mt-5" : ""}`}>Tonight · {plan.minutes} min</p>
+          <p className="glow-text mt-1.5 text-[24px] font-semibold leading-tight">{plan.task}</p>
 
-          <div className="mt-5 border-t border-line pt-5">
-            <p className="label">Tonight&apos;s ugly version</p>
-            <p className="mt-2 text-[22px] font-semibold leading-snug">{shown.task}</p>
-            <p className="mt-3 text-[14px] text-muted">
-              <span className="text-text/80">Finish line:</span> {shown.finish_line}
-            </p>
-            <div className="mt-4 flex flex-wrap gap-2">
-              <span className="pill pill-muted">{shown.minutes} min</span>
-              {shown.proof_hint && <span className="pill pill-muted font-medium">Proof: {shown.proof_hint}</span>}
-            </div>
-          </div>
+          <ol className="mt-5 space-y-2.5">
+            {plan.steps.map((s, i) => (
+              <li key={i} className="flex items-baseline gap-3 text-[15px]">
+                <span className="w-4 shrink-0 font-display text-[17px] text-accent-hi">{i + 1}</span>
+                <span className="flex-1 leading-snug">{s.text}</span>
+                <span className="shrink-0 text-[12px] tabular-nums text-faint">{s.minutes}m</span>
+              </li>
+            ))}
+          </ol>
 
           <div className="mt-6 grid grid-cols-[1fr_auto] gap-2">
-            <button onClick={start} disabled={busy} className="btn btn-primary">
-              Start {shown.minutes}:00
-            </button>
-            <button onClick={tooBig} disabled={busy} className="btn btn-ghost">
-              {busy ? "…" : "Too big"}
-            </button>
+            <button onClick={start} disabled={busy} className="btn btn-primary">Start step 1</button>
+            <button onClick={tooBig} disabled={busy} className="btn btn-ghost">{busy ? "…" : "Too big"}</button>
           </div>
         </section>
       )}
 
-      {step === "timer" && active && (
-        <Timer promise={active} onDone={() => setStep("proof")} />
-      )}
+      {stage === "work" && active && <Work promise={active} onStep={stepDone} />}
 
-      {step === "proof" && active && (
+      {stage === "proof" && active && (
         <section className="glow rise p-5">
-          <p className="label">Proof or it didn&apos;t happen</p>
-          <p className="mt-2 text-[17px] font-semibold leading-snug">{active.task}</p>
+          <p className="label">Last thing · proof</p>
+          <p className="mt-1.5 text-[20px] font-semibold leading-tight">{active.proof_hint || "Show what you made"}</p>
           <p className="mt-1 text-[14px] text-muted">{active.finish_line}</p>
-          <ProofForm busy={busy} onSubmit={submitProof} onBack={() => setStep("timer")} />
+          <ProofForm busy={busy} onSubmit={submitProof} onBack={() => stepDone(active.steps.length - 1).then(() => setStage("work"))} />
         </section>
       )}
 
-      {step === "kept" && active && (
+      {stage === "kept" && active && (
         <section className="glow rise p-6 text-center">
-          <span className="pill pill-kept">✓ Kept</span>
-          <p className="glow-text mt-4 font-display text-[64px] leading-[0.85] tracking-wide">
-            {keptLast30(rows)} / 30
+          <p className="label">Kept</p>
+          <p className="glow-text mt-3 font-display text-[96px] leading-[0.8] tracking-wide text-accent-hi">+1</p>
+          <p className="mt-4 text-muted">
+            {keptLast30(rows)} kept in 30 days. That&apos;s evidence, not a feeling.
           </p>
-          <p className="mt-2 text-muted">On the ledger. That&apos;s evidence, not a feeling.</p>
           <button onClick={another} className="btn btn-ghost mt-6 w-full">Go again</button>
         </section>
       )}

@@ -1,10 +1,10 @@
 import { NextResponse } from "next/server";
-import { diagnose, hasClaude, research, shrink, weeklyReview } from "@/lib/claude";
-import { mockDiagnose, mockResearch, mockReview, mockShrink } from "@/lib/mock";
+import { diagnose, hasClaude, setbackListen, setbackMove, shrink, weeklyReview } from "@/lib/claude";
+import { mockDiagnose, mockListen, mockMove, mockReview, mockShrink } from "@/lib/mock";
 import { hasSupabase } from "@/lib/supabase/config";
 import { supabaseServer } from "@/lib/supabase/server";
 
-export const maxDuration = 120;
+export const maxDuration = 60;
 
 export async function POST(req: Request) {
   // Keep the API key from being used by anyone who isn't logged in.
@@ -25,23 +25,32 @@ export async function POST(req: Request) {
         const task = live
           ? await diagnose({ building, missedYesterday, recent: body.recent ?? [] })
           : mockDiagnose(building, missedYesterday);
-        const bullets = task.research_query
-          ? live
-            ? await research(task.research_query, building)
-            : mockResearch
-          : null;
-        return NextResponse.json({ ...task, research: bullets });
+        return NextResponse.json(task);
       }
       case "shrink": {
         const minutes = Number(body.minutes) || 25;
         const task = live
-          ? await shrink({ building: String(body.building ?? ""), task: String(body.task ?? ""), minutes })
-          : mockShrink(minutes);
-        return NextResponse.json({ ...task, research: null });
+          ? await shrink({
+              building: String(body.building ?? ""),
+              task: String(body.task ?? ""),
+              minutes,
+              steps: Array.isArray(body.steps) ? body.steps.map(String).slice(0, 5) : [],
+            })
+          : mockShrink();
+        return NextResponse.json(task);
       }
       case "review": {
         const text = live ? await weeklyReview(body.entries ?? []) : mockReview;
         return NextResponse.json({ text });
+      }
+      case "setback": {
+        const rant = String(body.rant ?? "").slice(0, 6000);
+        if (!rant.trim()) return NextResponse.json({ error: "Get it out first." }, { status: 400 });
+        if (!body.answer) {
+          return NextResponse.json({ text: live ? await setbackListen(rant) : mockListen });
+        }
+        const answer = String(body.answer).slice(0, 3000);
+        return NextResponse.json(live ? await setbackMove(rant, answer) : mockMove);
       }
       default:
         return NextResponse.json({ error: "Unknown mode." }, { status: 400 });

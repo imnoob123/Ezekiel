@@ -1,36 +1,46 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Stall Breaker
 
-## Getting Started
+Sit down. Ship one ugly thing. Prove it.
 
-First, run the development server:
+Three screens:
+- **Today**: say what you're building → the AI calls out the stall and breaks it into 2-5 micro-steps (step 1 under 2 minutes) → one step on screen at a time → proof (link, screenshot, text, or file) → kept.
+- **Ledger**: every promise with its proof, kept/missed, and a growth chart of kept promises.
+- **Setback**: rant → "What can you get from this?" → the leverage + one next move, which you can send straight to Today.
+
+## Run locally
 
 ```bash
+npm install
+cp .env.example .env.local   # fill in what you have
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+With no keys it still runs: no login, ledger saved in the browser, canned AI replies. Add the keys for the real thing.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Set up for real (about 15 minutes)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 1. Supabase (login + ledger)
+1. Create a project at supabase.com.
+2. **SQL Editor** → paste all of `supabase/migrations/001_init.sql` → Run. This creates the `promises` table and the private `proof` storage bucket, locked so each user only sees their own.
+3. **Authentication → Sign In / Providers**: make sure Email is on.
+4. **Authentication → URL Configuration**: set Site URL to your Vercel URL (e.g. `https://stall-breaker.vercel.app`) and add `https://stall-breaker.vercel.app/auth/callback` to Redirect URLs.
+5. **Project Settings → API**: copy the Project URL and the `anon` public key.
 
-## Learn More
+### 2. Anthropic
+Create an API key at console.anthropic.com.
 
-To learn more about Next.js, take a look at the following resources:
+### 3. Vercel
+1. Import the GitHub repo.
+2. **Root Directory**: `stall-breaker`.
+3. Environment variables:
+   - `ANTHROPIC_API_KEY`
+   - `NEXT_PUBLIC_SUPABASE_URL`
+   - `NEXT_PUBLIC_SUPABASE_ANON_KEY`
+   - `CLAUDE_MODEL` (optional, defaults to `claude-opus-5-5`)
+4. Deploy. Send your clients the URL; they log in with their email.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Where things live
+- `lib/prompts.ts`: the AI's voice and every mode's instructions. Edit here to change how it talks.
+- `app/api/coach/route.ts`: the one AI endpoint (diagnose, shrink, setback, weekly review).
+- `app/(app)/today`, `ledger`, `setback`: the three screens.
+- `supabase/migrations/001_init.sql`: the database.

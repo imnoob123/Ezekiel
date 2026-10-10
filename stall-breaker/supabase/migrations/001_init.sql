@@ -8,7 +8,8 @@ create table if not exists public.promises (
   finish_line text not null,
   proof_hint text,
   callout text,
-  research jsonb,
+  steps jsonb not null default '[]',      -- [{ text, minutes }]
+  steps_done int not null default 0,
   minutes int not null,
   status text not null default 'open' check (status in ('open', 'kept', 'missed')),
   started_at timestamptz,

@@ -6,6 +6,8 @@ import { supabaseBrowser } from "./supabase/client";
 export type Status = "open" | "kept" | "missed";
 export type ProofType = "link" | "image" | "text" | "file";
 
+export type Step = { text: string; minutes: number };
+
 export type PromiseEntry = {
   id: string;
   date: string; // YYYY-MM-DD, user's local day
@@ -14,7 +16,8 @@ export type PromiseEntry = {
   finish_line: string;
   proof_hint: string | null;
   callout: string | null;
-  research: string[] | null;
+  steps: Step[];
+  steps_done: number;
   minutes: number;
   status: Status;
   started_at: string | null;
@@ -27,7 +30,7 @@ export type PromiseEntry = {
 
 export type NewPromise = Omit<
   PromiseEntry,
-  "id" | "status" | "started_at" | "proof_type" | "proof_text" | "proof_path" | "created_at" | "completed_at"
+  "id" | "status" | "steps_done" | "started_at" | "proof_type" | "proof_text" | "proof_path" | "created_at" | "completed_at"
 >;
 
 export const today = (d = new Date()) => d.toLocaleDateString("en-CA");
@@ -65,6 +68,7 @@ export async function createPromise(p: NewPromise): Promise<PromiseEntry> {
       ...p,
       id: crypto.randomUUID(),
       status: "open",
+      steps_done: 0,
       started_at: null,
       proof_type: null,
       proof_text: null,
@@ -99,4 +103,11 @@ export async function uploadProof(file: File): Promise<string> {
   const { error } = await sb.storage.from("proof").upload(path, file);
   if (error) throw error;
   return path;
+}
+
+// Short-lived link to a private proof upload.
+export async function proofUrl(path: string): Promise<string | null> {
+  if (!hasSupabase || path.startsWith("local/")) return null;
+  const { data } = await supabaseBrowser().storage.from("proof").createSignedUrl(path, 300);
+  return data?.signedUrl ?? null;
 }
