@@ -1,63 +1,23 @@
 "use client";
 
-import Link from "next/link";
+import { useRouter } from "next/navigation";
 import { useState } from "react";
-
-type Stage = "rant" | "listening" | "answer" | "thinking" | "move";
-
-async function coach(body: object) {
-  const res = await fetch("/api/coach", {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ mode: "setback", ...body }),
-  });
-  const json = await res.json();
-  if (!res.ok) throw new Error(json.error ?? "Something broke.");
-  return json;
-}
+import { isThinkingStep } from "@/lib/coach";
 
 export default function Setback() {
-  const [stage, setStage] = useState<Stage>("rant");
+  const router = useRouter();
+  const [stage, setStage] = useState<"rant" | "leverage">("rant");
   const [rant, setRant] = useState("");
-  const [reply, setReply] = useState("");
-  const [answer, setAnswer] = useState("");
-  const [move, setMove] = useState<{ leverage: string; next_move: string } | null>(null);
-  const [error, setError] = useState<string | null>(null);
+  const [leverage, setLeverage] = useState("");
+  const [move, setMove] = useState("");
+  const [err, setErr] = useState<string | null>(null);
 
-  async function vent() {
-    setError(null);
-    setStage("listening");
-    try {
-      const { text } = await coach({ rant });
-      setReply(text);
-      setStage("answer");
-    } catch (e) {
-      setError((e as Error).message);
-      setStage("rant");
-    }
+  function toToday() {
+    if (!leverage.trim()) return setErr("Find one thing you can get from it first.");
+    if (!move.trim()) return setErr("Write one next move.");
+    if (isThinkingStep(move)) return setErr("That's a thinking move. What will you actually do?");
+    router.push(`/today?b=${encodeURIComponent(move.trim())}`);
   }
-
-  async function findLeverage() {
-    setError(null);
-    setStage("thinking");
-    try {
-      setMove(await coach({ rant, answer }));
-      setStage("move");
-    } catch (e) {
-      setError((e as Error).message);
-      setStage("answer");
-    }
-  }
-
-  function reset() {
-    setRant("");
-    setReply("");
-    setAnswer("");
-    setMove(null);
-    setStage("rant");
-  }
-
-  const [line, question] = reply.split(/\n+(?=What can you get)/);
 
   return (
     <div className="space-y-4">
@@ -71,57 +31,55 @@ export default function Setback() {
             rows={8}
             value={rant}
             onChange={(e) => setRant(e.target.value)}
-            placeholder="No filter. Nobody reads this but you."
+            placeholder="No filter. Nothing here gets saved."
             className="field mt-3 resize-none leading-relaxed"
           />
-          <button onClick={vent} disabled={!rant.trim()} className="btn btn-primary mt-4 w-full">
+          <button onClick={() => setStage("leverage")} disabled={!rant.trim()} className="btn btn-primary mt-4 w-full">
             That&apos;s it
           </button>
         </section>
       )}
 
-      {(stage === "listening" || stage === "thinking") && (
-        <section className="glow rise flex flex-col items-center p-8">
-          <div className="flex gap-1.5">
-            {[0, 1, 2].map((i) => (
-              <span key={i} className="breathe h-1.5 w-8 rounded-full bg-accent" style={{ animationDelay: `${i * 0.2}s` }} />
-            ))}
-          </div>
-          <p className="label mt-4">{stage === "listening" ? "Reading it" : "Finding the leverage"}</p>
-        </section>
-      )}
-
-      {stage === "answer" && (
+      {stage === "leverage" && (
         <section className="glow rise p-5">
-          {line && <p className="text-[15px] leading-snug text-text/80">{line}</p>}
-          <p className="glow-text mt-3 text-[24px] font-semibold leading-tight">{question ?? "What can you get from this?"}</p>
+          <p className="text-[15px] text-text/70">Okay. It&apos;s out of your head.</p>
+          <p className="glow-text mt-2 text-[24px] font-semibold leading-tight">What can you get from this?</p>
           <textarea
-            rows={4}
-            value={answer}
-            onChange={(e) => setAnswer(e.target.value)}
+            rows={3}
+            value={leverage}
+            onChange={(e) => setLeverage(e.target.value)}
             placeholder="A lesson, a story, a decision it made for you…"
             className="field mt-4 resize-none leading-relaxed"
           />
-          <button onClick={findLeverage} disabled={!answer.trim()} className="btn btn-primary mt-4 w-full">
-            Next move
+
+          <label htmlFor="move" className="label mt-5 block">One next move · next 24 hours</label>
+          <input
+            id="move"
+            value={move}
+            onChange={(e) => setMove(e.target.value)}
+            placeholder="Start with a verb. Something you can prove."
+            className="field mt-2 h-11 px-3 py-0 text-[15px]"
+          />
+
+          {err && <p className="mt-3 text-[14px] text-missed">{err}</p>}
+
+          <button onClick={toToday} className="btn btn-primary mt-5 w-full">
+            Make it today&apos;s task
+          </button>
+          <button
+            onClick={() => {
+              setRant("");
+              setLeverage("");
+              setMove("");
+              setErr(null);
+              setStage("rant");
+            }}
+            className="label mt-4 block w-full text-center hover:text-text"
+          >
+            Done for now
           </button>
         </section>
       )}
-
-      {stage === "move" && move && (
-        <section className="glow rise p-5">
-          <p className="label">The leverage</p>
-          <p className="mt-1.5 text-[16px] leading-snug text-text/85">{move.leverage}</p>
-          <p className="label mt-6">One next move</p>
-          <p className="glow-text mt-1.5 text-[24px] font-semibold leading-tight">{move.next_move}</p>
-          <Link href={`/today?b=${encodeURIComponent(move.next_move)}`} className="btn btn-primary mt-6 w-full">
-            Make it today&apos;s task
-          </Link>
-          <button onClick={reset} className="btn btn-ghost mt-2 w-full">Done</button>
-        </section>
-      )}
-
-      {error && <p className="text-center text-[14px] text-missed">{error}</p>}
     </div>
   );
 }
