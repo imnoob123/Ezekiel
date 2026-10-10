@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-10T15:01:54.884Z",
+ "updated_at": "2026-10-10T16:07:48.077Z",
  "tracking_since": "2026-10-10",
  "profile": {
   "instagram": {
@@ -344,6 +344,17 @@
    "ig_change": null,
    "ig_real": true,
    "ig_views": 397
+  },
+  {
+   "date": "2026-10-11",
+   "yt_subscribers": 85,
+   "yt_change": 0,
+   "yt_real": true,
+   "yt_views": null,
+   "ig_followers": 7425,
+   "ig_change": 0,
+   "ig_real": true,
+   "ig_views": null
   }
  ],
  "top": {
@@ -597,6 +608,36 @@
     "comments": 0,
     "shares": 1,
     "saves": 15
+   },
+   {
+    "permalink": "https://www.instagram.com/reel/DeCU27OS3Di/",
+    "caption": "🤡",
+    "date": "2026-10-03",
+    "views": 1383,
+    "likes": 19,
+    "comments": 4,
+    "shares": 1,
+    "saves": 4
+   },
+   {
+    "permalink": "https://www.instagram.com/p/Dd6mENiElmW/",
+    "caption": "I lowkey enjoy making this",
+    "date": "2026-09-30",
+    "views": 1241,
+    "likes": 27,
+    "comments": 2,
+    "shares": 0,
+    "saves": 2
+   },
+   {
+    "permalink": "https://www.instagram.com/reel/DdO9BIUSxTA/",
+    "caption": "Thank me later 🫡",
+    "date": "2026-09-13",
+    "views": 1050,
+    "likes": 7,
+    "comments": 0,
+    "shares": 3,
+    "saves": 0
    }
   ],
   "youtube": [
@@ -636,7 +677,7 @@
     "video": "4YdQvgfU1bU",
     "title": "How to find your IKIGAI in 20 min",
     "published": "2026-10-05",
-    "views": 768,
+    "views": 769,
     "likes": 13,
     "comments": 0
    },
@@ -652,7 +693,7 @@
     "video": "fkGlcE8Ys08",
     "title": "Don’t be a degenerate",
     "published": "2026-10-06",
-    "views": 614,
+    "views": 613,
     "likes": 4,
     "comments": 0
    },
@@ -929,6 +970,12 @@
  "snapshots": [
   {
    "date": "2026-10-10",
+   "ig_followers": 7425,
+   "yt_subscribers": 85,
+   "yt_lifetime_views": 74199
+  },
+  {
+   "date": "2026-10-11",
    "ig_followers": 7425,
    "yt_subscribers": 85,
    "yt_lifetime_views": 74199
