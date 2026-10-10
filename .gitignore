@@ -1,0 +1,4 @@
+# Windsor.ai pulls for the current build; data.json keeps what matters
+raw/
+node_modules/
+.DS_Store

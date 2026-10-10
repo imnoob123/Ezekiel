@@ -1,0 +1,13 @@
+# Static site, nothing to build. Netlify serves this folder as it is.
+[build]
+  publish = "."
+
+[[headers]]
+  for = "/data.json"
+  [headers.values]
+    Cache-Control = "no-cache"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Robots-Tag = "noindex"

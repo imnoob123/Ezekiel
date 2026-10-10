@@ -1,0 +1,631 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#121211">
+<title>Main Stats</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23121211'/%3E%3Cpath d='M6 22l6-7 5 4 9-11' fill='none' stroke='%23f2eee5' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<style>
+:root {
+  --ez-bg: #121211; --ez-card: #1a1a18; --ez-card2: #20201d; --ez-line: #2c2b27;
+  --ez-fg: #f2eee5; --ez-mute: #96928a; --ez-dim: #66635d;
+  --ez-yt: #e5483a; --ez-ig: #d8a26c;
+  --ez-up-bg: #bfe3ab; --ez-up-fg: #16330d; --ez-dn-bg: #e5562f; --ez-dn-fg: #2b0d04;
+  --ez-sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color-scheme: dark;
+}
+html { background: var(--ez-bg); }
+body { margin: 0; background: var(--ez-bg); }
+.ez {
+  min-height: 100vh;
+  background: radial-gradient(1100px 480px at 72% -8%, #22211d 0, rgba(34,33,29,0) 62%), var(--ez-bg);
+  color: var(--ez-fg);
+  font-family: var(--ez-sans);
+  font-variant-numeric: tabular-nums;
+  padding: clamp(16px, 3vw, 36px);
+  line-height: 1.35;
+  -webkit-text-size-adjust: 100%;
+}
+.ez *, .ez *::before, .ez *::after { box-sizing: border-box; }
+.ez [hidden] { display: none !important; }
+.ez button { font: inherit; color: inherit; background: none; border: 0; padding: 0; cursor: pointer; }
+.ez a { color: inherit; text-decoration: none; }
+.ez a:hover { text-decoration: underline; }
+.ez-wrap { max-width: 1280px; margin-inline: auto; }
+.ez-cond { font-family: "Avenir Next Condensed", "HelveticaNeue-CondensedBold", "Roboto Condensed", "Arial Narrow", Impact, sans-serif; font-stretch: condensed; font-weight: 700; text-transform: uppercase; }
+.ez-brand { font-size: 13px; letter-spacing: .14em; color: var(--ez-mute); margin: 0 0 6px; }
+.ez-title { font-size: clamp(36px, 5.4vw, 52px); line-height: .95; letter-spacing: .01em; margin: 0; color: var(--ez-fg); }
+.ez-take { margin: 12px 0 0; color: var(--ez-mute); font-size: 14px; max-width: 60ch; }
+.ez-take .ez-strong { color: var(--ez-fg); font-weight: 600; }
+.ez-alert { margin-top: 16px; padding: 12px 14px; border-radius: 12px; background: #2a1712; border: 1px solid #5a2a1c; color: #f3c9bb; font-size: 14px; }
+.ez-bar { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px 16px; margin-top: 22px; padding: 10px 14px; border-radius: 18px; background: var(--ez-card); border: 1px solid var(--ez-line); }
+.ez-dates { font-size: 14px; font-weight: 600; }
+.ez-updated { font-size: 12px; font-weight: 400; color: var(--ez-mute); margin-top: 2px; }
+.ez-updated.ez-late { color: var(--ez-dn-bg); }
+.ez-controls { display: flex; flex-wrap: wrap; gap: 12px 28px; margin: 16px 0 18px; }
+.ez-ctl { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; }
+.ez-ctl-label { font-size: 10px; font-weight: 700; letter-spacing: .16em; text-transform: uppercase; color: var(--ez-dim); }
+.ez-pills { display: inline-flex; flex-wrap: wrap; gap: 2px; padding: 4px; border-radius: 12px; background: var(--ez-card); border: 1px solid var(--ez-line); }
+.ez-bar .ez-pills { border: 0; padding: 0; background: none; }
+.ez-pills button { font-size: 11px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; padding: 7px 12px; border-radius: 9px; color: var(--ez-mute); }
+.ez-bar .ez-pills button { border-radius: 999px; }
+.ez-pills button[aria-pressed="true"] { background: var(--ez-fg); color: #151513; }
+.ez-pills button:focus-visible, .ez-table th button:focus-visible { outline: 2px solid var(--ez-fg); outline-offset: 2px; }
+.ez-h { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 16px; margin: clamp(28px, 4vw, 40px) 0 14px; }
+.ez-h h2 { margin: 0; font-size: 12px; font-weight: 700; letter-spacing: .16em; text-transform: uppercase; color: var(--ez-mute); font-family: inherit; }
+.ez-h .ez-hnote { font-size: 12px; color: var(--ez-dim); }
+.ez-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 22rem), 1fr)); gap: 16px; }
+.ez-card { background: var(--ez-card); border: 1px solid var(--ez-line); border-radius: 20px; padding: 20px; box-shadow: 0 18px 40px rgba(0,0,0,.28); min-width: 0; }
+.ez-top { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-start; gap: 12px 16px; }
+.ez-who { display: flex; align-items: center; gap: 12px; min-width: 0; }
+.ez-ava { width: 46px; height: 46px; border-radius: 50%; display: grid; place-items: center; flex: none; background: var(--ez-card2); border: 1px solid var(--ez-line); }
+.ez-ava svg { width: 22px; height: 22px; display: block; }
+.ez-name { font-size: 16px; font-weight: 600; }
+.ez-handle { font-size: 12px; color: var(--ez-mute); }
+.ez-fig { text-align: right; margin-left: auto; }
+.ez-big { font-size: clamp(34px, 5vw, 44px); font-weight: 600; line-height: 1; letter-spacing: -.01em; min-width: 3ch; }
+.ez-unit { font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: var(--ez-mute); margin-top: 6px; }
+.ez-chip { display: inline-flex; align-items: center; gap: 6px; margin-top: 10px; padding: 5px 10px; border-radius: 8px; font-size: 16px; font-weight: 600; background: var(--ez-card2); color: var(--ez-mute); }
+.ez-chip::before { font-size: 11px; }
+.ez-chip[data-dir="up"] { background: var(--ez-up-bg); color: var(--ez-up-fg); }
+.ez-chip[data-dir="up"]::before { content: "\25B2"; }
+.ez-chip[data-dir="down"] { background: var(--ez-dn-bg); color: var(--ez-dn-fg); }
+.ez-chip[data-dir="down"]::before { content: "\25BC"; }
+.ez-per { margin-left: -4px; font-size: 12px; }
+.ez-chipnote { font-size: 11px; color: var(--ez-dim); margin-top: 5px; }
+.ez-stats { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; margin-top: 18px; padding: 12px 0; border-block: 1px solid var(--ez-line); }
+.ez-stat-l { font-size: 10px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--ez-dim); }
+.ez-stat-v { font-size: 17px; font-weight: 600; margin-top: 3px; min-width: 2ch; }
+.ez-foot { margin: 12px 0 0; font-size: 12px; color: var(--ez-mute); }
+.ez-chart { position: relative; min-height: 306px; margin-top: 14px; }
+.ez-chart svg { display: block; overflow: visible; }
+.ez-chart text { font-size: 11px; fill: var(--ez-mute); font-family: var(--ez-sans); }
+.ez-chart .ez-frame { stroke: var(--ez-line); stroke-width: 1; }
+.ez-chart .ez-rule { stroke: var(--ez-dim); stroke-width: 1; stroke-dasharray: 2 3; }
+.ez-legend { display: flex; flex-wrap: wrap; gap: 4px 16px; margin-top: 10px; font-size: 11px; color: var(--ez-mute); }
+.ez-legend span { display: inline-flex; align-items: center; gap: 6px; }
+.ez-sw { width: 16px; height: 0; border-top: 2px solid var(--ez-fg); flex: none; }
+.ez-sw-dash { border-top-style: dashed; opacity: .85; }
+.ez-sw-bar { width: 8px; height: 10px; border: 0; border-radius: 2px; }
+.ez-sw-yt { border-color: var(--ez-yt); } .ez-sw-bar.ez-sw-yt { background: var(--ez-yt); }
+.ez-sw-ig { border-color: var(--ez-ig); } .ez-sw-bar.ez-sw-ig { background: var(--ez-ig); }
+.ez[data-view="views"] .ez-leg-aud, .ez[data-view="audience"] .ez-leg-views { display: none; }
+.ez-tip { position: absolute; z-index: 2; pointer-events: none; white-space: nowrap; background: #0c0c0b; border: 1px solid #3a3934; border-radius: 10px; padding: 7px 10px; font-size: 12px; box-shadow: 0 10px 24px rgba(0,0,0,.5); }
+.ez-tip-d { color: var(--ez-mute); margin-bottom: 2px; }
+.ez-tip-v { color: var(--ez-fg); font-weight: 600; }
+.ez-tip-s { color: var(--ez-mute); }
+.ez-tablewrap { container-type: inline-size; margin-top: 14px; }
+.ez-scroll { max-height: 440px; overflow: auto; }
+.ez-table { width: 100%; border-collapse: collapse; font-size: 13px; }
+.ez-table th { text-align: right; font-size: 10px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--ez-mute); padding: 8px 8px; border-bottom: 1px solid var(--ez-line); white-space: nowrap; position: sticky; top: 0; background: var(--ez-card); z-index: 1; }
+.ez-table th:first-child, .ez-table td:first-child { text-align: left; padding-left: 0; }
+.ez-table th button { font-size: 10px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--ez-mute); }
+.ez-table th[aria-sort="descending"] button { color: var(--ez-fg); }
+.ez-table th[aria-sort="descending"] button::after { content: " \2193"; }
+.ez-table td { text-align: right; padding: 10px 8px; border-bottom: 1px solid var(--ez-line); color: #d4d0c7; vertical-align: top; white-space: nowrap; }
+.ez-table tr:last-child td { border-bottom: 0; }
+.ez-top-table td:first-child { white-space: normal; color: var(--ez-fg); font-weight: 500; width: 46%; }
+.ez-top-table td:first-child a { display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden; overflow-wrap: anywhere; }
+.ez-daily { min-width: 600px; }
+.ez-daily td:first-child { font-weight: 700; color: var(--ez-fg); letter-spacing: .02em; }
+.ez-daily th.ez-dot::before { content: ""; display: inline-block; width: 7px; height: 7px; border-radius: 2px; margin-right: 6px; }
+.ez-daily th.ez-dot-yt::before { background: var(--ez-yt); }
+.ez-daily th.ez-dot-ig::before { background: var(--ez-ig); }
+.ez-table td.ez-pos { color: var(--ez-up-bg); }
+.ez-table td.ez-pos::before { content: "\25B2\00a0"; font-size: .7em; }
+.ez-table td.ez-neg { color: var(--ez-dn-bg); }
+.ez-table td.ez-neg::before { content: "\25BC\00a0"; font-size: .7em; }
+.ez-table td.ez-zero { color: var(--ez-dim); }
+.ez-table td.ez-est { color: #a9a59c; font-style: italic; }
+@container (max-width: 520px) {
+  #top-ig :is(th, td):is(:nth-child(2), :nth-child(5), :nth-child(6)) { display: none; }
+  #top-yt :is(th, td):is(:nth-child(2), :nth-child(5)) { display: none; }
+  .ez-table th, .ez-table td { padding-inline: 6px; }
+}
+@media (max-width: 420px) {
+  .ez-stat-v { font-size: 15px; }
+  .ez-card { padding: 16px; }
+}
+</style>
+</head>
+<body>
+<div class="ez" data-view="both">
+<div class="ez-wrap">
+
+  <header>
+    <p class="ez-brand ez-cond">Ezekutee</p>
+    <h1 class="ez-title ez-cond">Main stats</h1>
+    <p class="ez-take">Instagram added <span class="ez-strong" data-v="ig.week.new" data-f="int">—</span> followers and YouTube added <span class="ez-strong" data-v="yt.week.new" data-f="int">—</span> subscribers in their latest 7 reported days.</p>
+    <div class="ez-alert" id="alert" role="alert" hidden></div>
+  </header>
+
+  <div class="ez-bar">
+    <div class="ez-dates">
+      <div><span data-v="first" data-f="day">—</span> to <span data-v="last" data-f="dayyear">—</span></div>
+      <div class="ez-updated" id="updated">Loading…</div>
+    </div>
+    <div class="ez-pills" role="group" aria-label="Date range">
+      <button type="button" data-param="range" data-value="7">7D</button>
+      <button type="button" data-param="range" data-value="14">14D</button>
+      <button type="button" data-param="range" data-value="30">30D</button>
+      <button type="button" data-param="range" data-value="all">All</button>
+    </div>
+  </div>
+
+  <div class="ez-controls">
+    <div class="ez-ctl">
+      <span class="ez-ctl-label">Graph view</span>
+      <div class="ez-pills" role="group" aria-label="Graph view">
+        <button type="button" data-param="view" data-value="both">Both</button>
+        <button type="button" data-param="view" data-value="views">Views</button>
+        <button type="button" data-param="view" data-value="audience">Audience</button>
+      </div>
+    </div>
+    <div class="ez-ctl">
+      <span class="ez-ctl-label">Growth metric</span>
+      <div class="ez-pills" role="group" aria-label="Growth metric">
+        <button type="button" data-param="metric" data-value="pct">% Growth</button>
+        <button type="button" data-param="metric" data-value="net">Net change</button>
+        <button type="button" data-param="metric" data-value="avg">Average rate</button>
+      </div>
+    </div>
+  </div>
+
+  <section id="accounts">
+    <div class="ez-grid">
+
+      <article class="ez-card" id="card-youtube">
+        <div class="ez-top">
+          <div class="ez-who">
+            <span class="ez-ava"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="5.5" width="20" height="13" rx="4" fill="#e5483a"/><path d="M10 9.2v5.6l5-2.8z" fill="#fff"/></svg></span>
+            <div>
+              <div class="ez-name">Main YouTube</div>
+              <div class="ez-handle" data-v="yt.name" data-f="text">—</div>
+            </div>
+          </div>
+          <div class="ez-fig">
+            <div class="ez-big" data-v="yt.total" data-f="int">—</div>
+            <div class="ez-unit">Subscribers</div>
+            <div class="ez-chip" data-chip="yt"><span class="ez-metric" data-platform="yt" data-v="yt.pct" data-f="pct">—</span><span class="ez-per" hidden>/day</span></div>
+            <div class="ez-chipnote ez-rangelabel">Last 14 days</div>
+          </div>
+        </div>
+        <div class="ez-stats">
+          <div><div class="ez-stat-l">% growth</div><div class="ez-stat-v" data-v="yt.pct" data-f="pct">—</div></div>
+          <div><div class="ez-stat-l">Net change</div><div class="ez-stat-v" data-v="yt.net" data-f="signed">—</div></div>
+          <div><div class="ez-stat-l">Avg / day</div><div class="ez-stat-v" data-v="yt.avg" data-f="dec">—</div></div>
+          <div><div class="ez-stat-l">Views</div><div class="ez-stat-v" data-v="yt.views" data-f="int">—</div></div>
+        </div>
+        <div class="ez-chart" id="chart-youtube"></div>
+        <div class="ez-legend">
+          <span class="ez-leg-aud"><i class="ez-sw ez-sw-yt"></i>Subscribers</span>
+          <span class="ez-leg-views"><i class="ez-sw ez-sw-dash"></i>Views, running total</span>
+          <span class="ez-leg-views"><i class="ez-sw ez-sw-bar ez-sw-yt"></i>Daily views</span>
+          <span class="ez-leg-aud"><i class="ez-sw"></i>Daily net subscribers</span>
+        </div>
+        <p class="ez-foot">Latest 7 reported days (<span data-v="yt.week.from" data-f="day">—</span> to <span data-v="yt.week.to" data-f="day">—</span>): <span data-v="yt.week.new" data-f="signed">—</span>, <span data-v="yt.week.pct" data-f="pct">—</span> growth. The 7 days before: <span data-v="yt.week.prev" data-f="signed">—</span>. YouTube reports views 2 to 3 days late.</p>
+      </article>
+
+      <article class="ez-card" id="card-instagram">
+        <div class="ez-top">
+          <div class="ez-who">
+            <span class="ez-ava"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="#d8a26c" stroke-width="2"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17" cy="7" r="1" fill="#d8a26c" stroke="none"/></svg></span>
+            <div>
+              <div class="ez-name">Main Instagram</div>
+              <div class="ez-handle">@<span data-v="ig.name" data-f="text">—</span></div>
+            </div>
+          </div>
+          <div class="ez-fig">
+            <div class="ez-big" data-v="ig.total" data-f="int">—</div>
+            <div class="ez-unit">Followers</div>
+            <div class="ez-chip" data-chip="ig"><span class="ez-metric" data-platform="ig" data-v="ig.pct" data-f="pct">—</span><span class="ez-per" hidden>/day</span></div>
+            <div class="ez-chipnote ez-rangelabel">Last 14 days</div>
+          </div>
+        </div>
+        <div class="ez-stats">
+          <div><div class="ez-stat-l">% growth</div><div class="ez-stat-v" data-v="ig.pct" data-f="pct">—</div></div>
+          <div><div class="ez-stat-l">Net change</div><div class="ez-stat-v" data-v="ig.net" data-f="signed">—</div></div>
+          <div><div class="ez-stat-l">Avg / day</div><div class="ez-stat-v" data-v="ig.avg" data-f="dec">—</div></div>
+          <div><div class="ez-stat-l">Views</div><div class="ez-stat-v" data-v="ig.views" data-f="int">—</div></div>
+        </div>
+        <div class="ez-chart" id="chart-instagram"></div>
+        <div class="ez-legend">
+          <span class="ez-leg-aud"><i class="ez-sw ez-sw-ig"></i>Followers</span>
+          <span class="ez-leg-views"><i class="ez-sw ez-sw-dash"></i>Views, running total</span>
+          <span class="ez-leg-views"><i class="ez-sw ez-sw-bar ez-sw-ig"></i>Daily views</span>
+          <span class="ez-leg-aud"><i class="ez-sw"></i>Daily new followers</span>
+        </div>
+        <p class="ez-foot">Latest 7 reported days (<span data-v="ig.week.from" data-f="day">—</span> to <span data-v="ig.week.to" data-f="day">—</span>): <span data-v="ig.week.new" data-f="signed">—</span>, <span data-v="ig.week.pct" data-f="pct">—</span> growth. The 7 days before: <span data-v="ig.week.prev" data-f="signed">—</span>.</p>
+      </article>
+
+    </div>
+  </section>
+
+  <section id="top">
+    <div class="ez-h">
+      <h2>Top performing content</h2>
+      <span class="ez-hnote">Last 30 days · top 8 · tap a column to rank by it</span>
+    </div>
+    <div class="ez-grid">
+      <article class="ez-card" id="top-youtube">
+        <div class="ez-name">YouTube</div>
+        <div class="ez-handle">Views each video got in the last 30 days</div>
+        <div class="ez-tablewrap">
+          <table id="top-yt" class="ez-table ez-top-table">
+            <thead><tr>
+              <th>Video</th>
+              <th>Posted</th>
+              <th data-field="views"><button type="button" data-sort="views">Views</button></th>
+              <th data-field="likes"><button type="button" data-sort="likes">Likes</button></th>
+              <th data-field="comments"><button type="button" data-sort="comments">Comments</button></th>
+            </tr></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </article>
+      <article class="ez-card" id="top-instagram">
+        <div class="ez-name">Instagram</div>
+        <div class="ez-handle">Posts and reels published in the last 30 days</div>
+        <div class="ez-tablewrap">
+          <table id="top-ig" class="ez-table ez-top-table">
+            <thead><tr>
+              <th>Post</th>
+              <th>Posted</th>
+              <th data-field="views"><button type="button" data-sort="views">Views</button></th>
+              <th data-field="likes"><button type="button" data-sort="likes">Likes</button></th>
+              <th data-field="comments"><button type="button" data-sort="comments">Comments</button></th>
+              <th data-field="shares"><button type="button" data-sort="shares">Shares</button></th>
+              <th data-field="saves"><button type="button" data-sort="saves">Saves</button></th>
+            </tr></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section id="daily">
+    <div class="ez-h"><h2>Daily stats</h2><span class="ez-hnote ez-rangelabel">Last 14 days</span></div>
+    <article class="ez-card">
+      <div class="ez-tablewrap ez-scroll">
+        <table id="daily-table" class="ez-table ez-daily">
+          <thead><tr>
+            <th>Date</th>
+            <th class="ez-dot ez-dot-yt">Main YT</th>
+            <th>&Delta; N</th>
+            <th class="ez-dot ez-dot-yt">YT views</th>
+            <th class="ez-dot ez-dot-ig">Main IG</th>
+            <th>&Delta; N</th>
+            <th class="ez-dot ez-dot-ig">IG views</th>
+          </tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <p class="ez-foot">Your real follower and subscriber counts are saved once a day starting <span data-v="since" data-f="dayyear">—</span>. Totals in italics, from before that, are estimates worked back from each day's reported change, and Instagram's reported change counts new follows only. A dash means the platform hasn't reported that day yet.</p>
+    </article>
+  </section>
+
+</div>
+</div>
+
+<script src="d3.min.js"></script>
+<script>
+(() => {
+  const root = document.querySelector('.ez');
+  const $$ = (sel, scope) => [...(scope || root).querySelectorAll(sel)];
+  const el = (tag, cls, text) => { const e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; };
+  const fmtInt = d3.format(',');
+  const fmtDec = d3.format('.1f');
+  const fmtPct = d3.format('.2f');
+  const fmtDay = d3.utcFormat('%b %-d');
+  const fmtDayYear = d3.utcFormat('%b %-d, %Y');
+  const compact = new Intl.NumberFormat('en', {notation: 'compact', maximumFractionDigits: 1});
+  const asDate = (v) => new Date(String(v).slice(0, 10) + 'T00:00:00Z');
+
+  const CHOICES = {range: ['7', '14', '30', 'all'], view: ['both', 'views', 'audience'], metric: ['pct', 'net', 'avg']};
+  const state = {range: '14', view: 'both', metric: 'pct'};
+  try {
+    const saved = JSON.parse(localStorage.getItem('main-stats') || '{}');
+    Object.keys(state).forEach((k) => { if (CHOICES[k].includes(saved[k])) state[k] = saved[k]; });
+  } catch (e) { /* storage is optional */ }
+  const remember = () => { try { localStorage.setItem('main-stats', JSON.stringify(state)); } catch (e) { /* storage is optional */ } };
+
+  const FORMAT = {
+    int: (v) => fmtInt(v),
+    signed: (v) => (v > 0 ? '+' : '') + fmtInt(v),
+    dec: (v) => fmtDec(v),
+    pct: (v) => fmtPct(v) + '%',
+    day: (v) => fmtDay(asDate(v)),
+    dayyear: (v) => fmtDayYear(asDate(v)),
+    text: (v) => String(v),
+  };
+  const METRIC = {pct: ['pct', 'pct'], net: ['net', 'int'], avg: ['avg', 'dec']};
+
+  const PLATFORMS = [
+    {key: 'yt', chart: 'chart-youtube', total: 'yt_subscribers', delta: 'yt_change', views: 'yt_views', real: 'yt_real', color: 'var(--ez-yt)', noun: 'subscribers', label: 'YouTube subscribers and views'},
+    {key: 'ig', chart: 'chart-instagram', total: 'ig_followers', delta: 'ig_change', views: 'ig_views', real: 'ig_real', color: 'var(--ez-ig)', noun: 'followers', label: 'Instagram followers and views'},
+  ];
+
+  let DATA = null;
+
+  /* New followers in the latest 7 days the platform has reported, and the 7 before. */
+  const weekOf = (p) => {
+    const reported = DATA.daily.filter((d) => d[p.delta] != null);
+    const cur = reported.slice(-7), prev = reported.slice(-14, -7);
+    const sum = (days) => days.reduce((t, d) => t + d[p.delta], 0);
+    const gained = sum(cur);
+    const end = cur.length ? cur[cur.length - 1][p.total] : null;
+    const before = end == null ? null : end - gained;
+    return {
+      new: cur.length ? gained : null, prev: prev.length ? sum(prev) : null,
+      pct: before > 0 ? (gained / before) * 100 : null,
+      from: cur.length ? cur[0].date : null, to: cur.length ? cur[cur.length - 1].date : null,
+    };
+  };
+
+  /* Growth over the selected range: net change, % of the count before the range, average per reported day. */
+  const totalsOf = (p, days) => {
+    const reported = days.filter((d) => d[p.delta] != null);
+    const net = reported.reduce((t, d) => t + d[p.delta], 0);
+    const end = reported.length ? reported[reported.length - 1][p.total] : null;
+    const start = end == null ? null : end - net;
+    return {
+      views: days.reduce((t, d) => t + (d[p.views] || 0), 0),
+      net: reported.length ? net : null,
+      pct: start > 0 ? (net / start) * 100 : null,
+      avg: reported.length ? net / reported.length : null,
+    };
+  };
+
+  const TOP_H = 170, MID = 30, BOT_H = 90, PAD = 8;
+  const H = PAD + TOP_H + MID + BOT_H + PAD;
+
+  const drawCard = (p, days, view) => {
+    const box = document.getElementById(p.chart);
+    box.replaceChildren();
+    if (!days || !days.length) return;
+
+    const showAud = view !== 'views', showViews = view !== 'audience';
+    const W = Math.max(box.clientWidth, 260);
+    let run = 0;
+    const pts = days.map((d) => ({date: d.date, total: d[p.total], real: d[p.real], delta: d[p.delta], views: d[p.views], run: d[p.views] == null ? null : (run += d[p.views])}));
+    const has = (field) => pts.filter((q) => q[field] != null);
+    const tot = has('total'), vw = has('views'), dl = has('delta');
+    const tLo = d3.min(tot, (q) => q.total), tHi = d3.max(tot, (q) => q.total);
+    const audDomain = !tot.length ? [0, 1] : tLo === tHi ? [tLo - 1, tHi + 1] : [tLo, tHi];
+    const runMax = Math.max(1, d3.max(vw, (q) => q.run) || 0);
+    const barField = showViews ? 'views' : 'delta';
+    const barPts = has(barField);
+    const barMax = Math.max(1, d3.max(barPts, (q) => q[barField]) || 0);
+    const lineMax = Math.max(1, d3.max(dl, (q) => q.delta) || 0);
+    const lab = (v) => (Math.abs(v) >= 10000 ? compact.format(v) : fmtInt(v));
+    const both = showAud && showViews;
+
+    const svg = d3.select(box).append('svg').attr('width', '100%').attr('viewBox', '0 0 ' + W + ' ' + H).attr('role', 'img').attr('aria-label', p.label);
+    const measure = (list) => {
+      const g = svg.append('g');
+      const w = d3.max(list, (t) => g.append('text').text(t).node().getComputedTextLength()) || 0;
+      g.remove();
+      return Math.ceil(w);
+    };
+    const leftLabels = showViews ? [lab(runMax), '0', lab(barMax)] : [lab(barMax), '0'];
+    const rightLabels = showAud ? [lab(audDomain[1]), lab(audDomain[0])].concat(both ? [lab(lineMax)] : []) : [];
+    const m = {l: measure(leftLabels) + 10, r: rightLabels.length ? measure(rightLabels) + 10 : 12};
+
+    const x = d3.scaleBand(pts.map((q) => q.date), [m.l, W - m.r]).padding(0.25);
+    const cx = (q) => x(q.date) + x.bandwidth() / 2;
+    const y1t = PAD + 6, y1b = PAD + TOP_H, y2t = y1b + MID + 4, y2b = y1b + MID + BOT_H;
+    const yAud = d3.scaleLinear(audDomain, [y1b, y1t]);
+    const yRun = d3.scaleLinear([0, runMax], [y1b, y1t]);
+    const yBar = d3.scaleLinear([0, barMax], [y2b, y2t]);
+    const yLine = d3.scaleLinear([0, lineMax], [y2b, y2t]);
+
+    const defs = svg.append('defs');
+    const gradient = (id, top, bottom) => {
+      const g = defs.append('linearGradient').attr('id', id).attr('x1', 0).attr('y1', 0).attr('x2', 0).attr('y2', 1);
+      g.append('stop').attr('offset', 0).attr('style', 'stop-color:' + p.color + ';stop-opacity:' + top);
+      g.append('stop').attr('offset', 1).attr('style', 'stop-color:' + p.color + ';stop-opacity:' + bottom);
+    };
+    const areaId = 'ez-area-' + p.key, barId = 'ez-bar-' + p.key;
+    gradient(areaId, 0.34, 0.02);
+    gradient(barId, 1, 0.42);
+
+    const frame = svg.append('g');
+    [y1t, y1b, y2t, y2b].forEach((yy) => frame.append('line').attr('class', 'ez-frame').attr('x1', m.l).attr('x2', W - m.r).attr('y1', yy).attr('y2', yy));
+    const text = (xx, yy, anchor, t) => frame.append('text').attr('x', xx).attr('y', yy).attr('dy', '0.32em').attr('text-anchor', anchor).text(t);
+    if (showViews) { text(m.l - 6, y1t, 'end', lab(runMax)); text(m.l - 6, y1b, 'end', '0'); }
+    text(m.l - 6, y2t, 'end', lab(barMax));
+    text(m.l - 6, y2b, 'end', '0');
+    if (showAud) { text(W - m.r + 6, y1t, 'start', lab(audDomain[1])); text(W - m.r + 6, y1b, 'start', lab(audDomain[0])); }
+    if (both) text(W - m.r + 6, y2t, 'start', lab(lineMax));
+    text(m.l, y1b + 15, 'start', fmtDay(asDate(pts[0].date)));
+    text(W - m.r, y1b + 15, 'end', fmtDay(asDate(pts[pts.length - 1].date)));
+
+    const stroke = (path, color, width) => path.attr('fill', 'none').attr('stroke', color).attr('stroke-width', width).attr('stroke-linejoin', 'round').attr('stroke-linecap', 'round');
+    if (showAud && tot.length) {
+      svg.append('path').attr('d', d3.area().x(cx).y0(y1b).y1((q) => yAud(q.total))(tot)).attr('fill', 'url(#' + areaId + ')');
+      stroke(svg.append('path').attr('d', d3.line().x(cx).y((q) => yAud(q.total))(tot)), p.color, 2);
+      const last = tot[tot.length - 1];
+      svg.append('circle').attr('cx', cx(last)).attr('cy', yAud(last.total)).attr('r', 3.5).attr('fill', 'var(--ez-card)').attr('stroke', p.color).attr('stroke-width', 2);
+    }
+    if (showViews && vw.length) {
+      const d = d3.line().x(cx).y((q) => yRun(q.run))(vw);
+      if (both) stroke(svg.append('path').attr('d', d), 'var(--ez-fg)', 1.5).attr('stroke-dasharray', '4 4').attr('stroke-linecap', 'butt').attr('opacity', 0.85);
+      else {
+        svg.append('path').attr('d', d3.area().x(cx).y0(y1b).y1((q) => yRun(q.run))(vw)).attr('fill', 'url(#' + areaId + ')');
+        stroke(svg.append('path').attr('d', d), p.color, 2);
+      }
+    }
+
+    const bars = svg.append('g').selectAll('rect').data(barPts).join('rect')
+      .attr('x', (q) => x(q.date))
+      .attr('width', x.bandwidth())
+      .attr('y', (q) => (q[barField] > 0 ? Math.min(yBar(q[barField]), y2b - 2) : y2b))
+      .attr('height', (q) => (q[barField] > 0 ? Math.max(y2b - yBar(q[barField]), 2) : 0))
+      .attr('rx', Math.min(3, x.bandwidth() / 2))
+      .attr('fill', 'url(#' + barId + ')');
+    if (both && dl.length) stroke(svg.append('path').attr('d', d3.line().x(cx).y((q) => yLine(Math.max(q.delta, 0)))(dl)), 'var(--ez-fg)', 1.5);
+
+    const rule = svg.append('line').attr('class', 'ez-rule').attr('y1', y1t).attr('y2', y2b).attr('visibility', 'hidden');
+    const tip = el('div', 'ez-tip');
+    tip.hidden = true;
+    box.append(tip);
+    const show = (event, q) => {
+      const lines = [el('div', 'ez-tip-d', fmtDayYear(asDate(q.date)))];
+      if (showAud) {
+        lines.push(el('div', 'ez-tip-v', q.total == null ? 'Not reported yet' : fmtInt(q.total) + ' ' + p.noun + (q.real ? '' : ' (estimate)')));
+        if (q.delta != null) lines.push(el('div', 'ez-tip-s', FORMAT.signed(q.delta) + ' that day'));
+      }
+      if (showViews) {
+        lines.push(el('div', 'ez-tip-v', q.views == null ? 'Views not reported yet' : fmtInt(q.views) + ' views that day'));
+        if (q.run != null) lines.push(el('div', 'ez-tip-s', fmtInt(q.run) + ' views so far'));
+      }
+      tip.replaceChildren(...lines);
+      tip.hidden = false;
+      const scale = box.clientWidth / W, px = cx(q) * scale;
+      const room = box.clientWidth - tip.offsetWidth;
+      const left = px + 12 <= room ? px + 12 : Math.max(px - 12 - tip.offsetWidth, 0);
+      tip.style.left = Math.min(left, Math.max(room, 0)) + 'px';
+      tip.style.top = '4px';
+      rule.attr('x1', cx(q)).attr('x2', cx(q)).attr('visibility', 'visible');
+      bars.attr('opacity', (b) => (b.date === q.date ? 1 : 0.5));
+    };
+    const hide = () => { tip.hidden = true; rule.attr('visibility', 'hidden'); bars.attr('opacity', 1); };
+    svg.append('g').selectAll('rect').data(pts).join('rect')
+      .attr('x', (q) => x(q.date) - (x.step() - x.bandwidth()) / 2)
+      .attr('width', x.step())
+      .attr('y', y1t)
+      .attr('height', y2b - y1t)
+      .attr('fill', 'transparent')
+      .on('pointerenter', show)
+      .on('pointermove', show)
+      .on('pointerleave', hide);
+  };
+
+  const TABLES = [
+    {
+      id: 'top-yt', rows: () => DATA.top.youtube, sort: 'views',
+      cols: [['title', 'text'], ['published', 'day'], ['views', 'int'], ['likes', 'int'], ['comments', 'int']],
+      href: (r) => (/^[\w-]{6,20}$/.test(String(r.video || '')) ? 'https://www.youtube.com/watch?v=' + r.video : null),
+    },
+    {
+      id: 'top-ig', rows: () => DATA.top.instagram, sort: 'views',
+      cols: [['caption', 'text'], ['date', 'day'], ['views', 'int'], ['likes', 'int'], ['comments', 'int'], ['shares', 'int'], ['saves', 'int']],
+      href: (r) => (/^https:\/\/www\.instagram\.com\/[\w\-./]+$/.test(String(r.permalink || '')) ? r.permalink : null),
+    },
+  ];
+
+  const drawTable = (t) => {
+    const table = document.getElementById(t.id);
+    $$('th', table).forEach((th) => th.setAttribute('aria-sort', th.dataset.field === t.sort ? 'descending' : 'none'));
+    const top = [...(t.rows() || [])].sort((a, b) => d3.descending(Number(a[t.sort]) || 0, Number(b[t.sort]) || 0)).slice(0, 8);
+    table.tBodies[0].replaceChildren(...top.map((r) => {
+      const tr = document.createElement('tr');
+      t.cols.forEach(([field, fmt], i) => {
+        const td = document.createElement('td');
+        const v = r[field];
+        const text = v == null || v === '' ? (i === 0 ? '(no caption)' : '—') : FORMAT[fmt](v);
+        const href = i === 0 ? t.href(r) : null;
+        if (href) {
+          const a = el('a', '', text);
+          a.href = href; a.target = '_blank'; a.rel = 'noopener noreferrer';
+          td.append(a);
+        } else td.textContent = text;
+        tr.append(td);
+      });
+      return tr;
+    }));
+  };
+
+  const DAILY_COLS = [
+    ['date', 'text'], ['yt_subscribers', 'int', 'total', 'yt_real'], ['yt_change', 'int', 'change'], ['yt_views', 'int'],
+    ['ig_followers', 'int', 'total', 'ig_real'], ['ig_change', 'int', 'change'], ['ig_views', 'int'],
+  ];
+  const drawDaily = (days) => {
+    const table = document.getElementById('daily-table');
+    table.tBodies[0].replaceChildren(...[...days].reverse().map((d) => {
+      const tr = document.createElement('tr');
+      DAILY_COLS.forEach(([field, fmt, kind, realField]) => {
+        const v = d[field];
+        const td = el('td', '', v == null ? '—' : FORMAT[fmt](v));
+        if (kind === 'change' && v != null) td.className = v > 0 ? 'ez-pos' : v < 0 ? 'ez-neg' : 'ez-zero';
+        if (kind === 'total' && v != null && !d[realField]) { td.className = 'ez-est'; td.title = 'Estimate'; }
+        tr.append(td);
+      });
+      return tr;
+    }));
+  };
+
+  const render = () => {
+    if (!DATA) return;
+    const all = DATA.daily;
+    const days = state.range === 'all' ? all : all.slice(-Number(state.range));
+    const values = {
+      'first': days[0].date, 'last': days[days.length - 1].date, 'since': DATA.tracking_since,
+      'yt.name': DATA.profile.youtube.title, 'yt.total': DATA.profile.youtube.subscribers,
+      'ig.name': DATA.profile.instagram.username, 'ig.total': DATA.profile.instagram.followers,
+    };
+    const totals = {};
+    PLATFORMS.forEach((p) => {
+      const t = totals[p.key] = totalsOf(p, days), w = weekOf(p);
+      Object.keys(t).forEach((k) => { values[p.key + '.' + k] = t[k]; });
+      Object.keys(w).forEach((k) => { values[p.key + '.week.' + k] = w[k]; });
+    });
+
+    root.dataset.view = state.view;
+    $$('[data-param]').forEach((b) => b.setAttribute('aria-pressed', String(state[b.dataset.param] === b.dataset.value)));
+    $$('.ez-metric').forEach((node) => { node.dataset.v = node.dataset.platform + '.' + METRIC[state.metric][0]; node.dataset.f = METRIC[state.metric][1]; });
+    $$('.ez-per').forEach((node) => { node.hidden = state.metric !== 'avg'; });
+    const label = state.range === 'all' ? 'All ' + all.length + ' days' : 'Last ' + state.range + ' days';
+    $$('.ez-rangelabel').forEach((node) => { node.textContent = label; });
+    $$('[data-chip]').forEach((chip) => {
+      const n = totals[chip.dataset.chip].net;
+      chip.dataset.dir = n == null ? 'none' : n > 0 ? 'up' : n < 0 ? 'down' : 'flat';
+    });
+    $$('[data-v]').forEach((node) => {
+      const v = values[node.dataset.v];
+      node.textContent = v == null || v === '' ? '—' : FORMAT[node.dataset.f](v);
+    });
+
+    PLATFORMS.forEach((p) => drawCard(p, days, state.view));
+    drawDaily(days);
+    TABLES.forEach(drawTable);
+  };
+
+  const showUpdated = () => {
+    const node = document.getElementById('updated');
+    const when = new Date(DATA.updated_at);
+    if (isNaN(when)) { node.textContent = ''; return; }
+    const hours = (Date.now() - when.getTime()) / 36e5;
+    const stamp = when.toLocaleString(undefined, {month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit'});
+    node.textContent = 'Updated ' + stamp + (hours > 36 ? ' · the daily refresh is late' : '');
+    node.classList.toggle('ez-late', hours > 36);
+  };
+
+  const fail = (message) => {
+    const alert = document.getElementById('alert');
+    alert.textContent = message;
+    alert.hidden = false;
+    document.getElementById('updated').textContent = '';
+  };
+
+  $$('[data-param]').forEach((b) => b.addEventListener('click', () => { state[b.dataset.param] = b.dataset.value; remember(); render(); }));
+  TABLES.forEach((t) => $$('button[data-sort]', document.getElementById(t.id)).forEach((b) => b.addEventListener('click', () => { t.sort = b.dataset.sort; if (DATA) drawTable(t); })));
+  let resizeTimer = null;
+  window.addEventListener('resize', () => { clearTimeout(resizeTimer); resizeTimer = setTimeout(render, 120); });
+
+  fetch('data.json', {cache: 'no-store'})
+    .then((res) => { if (!res.ok) throw new Error('data.json answered ' + res.status); return res.json(); })
+    .then((data) => {
+      if (!data || !Array.isArray(data.daily) || !data.daily.length || !data.profile || !data.top) throw new Error('data.json is missing its numbers');
+      DATA = data;
+      showUpdated();
+      render();
+    })
+    .catch((error) => fail('The numbers didn’t load (' + error.message + '). Try refreshing the page.'));
+})();
+</script>
+</body>
+</html>
