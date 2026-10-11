@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-11T02:03:47.010Z",
+ "updated_at": "2026-10-11T16:08:25.448Z",
  "tracking_since": "2026-10-10",
  "profile": {
   "instagram": {
@@ -11,7 +11,7 @@
    "title": "Ezekute",
    "subscribers": 85,
    "lifetime_views": 74199,
-   "videos": 129
+   "videos": 131
   }
  },
  "daily": [
@@ -4017,7 +4017,7 @@
    "ig_followers": 7425,
    "ig_change": null,
    "ig_real": true,
-   "ig_views": 2743
+   "ig_views": 2908
   },
   {
    "date": "2026-10-11",
@@ -4028,7 +4028,18 @@
    "ig_followers": 7425,
    "ig_change": 0,
    "ig_real": true,
-   "ig_views": 0
+   "ig_views": 560
+  },
+  {
+   "date": "2026-10-12",
+   "yt_subscribers": 85,
+   "yt_change": 0,
+   "yt_real": true,
+   "yt_views": null,
+   "ig_followers": 7425,
+   "ig_change": 0,
+   "ig_real": true,
+   "ig_views": null
   }
  ],
  "top": {
@@ -4204,6 +4215,16 @@
     "saves": 53
    },
    {
+    "permalink": "https://www.instagram.com/reel/DeUgJ80yeHp/",
+    "caption": "How to ruin your life in 13 steps",
+    "date": "2026-10-10",
+    "views": 1685,
+    "likes": 42,
+    "comments": 3,
+    "shares": 1,
+    "saves": 15
+   },
+   {
     "permalink": "https://www.instagram.com/reel/DdfVoRWSZPj/",
     "caption": "48 Law From The Bible",
     "date": "2026-09-20",
@@ -4262,16 +4283,6 @@
     "comments": 15,
     "shares": 18,
     "saves": 8
-   },
-   {
-    "permalink": "https://www.instagram.com/reel/DdJwD8bysW4/",
-    "caption": "Growth comes with a new problem",
-    "date": "2026-09-11",
-    "views": 1516,
-    "likes": 17,
-    "comments": 0,
-    "shares": 0,
-    "saves": 3
    },
    {
     "permalink": "https://www.instagram.com/reel/DdkK_v8z_Bp/",
@@ -4383,16 +4394,16 @@
     "video": "MJxFgHzIJQo",
     "title": "Call a Girl Mommy to Kill Your Fear of Judgment",
     "published": "2026-10-06",
-    "views": 340,
-    "likes": 2,
-    "comments": 1
+    "views": 361,
+    "likes": 3,
+    "comments": 2
    },
    {
     "video": "s15mYNzj-TU",
     "title": "How to build respect like Jesus",
     "published": "2026-10-07",
-    "views": 278,
-    "likes": 7,
+    "views": 300,
+    "likes": 8,
     "comments": 0
    },
    {
@@ -4477,7 +4488,7 @@
      "replies": 0,
      "at": "2026-10-10T19:59:25Z",
      "post": "https://www.instagram.com/reel/DeUgJ80yeHp/",
-     "caption": "",
+     "caption": "How to ruin your life in 13 steps",
      "posted": "2026-10-10",
      "is_reply": false,
      "replied": false,
@@ -4490,7 +4501,7 @@
      "replies": 0,
      "at": "2026-10-10T19:47:03Z",
      "post": "https://www.instagram.com/reel/DeUgJ80yeHp/",
-     "caption": "",
+     "caption": "How to ruin your life in 13 steps",
      "posted": "2026-10-10",
      "is_reply": false,
      "replied": false,
@@ -8343,14 +8354,14 @@
   },
   {
    "date": "2026-10-10",
-   "ig_views": 2743,
+   "ig_views": 2908,
    "ig_new_followers": 0,
    "yt_views": null,
    "yt_net_subscribers": null
   },
   {
    "date": "2026-10-11",
-   "ig_views": 0,
+   "ig_views": 560,
    "ig_new_followers": 0,
    "yt_views": null,
    "yt_net_subscribers": null
@@ -8365,6 +8376,12 @@
   },
   {
    "date": "2026-10-11",
+   "ig_followers": 7425,
+   "yt_subscribers": 85,
+   "yt_lifetime_views": 74199
+  },
+  {
+   "date": "2026-10-12",
    "ig_followers": 7425,
    "yt_subscribers": 85,
    "yt_lifetime_views": 74199
