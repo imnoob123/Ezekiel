@@ -119,6 +119,37 @@ body { margin: 0; background: var(--ez-bg); }
 .ez-table td.ez-neg::before { content: "\25BC\00a0"; font-size: .7em; }
 .ez-table td.ez-zero { color: var(--ez-dim); }
 .ez-table td.ez-est { color: #a9a59c; font-style: italic; }
+.ez-stat-d { font-size: 10px; color: var(--ez-dim); margin-top: 2px; }
+.ez-cm-head { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px 16px; }
+.ez-cm-body { margin-top: 10px; }
+.ez .ez-cm-more { display: block; margin: 8px 0 4px; padding: 9px 14px; border-radius: 10px; border: 1px solid var(--ez-line); background: var(--ez-card2); font-size: 11px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--ez-mute); }
+.ez .ez-cm-more:hover { color: var(--ez-fg); }
+.ez .ez-cm-more:focus-visible { outline: 2px solid var(--ez-fg); outline-offset: 2px; }
+.ez-cm-list { list-style: none; margin: 0; padding: 0; }
+.ez-cm { padding: 12px 0; border-bottom: 1px solid var(--ez-line); }
+.ez-cm:last-child { border-bottom: 0; }
+.ez-cm-text { margin: 0; font-size: 14px; color: var(--ez-fg); overflow-wrap: anywhere; }
+.ez-cm-meta { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 12px; margin-top: 7px; font-size: 12px; color: var(--ez-mute); }
+.ez-cm-meta a { color: var(--ez-mute); text-decoration: underline; text-decoration-color: var(--ez-dim); text-underline-offset: 2px; overflow-wrap: anywhere; }
+.ez-cm-tag { padding: 2px 7px; border-radius: 6px; font-size: 10px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; background: var(--ez-card2); color: var(--ez-mute); white-space: nowrap; }
+.ez-cm-tag[data-state="open"] { background: var(--ez-ig); color: #2a1a08; }
+.ez-cm-empty { margin: 18px 0 6px; font-size: 14px; color: var(--ez-mute); }
+.ez-theme { border-bottom: 1px solid var(--ez-line); }
+.ez-theme:last-child { border-bottom: 0; }
+.ez-theme summary { list-style: none; cursor: pointer; padding: 13px 0; border-radius: 8px; }
+.ez-theme summary::-webkit-details-marker { display: none; }
+.ez-theme summary:focus-visible { outline: 2px solid var(--ez-fg); outline-offset: 2px; }
+.ez-theme-row { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; }
+.ez-theme-label { font-size: 15px; font-weight: 600; padding-left: 1.1em; text-indent: -1.1em; }
+.ez-theme-label::before { content: "\25B8"; display: inline-block; width: 1.1em; color: var(--ez-dim); }
+.ez-theme[open] .ez-theme-label::before { content: "\25BE"; }
+.ez-theme-n { font-size: 12px; color: var(--ez-mute); white-space: nowrap; }
+.ez-theme-n b { font-size: 15px; font-weight: 600; color: var(--ez-fg); }
+.ez-theme-bar { height: 6px; border-radius: 3px; background: var(--ez-card2); margin-top: 9px; }
+.ez-theme-bar i { display: block; height: 100%; min-width: 4px; border-radius: 3px; background: var(--ez-ig); }
+.ez-theme-eg { margin: 9px 0 0; font-size: 13px; color: var(--ez-mute); display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 1; overflow: hidden; overflow-wrap: anywhere; }
+.ez-theme[open] .ez-theme-eg { display: none; }
+.ez-theme .ez-cm-list { margin: 0 0 10px 6px; padding-left: 14px; border-left: 2px solid var(--ez-line); }
 @container (max-width: 520px) {
   #top-ig :is(th, td):is(:nth-child(2), :nth-child(5), :nth-child(6)) { display: none; }
   #top-yt :is(th, td):is(:nth-child(2), :nth-child(5)) { display: none; }
@@ -143,10 +174,11 @@ body { margin: 0; background: var(--ez-bg); }
 
   <div class="ez-bar">
     <div class="ez-dates">
-      <div><span data-v="first" data-f="day">—</span> to <span data-v="last" data-f="dayyear">—</span></div>
+      <div id="dates-line">—</div>
       <div class="ez-updated" id="updated">Loading…</div>
     </div>
     <div class="ez-pills" role="group" aria-label="Date range">
+      <button type="button" data-param="range" data-value="1">1D</button>
       <button type="button" data-param="range" data-value="7">7D</button>
       <button type="button" data-param="range" data-value="14">14D</button>
       <button type="button" data-param="range" data-value="30">30D</button>
@@ -189,15 +221,10 @@ body { margin: 0; background: var(--ez-bg); }
             <div class="ez-big" data-v="yt.total" data-f="int">—</div>
             <div class="ez-unit">Subscribers</div>
             <div class="ez-chip" data-chip="yt"><span class="ez-metric" data-platform="yt" data-v="yt.pct" data-f="pct">—</span><span class="ez-per" hidden>/day</span></div>
-            <div class="ez-chipnote ez-rangelabel">Last 14 days</div>
+            <div class="ez-chipnote" data-note="yt">Last 14 days</div>
           </div>
         </div>
-        <div class="ez-stats">
-          <div><div class="ez-stat-l">% growth</div><div class="ez-stat-v" data-v="yt.pct" data-f="pct">—</div></div>
-          <div><div class="ez-stat-l">Net change</div><div class="ez-stat-v" data-v="yt.net" data-f="signed">—</div></div>
-          <div><div class="ez-stat-l">Avg / day</div><div class="ez-stat-v" data-v="yt.avg" data-f="dec">—</div></div>
-          <div><div class="ez-stat-l">Views</div><div class="ez-stat-v" data-v="yt.views" data-f="int">—</div></div>
-        </div>
+        <div class="ez-stats" data-stats="yt"></div>
         <div class="ez-chart" id="chart-youtube"></div>
         <div class="ez-legend">
           <span class="ez-leg-aud"><i class="ez-sw ez-sw-yt"></i>Subscribers</span>
@@ -221,15 +248,10 @@ body { margin: 0; background: var(--ez-bg); }
             <div class="ez-big" data-v="ig.total" data-f="int">—</div>
             <div class="ez-unit">Followers</div>
             <div class="ez-chip" data-chip="ig"><span class="ez-metric" data-platform="ig" data-v="ig.pct" data-f="pct">—</span><span class="ez-per" hidden>/day</span></div>
-            <div class="ez-chipnote ez-rangelabel">Last 14 days</div>
+            <div class="ez-chipnote" data-note="ig">Last 14 days</div>
           </div>
         </div>
-        <div class="ez-stats">
-          <div><div class="ez-stat-l">% growth</div><div class="ez-stat-v" data-v="ig.pct" data-f="pct">—</div></div>
-          <div><div class="ez-stat-l">Net change</div><div class="ez-stat-v" data-v="ig.net" data-f="signed">—</div></div>
-          <div><div class="ez-stat-l">Avg / day</div><div class="ez-stat-v" data-v="ig.avg" data-f="dec">—</div></div>
-          <div><div class="ez-stat-l">Views</div><div class="ez-stat-v" data-v="ig.views" data-f="int">—</div></div>
-        </div>
+        <div class="ez-stats" data-stats="ig"></div>
         <div class="ez-chart" id="chart-instagram"></div>
         <div class="ez-legend">
           <span class="ez-leg-aud"><i class="ez-sw ez-sw-ig"></i>Followers</span>
@@ -286,6 +308,28 @@ body { margin: 0; background: var(--ez-bg); }
     </div>
   </section>
 
+  <section id="comments" hidden>
+    <div class="ez-h">
+      <h2>Comments</h2>
+      <span class="ez-hnote" id="cm-note"></span>
+    </div>
+    <article class="ez-card">
+      <div class="ez-cm-head">
+        <div>
+          <div class="ez-name">Instagram</div>
+          <div class="ez-handle" id="cm-sub">What people wrote on your last 30 days of posts</div>
+        </div>
+        <div class="ez-pills" role="group" aria-label="Comment view">
+          <button type="button" data-param="cview" data-value="themes">Most said</button>
+          <button type="button" data-param="cview" data-value="popular">Popular</button>
+          <button type="button" data-param="cview" data-value="open" id="cm-open-pill">Not replied</button>
+        </div>
+      </div>
+      <div class="ez-cm-body" id="cm-body"></div>
+      <p class="ez-foot">Comments on posts from the last 30 days, without your own. The groups under Most said are sorted once a day by the daily refresh, by reading each comment. Not replied means you haven't answered under that comment yet. GIF-only comments are left out, and Instagram doesn't share who wrote a comment.</p>
+    </article>
+  </section>
+
   <section id="daily">
     <div class="ez-h"><h2>Daily stats</h2><span class="ez-hnote ez-rangelabel">Last 14 days</span></div>
     <article class="ez-card">
@@ -324,8 +368,8 @@ body { margin: 0; background: var(--ez-bg); }
   const compact = new Intl.NumberFormat('en', {notation: 'compact', maximumFractionDigits: 1});
   const asDate = (v) => new Date(String(v).slice(0, 10) + 'T00:00:00Z');
 
-  const CHOICES = {range: ['7', '14', '30', 'all'], view: ['both', 'views', 'audience'], metric: ['pct', 'net', 'avg']};
-  const state = {range: '14', view: 'both', metric: 'pct'};
+  const CHOICES = {range: ['1', '7', '14', '30', 'all'], view: ['both', 'views', 'audience'], metric: ['pct', 'net', 'avg'], cview: ['themes', 'popular', 'open']};
+  const state = {range: '14', view: 'both', metric: 'pct', cview: 'themes'};
   try {
     const saved = JSON.parse(localStorage.getItem('main-stats') || '{}');
     Object.keys(state).forEach((k) => { if (CHOICES[k].includes(saved[k])) state[k] = saved[k]; });
@@ -337,6 +381,7 @@ body { margin: 0; background: var(--ez-bg); }
     signed: (v) => (v > 0 ? '+' : '') + fmtInt(v),
     dec: (v) => fmtDec(v),
     pct: (v) => fmtPct(v) + '%',
+    spct: (v) => (v > 0 ? '+' : '') + fmtDec(v) + '%',
     day: (v) => fmtDay(asDate(v)),
     dayyear: (v) => fmtDayYear(asDate(v)),
     text: (v) => String(v),
@@ -345,7 +390,7 @@ body { margin: 0; background: var(--ez-bg); }
 
   const PLATFORMS = [
     {key: 'yt', chart: 'chart-youtube', total: 'yt_subscribers', delta: 'yt_change', views: 'yt_views', real: 'yt_real', color: 'var(--ez-yt)', noun: 'subscribers', label: 'YouTube subscribers and views'},
-    {key: 'ig', chart: 'chart-instagram', total: 'ig_followers', delta: 'ig_change', views: 'ig_views', real: 'ig_real', color: 'var(--ez-ig)', noun: 'followers', label: 'Instagram followers and views'},
+    {key: 'ig', chart: 'chart-instagram', total: 'ig_followers', delta: 'ig_change', views: 'ig_views', real: 'ig_real', color: 'var(--ez-ig)', noun: 'followers', label: 'Instagram followers and views', partial: true},
   ];
 
   let DATA = null;
@@ -379,10 +424,28 @@ body { margin: 0; background: var(--ez-bg); }
     };
   };
 
+  /* The 1D view. Views: the latest day the platform has finished counting (Instagram's newest day is
+     still running when the daily refresh pulls it, so that one is skipped). Audience: the latest day with a change. */
+  const dayOf = (p) => {
+    const all = DATA.daily;
+    const counted = all.filter((d) => d[p.views] != null);
+    const viewDay = counted[counted.length - 1 - (p.partial ? 1 : 0)] || null;
+    const at = viewDay ? all.indexOf(viewDay) : -1;
+    const before = at > 0 && all[at - 1][p.views] != null ? all[at - 1] : null;
+    const week = at < 0 ? [] : all.slice(Math.max(0, at - 6), at + 1).filter((d) => d[p.views] != null);
+    const changed = all.filter((d) => d[p.delta] != null);
+    return {
+      viewDay, before,
+      vs: viewDay && before && before[p.views] > 0 ? ((viewDay[p.views] - before[p.views]) / before[p.views]) * 100 : null,
+      avg7: week.length ? Math.round(week.reduce((t, d) => t + d[p.views], 0) / week.length) : null,
+      audDay: changed[changed.length - 1] || null,
+    };
+  };
+
   const TOP_H = 170, MID = 30, BOT_H = 90, PAD = 8;
   const H = PAD + TOP_H + MID + BOT_H + PAD;
 
-  const drawCard = (p, days, view) => {
+  const drawCard = (p, days, view, focus) => {
     const box = document.getElementById(p.chart);
     box.replaceChildren();
     if (!days || !days.length) return;
@@ -466,6 +529,8 @@ body { margin: 0; background: var(--ez-bg); }
       .attr('height', (q) => (q[barField] > 0 ? Math.max(y2b - yBar(q[barField]), 2) : 0))
       .attr('rx', Math.min(3, x.bandwidth() / 2))
       .attr('fill', 'url(#' + barId + ')');
+    const rest = (b) => (focus && b.date !== focus ? 0.3 : 1);
+    bars.attr('opacity', rest);
     if (both && dl.length) stroke(svg.append('path').attr('d', d3.line().x(cx).y((q) => yLine(Math.max(q.delta, 0)))(dl)), 'var(--ez-fg)', 1.5);
 
     const rule = svg.append('line').attr('class', 'ez-rule').attr('y1', y1t).attr('y2', y2b).attr('visibility', 'hidden');
@@ -492,7 +557,7 @@ body { margin: 0; background: var(--ez-bg); }
       rule.attr('x1', cx(q)).attr('x2', cx(q)).attr('visibility', 'visible');
       bars.attr('opacity', (b) => (b.date === q.date ? 1 : 0.5));
     };
-    const hide = () => { tip.hidden = true; rule.attr('visibility', 'hidden'); bars.attr('opacity', 1); };
+    const hide = () => { tip.hidden = true; rule.attr('visibility', 'hidden'); bars.attr('opacity', rest); };
     svg.append('g').selectAll('rect').data(pts).join('rect')
       .attr('x', (q) => x(q.date) - (x.step() - x.bandwidth()) / 2)
       .attr('width', x.step())
@@ -558,28 +623,127 @@ body { margin: 0; background: var(--ez-bg); }
     }));
   };
 
+  const syncPills = () => $$('[data-param]').forEach((b) => b.setAttribute('aria-pressed', String(state[b.dataset.param] === b.dataset.value)));
+
+  /* ---- comments ---- */
+  const plural = (n, word) => fmtInt(n) + ' ' + word + (n === 1 ? '' : 's');
+  const commentRow = (c) => {
+    const li = el('li', 'ez-cm');
+    li.append(el('p', 'ez-cm-text', c.text));
+    const meta = el('div', 'ez-cm-meta');
+    const tag = el('span', 'ez-cm-tag', c.replied ? 'Replied' : 'Not replied');
+    tag.dataset.state = c.replied ? 'done' : 'open';
+    meta.append(tag);
+    if (c.is_reply) meta.append(el('span', 'ez-cm-tag', 'Reply to you'));
+    meta.append(el('span', '', plural(Number(c.likes) || 0, 'like')));
+    if (c.replies > 0) meta.append(el('span', '', plural(c.replies, 'reply').replace('replys', 'replies')));
+    const when = new Date(c.at);
+    if (!isNaN(when)) meta.append(el('span', '', when.toLocaleDateString(undefined, {month: 'short', day: 'numeric'})));
+    if (/^https:\/\/www\.instagram\.com\/[\w\-./]+$/.test(String(c.post || ''))) {
+      const a = el('a', '', c.caption ? 'on “' + c.caption + '”' : 'on your ' + (c.posted ? FORMAT.day(c.posted) + ' ' : '') + 'post');
+      a.href = c.post; a.target = '_blank'; a.rel = 'noopener noreferrer';
+      meta.append(a);
+    }
+    li.append(meta);
+    return li;
+  };
+  /* A list of comments; past `limit` the rest wait behind a "Show more" button. */
+  const commentList = (list, limit) => {
+    const ul = el('ul', 'ez-cm-list');
+    const cut = list.length > limit + 3 ? limit : list.length;
+    ul.append(...list.slice(0, cut).map(commentRow));
+    const out = document.createDocumentFragment();
+    out.append(ul);
+    if (cut < list.length) {
+      const more = el('button', 'ez-cm-more', 'Show ' + (list.length - cut) + ' more');
+      more.type = 'button';
+      more.addEventListener('click', () => { ul.append(...list.slice(cut).map(commentRow)); more.remove(); });
+      out.append(more);
+    }
+    return out;
+  };
+  const byLikes = (a, b) => d3.descending(Number(a.likes) || 0, Number(b.likes) || 0) || d3.descending(a.at, b.at);
+
+  const drawComments = () => {
+    const section = document.getElementById('comments');
+    const c = DATA && DATA.comments && DATA.comments.instagram;
+    const items = c && Array.isArray(c.items) ? c.items : [];
+    section.hidden = !items.length;
+    if (!items.length) return;
+    syncPills();
+    const open = items.filter((i) => !i.replied).sort((a, b) => d3.descending(a.at, b.at));
+    document.getElementById('cm-note').textContent = plural(items.length, 'comment') + ' · ' + open.length + ' not replied to';
+    document.getElementById('cm-open-pill').textContent = 'Not replied · ' + open.length;
+    const body = document.getElementById('cm-body');
+
+    if (state.cview === 'popular') { body.replaceChildren(commentList([...items].sort(byLikes), 12)); return; }
+    if (state.cview === 'open') {
+      body.replaceChildren(open.length ? commentList(open, 12) : el('p', 'ez-cm-empty', 'You’ve replied to every comment. Nothing waiting.'));
+      return;
+    }
+    const labels = new Map((c.themes || []).map((t) => [t.id, t.label]));
+    const groups = d3.groups(items, (i) => (labels.has(i.theme) ? i.theme : ''))
+      .map(([id, list]) => ({id, label: id ? labels.get(id) : 'Not sorted yet', list: [...list].sort(byLikes), last: !id || id === 'other'}))
+      .sort((a, b) => d3.ascending(a.last, b.last) || d3.descending(a.list.length, b.list.length));
+    const most = d3.max(groups, (g) => g.list.length);
+    body.replaceChildren(...groups.map((g) => {
+      const box = el('details', 'ez-theme');
+      const head = el('summary');
+      const row = el('div', 'ez-theme-row');
+      const n = el('span', 'ez-theme-n');
+      n.append(el('b', '', fmtInt(g.list.length)), ' ' + (g.list.length === 1 ? 'comment' : 'comments') + ' · ' + plural(d3.sum(g.list, (i) => Number(i.likes) || 0), 'like'));
+      row.append(el('span', 'ez-theme-label', g.label), n);
+      const bar = el('div', 'ez-theme-bar');
+      const fill = el('i');
+      fill.style.width = (g.list.length / most) * 100 + '%';
+      bar.append(fill);
+      head.append(row, bar, el('p', 'ez-theme-eg', '“' + g.list[0].text + '”'));
+      box.append(head, commentList(g.list, 8));
+      return box;
+    }));
+  };
+
   const render = () => {
     if (!DATA) return;
     const all = DATA.daily;
-    const days = state.range === 'all' ? all : all.slice(-Number(state.range));
+    const one = state.range === '1';
+    const days = state.range === 'all' ? all : all.slice(-Number(one ? 14 : state.range));
     const values = {
-      'first': days[0].date, 'last': days[days.length - 1].date, 'since': DATA.tracking_since,
+      'since': DATA.tracking_since,
       'yt.name': DATA.profile.youtube.title, 'yt.total': DATA.profile.youtube.subscribers,
       'ig.name': DATA.profile.instagram.username, 'ig.total': DATA.profile.instagram.followers,
     };
-    const totals = {};
+    const label = state.range === 'all' ? 'All ' + all.length + ' days' : 'Last ' + state.range + ' days';
+    const totals = {}, focus = {}, fullDays = [];
     PLATFORMS.forEach((p) => {
-      const t = totals[p.key] = totalsOf(p, days), w = weekOf(p);
+      const f = one ? dayOf(p) : null, w = weekOf(p);
+      const t = totals[p.key] = f ? totalsOf(p, f.audDay ? [f.audDay] : []) : totalsOf(p, days);
       Object.keys(t).forEach((k) => { values[p.key + '.' + k] = t[k]; });
       Object.keys(w).forEach((k) => { values[p.key + '.week.' + k] = w[k]; });
+      focus[p.key] = f && f.viewDay ? f.viewDay.date : null;
+      const on = (d) => (d ? FORMAT.day(d.date) : '');
+      const cells = f
+        ? [['Views', f.viewDay && f.viewDay[p.views], 'int', on(f.viewDay)], ['Vs day before', f.vs, 'spct', on(f.before)],
+           ['Net change', f.audDay && f.audDay[p.delta], 'signed', on(f.audDay)], ['Avg views, 7d', f.avg7, 'int', '']]
+        : [['% growth', t.pct, 'pct'], ['Net change', t.net, 'signed'], ['Avg / day', t.avg, 'dec'], ['Views', t.views, 'int']];
+      root.querySelector('[data-stats="' + p.key + '"]').replaceChildren(...cells.map(([name, v, fmt, when]) => {
+        const cell = el('div');
+        cell.append(el('div', 'ez-stat-l', name), el('div', 'ez-stat-v', v == null ? '—' : FORMAT[fmt](v)));
+        if (f) cell.append(el('div', 'ez-stat-d', when || '\u00a0'));
+        return cell;
+      }));
+      root.querySelector('[data-note="' + p.key + '"]').textContent = f ? (f.audDay ? 'On ' + FORMAT.day(f.audDay.date) : 'Not reported yet') : label;
+      if (f && f.viewDay) fullDays.push((p.key === 'yt' ? 'YouTube ' : 'Instagram ') + FORMAT.day(f.viewDay.date));
     });
+    document.getElementById('dates-line').textContent = one
+      ? 'Latest full day: ' + (fullDays.join(' · ') || 'not reported yet')
+      : FORMAT.day(days[0].date) + ' to ' + FORMAT.dayyear(days[days.length - 1].date);
 
     root.dataset.view = state.view;
-    $$('[data-param]').forEach((b) => b.setAttribute('aria-pressed', String(state[b.dataset.param] === b.dataset.value)));
+    syncPills();
     $$('.ez-metric').forEach((node) => { node.dataset.v = node.dataset.platform + '.' + METRIC[state.metric][0]; node.dataset.f = METRIC[state.metric][1]; });
     $$('.ez-per').forEach((node) => { node.hidden = state.metric !== 'avg'; });
-    const label = state.range === 'all' ? 'All ' + all.length + ' days' : 'Last ' + state.range + ' days';
-    $$('.ez-rangelabel').forEach((node) => { node.textContent = label; });
+    $$('.ez-rangelabel').forEach((node) => { node.textContent = one ? 'Last 7 days' : label; });
     $$('[data-chip]').forEach((chip) => {
       const n = totals[chip.dataset.chip].net;
       chip.dataset.dir = n == null ? 'none' : n > 0 ? 'up' : n < 0 ? 'down' : 'flat';
@@ -589,8 +753,8 @@ body { margin: 0; background: var(--ez-bg); }
       node.textContent = v == null || v === '' ? '—' : FORMAT[node.dataset.f](v);
     });
 
-    PLATFORMS.forEach((p) => drawCard(p, days, state.view));
-    drawDaily(days);
+    PLATFORMS.forEach((p) => drawCard(p, days, state.view, focus[p.key]));
+    drawDaily(one ? all.slice(-7) : days);
     TABLES.forEach(drawTable);
   };
 
@@ -611,10 +775,18 @@ body { margin: 0; background: var(--ez-bg); }
     document.getElementById('updated').textContent = '';
   };
 
-  $$('[data-param]').forEach((b) => b.addEventListener('click', () => { state[b.dataset.param] = b.dataset.value; remember(); render(); }));
+  $$('[data-param]').forEach((b) => b.addEventListener('click', () => {
+    state[b.dataset.param] = b.dataset.value;
+    remember();
+    if (b.dataset.param === 'cview') drawComments(); else render();
+  }));
   TABLES.forEach((t) => $$('button[data-sort]', document.getElementById(t.id)).forEach((b) => b.addEventListener('click', () => { t.sort = b.dataset.sort; if (DATA) drawTable(t); })));
-  let resizeTimer = null;
-  window.addEventListener('resize', () => { clearTimeout(resizeTimer); resizeTimer = setTimeout(render, 120); });
+  /* Phones fire "resize" while scrolling (the address bar hides), so only redraw when the width changes. */
+  let resizeTimer = null, lastWidth = root.clientWidth;
+  window.addEventListener('resize', () => {
+    clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(() => { if (root.clientWidth !== lastWidth) { lastWidth = root.clientWidth; render(); } }, 120);
+  });
 
   fetch('data.json', {cache: 'no-store'})
     .then((res) => { if (!res.ok) throw new Error('data.json answered ' + res.status); return res.json(); })
@@ -623,6 +795,7 @@ body { margin: 0; background: var(--ez-bg); }
       DATA = data;
       showUpdated();
       render();
+      drawComments();
     })
     .catch((error) => fail('The numbers didn’t load (' + error.message + '). Try refreshing the page.'));
 })();

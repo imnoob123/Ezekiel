@@ -3,10 +3,16 @@
 //
 //   node scripts/build.mjs            build, keeping everything already in data.json
 //   node scripts/build.mjs --force    skip the "count changed too much" safety check
+//   node scripts/build.mjs --comments list the comments that still need a theme, and write nothing
 //
 // raw/ holds one JSON file per pull, exactly as Windsor.ai returned it
 // (a bare array of rows, or {"result": [...]}):
 //   ig_profile  ig_daily  ig_media  yt_channel  yt_views  yt_subs  yt_videos
+// and two optional ones for the Comments section:
+//   ig_comments  every comment and reply on the posts of the last 30 days
+//   ig_themes    which theme each comment belongs to, written by the daily task:
+//                {"themes": [{"id": "wants-list", "label": "Asking for the list"}],
+//                 "assign": {"<comment id>": "wants-list"}}
 //
 // What it keeps between runs (so history grows past Windsor's 30 days):
 //   reported   every day's views and reported follower change, newest pull wins
@@ -14,6 +20,7 @@
 // What it rebuilds every run:
 //   daily      one row per day with the totals the page draws
 //   top        the top posts and videos of the last 30 days
+//   comments   the comments on the last 30 days of posts (a comment's theme is kept between runs)
 
 import { existsSync, readFileSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
@@ -22,6 +29,7 @@ import { fileURLToPath } from 'node:url';
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const TZ = 'Asia/Kuala_Lumpur';
 const force = process.argv.includes('--force');
+const listComments = process.argv.includes('--comments');
 
 const fail = (message) => {
   console.error('BUILD FAILED: ' + message);
@@ -214,6 +222,109 @@ const top = {
   youtube: topYoutube.length ? topYoutube : previousTop.youtube || [],
 };
 
+// ---- comments ---------------------------------------------------------------
+// One entry per comment somebody else left: the top comment of each thread, plus any
+// reply that tags the account. "replied" is true when the account answered after it.
+// Windsor.ai only names the author on the account's own comments, which is what makes this work.
+
+const previousComments = (previous.comments && previous.comments.instagram) || null;
+const buildComments = () => {
+  const rows = readRaw('ig_comments', { optional: true });
+  if (!rows.length) return previousComments;
+
+  const me = profile.instagram.username.toLowerCase();
+  const mine = (r) => String(r.comment_username || '').toLowerCase() === me;
+  const stamp = (r) => {
+    const t = new Date(String(r.comment_timestamp || '').replace(/\+0000$/, 'Z'));
+    return Number.isNaN(t.getTime()) ? null : t.toISOString().slice(0, 19) + 'Z';
+  };
+  const valid = rows.filter((r) => /^\d{5,25}$/.test(String(r.comment_id || '')));
+  const repliesTo = new Map();
+  for (const r of valid) {
+    if (!r.comment_parent_id) continue;
+    const parent = String(r.comment_parent_id);
+    if (!repliesTo.has(parent)) repliesTo.set(parent, []);
+    repliesTo.get(parent).push(r);
+  }
+  const captions = new Map([...(top.instagram || []), ...((previousTop.instagram) || [])].map((p) => [p.permalink, p.caption]));
+  const oldTheme = new Map(((previousComments && previousComments.items) || []).map((c) => [c.id, c.theme || null]));
+
+  const items = [];
+  for (const r of valid) {
+    if (mine(r)) continue;
+    const text = clean(r.comment_text, 400);
+    if (!text) continue; // a GIF or sticker
+    const at = stamp(r);
+    if (!at) fail(`ig_comments comment ${r.comment_id} has no usable comment_timestamp`);
+    const post = String(r.media_permalink || '');
+    if (!/^https:\/\/www\.instagram\.com\/[\w\-./]+$/.test(post)) continue;
+    const parent = r.comment_parent_id ? String(r.comment_parent_id) : null;
+    // A reply only counts when it is aimed at the account; replies between other people are skipped.
+    if (parent && !text.toLowerCase().includes('@' + me)) continue;
+    const thread = repliesTo.get(parent || String(r.comment_id)) || [];
+    const id = String(r.comment_id);
+    items.push({
+      id,
+      text,
+      likes: count(r.comment_like_count),
+      replies: parent ? 0 : count(r.comment_reply_count),
+      at,
+      post,
+      caption: captions.get(post) || '',
+      posted: r.date ? dayOf(r.date, 'ig_comments date') : null,
+      is_reply: Boolean(parent),
+      replied: thread.some((x) => mine(x) && (stamp(x) || '') > at),
+      theme: oldTheme.get(id) || null,
+    });
+  }
+  if (!items.length) return previousComments;
+
+  // themes: what was saved before, plus anything new in raw/ig_themes.json
+  const themes = new Map(((previousComments && previousComments.themes) || []).map((t) => [t.id, { ...t }]));
+  const themesFile = join(root, 'raw', 'ig_themes.json');
+  if (existsSync(themesFile)) {
+    let parsed;
+    try {
+      parsed = JSON.parse(readFileSync(themesFile, 'utf8'));
+    } catch (error) {
+      fail(`raw/ig_themes.json is not valid JSON (${error.message})`);
+    }
+    for (const t of parsed.themes || []) {
+      const id = String(t.id || '');
+      const label = clean(t.label, 48);
+      if (!/^[a-z0-9-]{1,30}$/.test(id)) fail(`raw/ig_themes.json theme id ${JSON.stringify(t.id)} must be lowercase letters, digits and dashes`);
+      if (!label) fail(`raw/ig_themes.json theme ${id} has no label`);
+      themes.set(id, { id, label });
+    }
+    const byId = new Map(items.map((c) => [c.id, c]));
+    for (const [commentId, themeId] of Object.entries(parsed.assign || {})) {
+      if (!byId.has(commentId)) fail(`raw/ig_themes.json gives a theme to comment ${commentId}, which is not in today's comments. Copy the id exactly from "node scripts/build.mjs --comments"`);
+      if (!themes.has(themeId)) fail(`raw/ig_themes.json puts comment ${commentId} in theme ${JSON.stringify(themeId)}, which is not in its "themes" list or saved from before`);
+      byId.get(commentId).theme = themeId;
+    }
+  }
+  for (const c of items) if (c.theme && !themes.has(c.theme)) c.theme = null;
+  const used = new Set(items.map((c) => c.theme));
+  items.sort((a, b) => (a.at < b.at ? 1 : -1));
+  return { themes: [...themes.values()].filter((t) => used.has(t.id)), all_themes: [...themes.values()], items };
+};
+const builtComments = buildComments();
+
+if (listComments) {
+  if (!builtComments) {
+    console.log('No comments to sort: raw/ig_comments.json is missing or empty.');
+    process.exit(0);
+  }
+  const { all_themes: allThemes, items } = builtComments;
+  console.log(`THEMES SO FAR (${allThemes.length})`);
+  for (const t of allThemes) console.log(`  ${t.id}  "${t.label}"  ${items.filter((c) => c.theme === t.id).length} comments`);
+  const todo = items.filter((c) => !c.theme);
+  console.log(`\nCOMMENTS WITHOUT A THEME (${todo.length} of ${items.length})`);
+  for (const c of todo) console.log(`  ${c.id}  [${c.caption || 'post from ' + c.posted}]  ${c.text}`);
+  process.exit(0);
+}
+const comments = builtComments ? { instagram: { themes: builtComments.themes, items: builtComments.items } } : previous.comments || null;
+
 // ---- write ------------------------------------------------------------------
 
 const sortedSnapshots = [...snapshots.values()].sort((a, b) => (a.date < b.date ? -1 : 1));
@@ -223,6 +334,7 @@ const out = {
   profile,
   daily,
   top,
+  comments,
   reported: [...reported.values()].sort((a, b) => (a.date < b.date ? -1 : 1)),
   snapshots: sortedSnapshots,
 };
@@ -235,3 +347,9 @@ console.log(`  days stored: ${daily.length} (${daily[0].date} to ${daily[daily.l
 console.log(`  Instagram: ${profile.instagram.followers} followers, latest reported change ${last('ig_change')?.ig_change} on ${last('ig_change')?.date}`);
 console.log(`  YouTube:   ${profile.youtube.subscribers} subscribers, latest reported change ${last('yt_change')?.yt_change} on ${last('yt_change')?.date}`);
 console.log(`  top content: ${top.instagram.length} Instagram posts, ${top.youtube.length} YouTube videos`);
+if (comments && comments.instagram) {
+  const list = comments.instagram.items;
+  console.log(`  comments: ${list.length} on Instagram, ${list.filter((c) => !c.replied).length} not replied to, ${list.filter((c) => !c.theme).length} without a theme`);
+} else {
+  console.log('  comments: none saved yet');
+}
