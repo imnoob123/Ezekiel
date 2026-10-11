@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-11T01:58:13.815Z",
+ "updated_at": "2026-10-11T02:03:47.010Z",
  "tracking_since": "2026-10-10",
  "profile": {
   "instagram": {
@@ -16,12 +16,3686 @@
  },
  "daily": [
   {
+   "date": "2025-10-12",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 0
+  },
+  {
+   "date": "2025-10-13",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 0
+  },
+  {
+   "date": "2025-10-14",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 0
+  },
+  {
+   "date": "2025-10-15",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 0
+  },
+  {
+   "date": "2025-10-16",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 0
+  },
+  {
+   "date": "2025-10-17",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 0
+  },
+  {
+   "date": "2025-10-18",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 0
+  },
+  {
+   "date": "2025-10-19",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 0
+  },
+  {
+   "date": "2025-10-20",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 0
+  },
+  {
+   "date": "2025-10-21",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 0
+  },
+  {
+   "date": "2025-10-22",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 0
+  },
+  {
+   "date": "2025-10-23",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 439
+  },
+  {
+   "date": "2025-10-24",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 1016
+  },
+  {
+   "date": "2025-10-25",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 4
+  },
+  {
+   "date": "2025-10-26",
+   "yt_subscribers": 3,
+   "yt_change": 1,
+   "yt_real": false,
+   "yt_views": 351,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 0
+  },
+  {
+   "date": "2025-10-27",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 111
+  },
+  {
+   "date": "2025-10-28",
+   "yt_subscribers": 3,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 46,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 210
+  },
+  {
+   "date": "2025-10-29",
+   "yt_subscribers": 3,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 42,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 114
+  },
+  {
+   "date": "2025-10-30",
+   "yt_subscribers": 3,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 1,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 487
+  },
+  {
+   "date": "2025-10-31",
+   "yt_subscribers": 3,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 2,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 148
+  },
+  {
+   "date": "2025-11-01",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 1720
+  },
+  {
+   "date": "2025-11-02",
+   "yt_subscribers": 3,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 208,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 505
+  },
+  {
+   "date": "2025-11-03",
+   "yt_subscribers": 5,
+   "yt_change": 2,
+   "yt_real": false,
+   "yt_views": 1124,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 122
+  },
+  {
+   "date": "2025-11-04",
+   "yt_subscribers": 5,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 57,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 89
+  },
+  {
+   "date": "2025-11-05",
+   "yt_subscribers": 6,
+   "yt_change": 1,
+   "yt_real": false,
+   "yt_views": 1075,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 219
+  },
+  {
+   "date": "2025-11-06",
+   "yt_subscribers": 6,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 1290,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 18
+  },
+  {
+   "date": "2025-11-07",
+   "yt_subscribers": 8,
+   "yt_change": 2,
+   "yt_real": false,
+   "yt_views": 881,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 294
+  },
+  {
+   "date": "2025-11-08",
+   "yt_subscribers": 8,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 1143,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 163
+  },
+  {
+   "date": "2025-11-09",
+   "yt_subscribers": 8,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 7,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 144
+  },
+  {
+   "date": "2025-11-10",
+   "yt_subscribers": 8,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 1097,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 137
+  },
+  {
+   "date": "2025-11-11",
+   "yt_subscribers": 8,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 108,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 658
+  },
+  {
+   "date": "2025-11-12",
+   "yt_subscribers": 8,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 7,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 606
+  },
+  {
+   "date": "2025-11-13",
+   "yt_subscribers": 8,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 1257,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 281
+  },
+  {
+   "date": "2025-11-14",
+   "yt_subscribers": 8,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 331,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 189
+  },
+  {
+   "date": "2025-11-15",
+   "yt_subscribers": 8,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 226,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 42
+  },
+  {
+   "date": "2025-11-16",
+   "yt_subscribers": 8,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 832,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 923
+  },
+  {
+   "date": "2025-11-17",
+   "yt_subscribers": 8,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 5,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 33
+  },
+  {
+   "date": "2025-11-18",
+   "yt_subscribers": 9,
+   "yt_change": 1,
+   "yt_real": false,
+   "yt_views": 2049,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 53
+  },
+  {
+   "date": "2025-11-19",
+   "yt_subscribers": 9,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 67,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 222
+  },
+  {
+   "date": "2025-11-20",
+   "yt_subscribers": 9,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 2,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 45
+  },
+  {
+   "date": "2025-11-21",
+   "yt_subscribers": 12,
+   "yt_change": 3,
+   "yt_real": false,
+   "yt_views": 2748,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 164
+  },
+  {
+   "date": "2025-11-22",
+   "yt_subscribers": 12,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 2731,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 24
+  },
+  {
+   "date": "2025-11-23",
+   "yt_subscribers": 19,
+   "yt_change": 7,
+   "yt_real": false,
+   "yt_views": 1234,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 119
+  },
+  {
+   "date": "2025-11-24",
+   "yt_subscribers": 22,
+   "yt_change": 3,
+   "yt_real": false,
+   "yt_views": 3290,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 156
+  },
+  {
+   "date": "2025-11-25",
+   "yt_subscribers": 24,
+   "yt_change": 2,
+   "yt_real": false,
+   "yt_views": 1349,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 174
+  },
+  {
+   "date": "2025-11-26",
+   "yt_subscribers": 27,
+   "yt_change": 3,
+   "yt_real": false,
+   "yt_views": 2457,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 1087
+  },
+  {
+   "date": "2025-11-27",
+   "yt_subscribers": 27,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 694,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 1217
+  },
+  {
+   "date": "2025-11-28",
+   "yt_subscribers": 27,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 307,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 1028
+  },
+  {
+   "date": "2025-11-29",
+   "yt_subscribers": 27,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 1207,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 1566
+  },
+  {
+   "date": "2025-11-30",
+   "yt_subscribers": 29,
+   "yt_change": 2,
+   "yt_real": false,
+   "yt_views": 1270,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 2823
+  },
+  {
+   "date": "2025-12-01",
+   "yt_subscribers": 30,
+   "yt_change": 1,
+   "yt_real": false,
+   "yt_views": 582,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 2016
+  },
+  {
+   "date": "2025-12-02",
+   "yt_subscribers": 30,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 845,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 299
+  },
+  {
+   "date": "2025-12-03",
+   "yt_subscribers": 30,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 16,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 305
+  },
+  {
+   "date": "2025-12-04",
+   "yt_subscribers": 30,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 217,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 220
+  },
+  {
+   "date": "2025-12-05",
+   "yt_subscribers": 32,
+   "yt_change": 2,
+   "yt_real": false,
+   "yt_views": 760,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 95
+  },
+  {
+   "date": "2025-12-06",
+   "yt_subscribers": 32,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 3,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 96
+  },
+  {
+   "date": "2025-12-07",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 41
+  },
+  {
+   "date": "2025-12-08",
+   "yt_subscribers": 32,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 8,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 472
+  },
+  {
+   "date": "2025-12-09",
+   "yt_subscribers": 33,
+   "yt_change": 1,
+   "yt_real": false,
+   "yt_views": 1519,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 1552
+  },
+  {
+   "date": "2025-12-10",
+   "yt_subscribers": 33,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 728,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 373
+  },
+  {
+   "date": "2025-12-11",
+   "yt_subscribers": 34,
+   "yt_change": 1,
+   "yt_real": false,
+   "yt_views": 989,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 76
+  },
+  {
+   "date": "2025-12-12",
+   "yt_subscribers": 34,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 1333,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 2120
+  },
+  {
+   "date": "2025-12-13",
+   "yt_subscribers": 34,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 1757,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 5863
+  },
+  {
+   "date": "2025-12-14",
+   "yt_subscribers": 34,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 173,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 6710
+  },
+  {
+   "date": "2025-12-15",
+   "yt_subscribers": 34,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 690,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 8471
+  },
+  {
+   "date": "2025-12-16",
+   "yt_subscribers": 34,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 437,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 3010
+  },
+  {
+   "date": "2025-12-17",
+   "yt_subscribers": 35,
+   "yt_change": 1,
+   "yt_real": false,
+   "yt_views": 1730,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 7389
+  },
+  {
+   "date": "2025-12-18",
+   "yt_subscribers": 37,
+   "yt_change": 2,
+   "yt_real": false,
+   "yt_views": 1886,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 3451
+  },
+  {
+   "date": "2025-12-19",
+   "yt_subscribers": 38,
+   "yt_change": 1,
+   "yt_real": false,
+   "yt_views": 35,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 3689
+  },
+  {
+   "date": "2025-12-20",
+   "yt_subscribers": 39,
+   "yt_change": 1,
+   "yt_real": false,
+   "yt_views": 44,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 3058
+  },
+  {
+   "date": "2025-12-21",
+   "yt_subscribers": 39,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 12,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 2742
+  },
+  {
+   "date": "2025-12-22",
+   "yt_subscribers": 39,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 1757,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 2610
+  },
+  {
+   "date": "2025-12-23",
+   "yt_subscribers": 39,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 1458,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 6113
+  },
+  {
+   "date": "2025-12-24",
+   "yt_subscribers": 39,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 413,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 1880
+  },
+  {
+   "date": "2025-12-25",
+   "yt_subscribers": 39,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 7,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 1563
+  },
+  {
+   "date": "2025-12-26",
+   "yt_subscribers": 39,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 6,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 545
+  },
+  {
+   "date": "2025-12-27",
+   "yt_subscribers": 39,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 2,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 130
+  },
+  {
+   "date": "2025-12-28",
+   "yt_subscribers": 40,
+   "yt_change": 1,
+   "yt_real": false,
+   "yt_views": 150,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 745
+  },
+  {
+   "date": "2025-12-29",
+   "yt_subscribers": 41,
+   "yt_change": 1,
+   "yt_real": false,
+   "yt_views": 1149,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 4532
+  },
+  {
+   "date": "2025-12-30",
+   "yt_subscribers": 41,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 242,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 3747
+  },
+  {
+   "date": "2025-12-31",
+   "yt_subscribers": 42,
+   "yt_change": 1,
+   "yt_real": false,
+   "yt_views": 1053,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 688
+  },
+  {
+   "date": "2026-01-01",
+   "yt_subscribers": 42,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 31,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 2204
+  },
+  {
+   "date": "2026-01-02",
+   "yt_subscribers": 42,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 2,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 240
+  },
+  {
+   "date": "2026-01-03",
+   "yt_subscribers": 42,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 2,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 600
+  },
+  {
+   "date": "2026-01-04",
+   "yt_subscribers": 42,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 2,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 2120
+  },
+  {
+   "date": "2026-01-05",
+   "yt_subscribers": 42,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 1,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 119
+  },
+  {
+   "date": "2026-01-06",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 44
+  },
+  {
+   "date": "2026-01-07",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 48
+  },
+  {
+   "date": "2026-01-08",
+   "yt_subscribers": 42,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 2,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 37
+  },
+  {
+   "date": "2026-01-09",
+   "yt_subscribers": 42,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 332
+  },
+  {
+   "date": "2026-01-10",
+   "yt_subscribers": 42,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 1,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 45
+  },
+  {
+   "date": "2026-01-11",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 55
+  },
+  {
+   "date": "2026-01-12",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 27
+  },
+  {
+   "date": "2026-01-13",
+   "yt_subscribers": 42,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 2,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 2740
+  },
+  {
+   "date": "2026-01-14",
+   "yt_subscribers": 42,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 1,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 1058
+  },
+  {
+   "date": "2026-01-15",
+   "yt_subscribers": 42,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 746
+  },
+  {
+   "date": "2026-01-16",
+   "yt_subscribers": 42,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 1,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 1985
+  },
+  {
+   "date": "2026-01-17",
+   "yt_subscribers": 42,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 1,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 1110
+  },
+  {
+   "date": "2026-01-18",
+   "yt_subscribers": 42,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 136,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 721
+  },
+  {
+   "date": "2026-01-19",
+   "yt_subscribers": 42,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 9,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 589
+  },
+  {
+   "date": "2026-01-20",
+   "yt_subscribers": 42,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 3,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 531
+  },
+  {
+   "date": "2026-01-21",
+   "yt_subscribers": 43,
+   "yt_change": 1,
+   "yt_real": false,
+   "yt_views": 74,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 402
+  },
+  {
+   "date": "2026-01-22",
+   "yt_subscribers": 43,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 251,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 1918
+  },
+  {
+   "date": "2026-01-23",
+   "yt_subscribers": 43,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 231,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 1522
+  },
+  {
+   "date": "2026-01-24",
+   "yt_subscribers": 42,
+   "yt_change": -1,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 1008
+  },
+  {
+   "date": "2026-01-25",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 1894
+  },
+  {
+   "date": "2026-01-26",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 1098
+  },
+  {
+   "date": "2026-01-27",
+   "yt_subscribers": 42,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 1371,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 118
+  },
+  {
+   "date": "2026-01-28",
+   "yt_subscribers": 42,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 44,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 2069
+  },
+  {
+   "date": "2026-01-29",
+   "yt_subscribers": 42,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 2278,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 769
+  },
+  {
+   "date": "2026-01-30",
+   "yt_subscribers": 42,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 406,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 421
+  },
+  {
+   "date": "2026-01-31",
+   "yt_subscribers": 42,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 140,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 2566
+  },
+  {
+   "date": "2026-02-01",
+   "yt_subscribers": 42,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 116,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 1136
+  },
+  {
+   "date": "2026-02-02",
+   "yt_subscribers": 42,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 1,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 6263
+  },
+  {
+   "date": "2026-02-03",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 2619
+  },
+  {
+   "date": "2026-02-04",
+   "yt_subscribers": 42,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 3059
+  },
+  {
+   "date": "2026-02-05",
+   "yt_subscribers": 42,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 1,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 4033
+  },
+  {
+   "date": "2026-02-06",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 2747
+  },
+  {
+   "date": "2026-02-07",
+   "yt_subscribers": 42,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 6,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 1437
+  },
+  {
+   "date": "2026-02-08",
+   "yt_subscribers": 42,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 6881
+  },
+  {
+   "date": "2026-02-09",
+   "yt_subscribers": 44,
+   "yt_change": 2,
+   "yt_real": false,
+   "yt_views": 1632,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 13707
+  },
+  {
+   "date": "2026-02-10",
+   "yt_subscribers": 45,
+   "yt_change": 1,
+   "yt_real": false,
+   "yt_views": 1555,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 3267
+  },
+  {
+   "date": "2026-02-11",
+   "yt_subscribers": 46,
+   "yt_change": 1,
+   "yt_real": false,
+   "yt_views": 243,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 2550
+  },
+  {
+   "date": "2026-02-12",
+   "yt_subscribers": 46,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 32,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 1690
+  },
+  {
+   "date": "2026-02-13",
+   "yt_subscribers": 46,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 1,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 3378
+  },
+  {
+   "date": "2026-02-14",
+   "yt_subscribers": 46,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 8,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 3015
+  },
+  {
+   "date": "2026-02-15",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 4180
+  },
+  {
+   "date": "2026-02-16",
+   "yt_subscribers": 46,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 2,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 3255
+  },
+  {
+   "date": "2026-02-17",
+   "yt_subscribers": 47,
+   "yt_change": 1,
+   "yt_real": false,
+   "yt_views": 4,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 4043
+  },
+  {
+   "date": "2026-02-18",
+   "yt_subscribers": 47,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 161,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 3839
+  },
+  {
+   "date": "2026-02-19",
+   "yt_subscribers": 48,
+   "yt_change": 1,
+   "yt_real": false,
+   "yt_views": 1168,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 5932
+  },
+  {
+   "date": "2026-02-20",
+   "yt_subscribers": 48,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 167,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 1409
+  },
+  {
+   "date": "2026-02-21",
+   "yt_subscribers": 49,
+   "yt_change": 1,
+   "yt_real": false,
+   "yt_views": 115,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 1646
+  },
+  {
+   "date": "2026-02-22",
+   "yt_subscribers": 50,
+   "yt_change": 1,
+   "yt_real": false,
+   "yt_views": 42,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 4814
+  },
+  {
+   "date": "2026-02-23",
+   "yt_subscribers": 50,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 35,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 3224
+  },
+  {
+   "date": "2026-02-24",
+   "yt_subscribers": 50,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 759,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 3950
+  },
+  {
+   "date": "2026-02-25",
+   "yt_subscribers": 53,
+   "yt_change": 3,
+   "yt_real": false,
+   "yt_views": 2838,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 13289
+  },
+  {
+   "date": "2026-02-26",
+   "yt_subscribers": 53,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 240,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 11599
+  },
+  {
+   "date": "2026-02-27",
+   "yt_subscribers": 53,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 662,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 9444
+  },
+  {
+   "date": "2026-02-28",
+   "yt_subscribers": 54,
+   "yt_change": 1,
+   "yt_real": false,
+   "yt_views": 72,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 11004
+  },
+  {
+   "date": "2026-03-01",
+   "yt_subscribers": 54,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 73,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 8486
+  },
+  {
+   "date": "2026-03-02",
+   "yt_subscribers": 54,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 13,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 6864
+  },
+  {
+   "date": "2026-03-03",
+   "yt_subscribers": 54,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 1,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 6767
+  },
+  {
+   "date": "2026-03-04",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 7772
+  },
+  {
+   "date": "2026-03-05",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 6023
+  },
+  {
+   "date": "2026-03-06",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 20959
+  },
+  {
+   "date": "2026-03-07",
+   "yt_subscribers": 54,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 2,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 11410
+  },
+  {
+   "date": "2026-03-08",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 51593
+  },
+  {
+   "date": "2026-03-09",
+   "yt_subscribers": 54,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 1,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 52682
+  },
+  {
+   "date": "2026-03-10",
+   "yt_subscribers": 54,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 1,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 43348
+  },
+  {
+   "date": "2026-03-11",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 55075
+  },
+  {
+   "date": "2026-03-12",
+   "yt_subscribers": 54,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 2,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 85082
+  },
+  {
+   "date": "2026-03-13",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 102765
+  },
+  {
+   "date": "2026-03-14",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 128497
+  },
+  {
+   "date": "2026-03-15",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 167224
+  },
+  {
+   "date": "2026-03-16",
+   "yt_subscribers": 54,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 1,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 156551
+  },
+  {
+   "date": "2026-03-17",
+   "yt_subscribers": 54,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 1,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 110898
+  },
+  {
+   "date": "2026-03-18",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 77342
+  },
+  {
+   "date": "2026-03-19",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 68757
+  },
+  {
+   "date": "2026-03-20",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 60221
+  },
+  {
+   "date": "2026-03-21",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 50983
+  },
+  {
+   "date": "2026-03-22",
+   "yt_subscribers": 55,
+   "yt_change": 1,
+   "yt_real": false,
+   "yt_views": 11,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 43876
+  },
+  {
+   "date": "2026-03-23",
+   "yt_subscribers": 55,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 1,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 29343
+  },
+  {
+   "date": "2026-03-24",
+   "yt_subscribers": 55,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 1,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 35450
+  },
+  {
+   "date": "2026-03-25",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 32929
+  },
+  {
+   "date": "2026-03-26",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 33202
+  },
+  {
+   "date": "2026-03-27",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 34747
+  },
+  {
+   "date": "2026-03-28",
+   "yt_subscribers": 55,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 10,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 21497
+  },
+  {
+   "date": "2026-03-29",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 25552
+  },
+  {
+   "date": "2026-03-30",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 17317
+  },
+  {
+   "date": "2026-03-31",
+   "yt_subscribers": 55,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 14914
+  },
+  {
+   "date": "2026-04-01",
+   "yt_subscribers": 55,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 7,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 16382
+  },
+  {
+   "date": "2026-04-02",
+   "yt_subscribers": 55,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 9,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 15887
+  },
+  {
+   "date": "2026-04-03",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 17110
+  },
+  {
+   "date": "2026-04-04",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 17805
+  },
+  {
+   "date": "2026-04-05",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 33722
+  },
+  {
+   "date": "2026-04-06",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 39965
+  },
+  {
+   "date": "2026-04-07",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 29761
+  },
+  {
+   "date": "2026-04-08",
+   "yt_subscribers": 55,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 34541
+  },
+  {
+   "date": "2026-04-09",
+   "yt_subscribers": 55,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 2,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 33073
+  },
+  {
+   "date": "2026-04-10",
+   "yt_subscribers": 55,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 4,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 46054
+  },
+  {
+   "date": "2026-04-11",
+   "yt_subscribers": 55,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 1,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 59832
+  },
+  {
+   "date": "2026-04-12",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 77345
+  },
+  {
+   "date": "2026-04-13",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 47065
+  },
+  {
+   "date": "2026-04-14",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 28025
+  },
+  {
+   "date": "2026-04-15",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 23611
+  },
+  {
+   "date": "2026-04-16",
+   "yt_subscribers": 55,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 10,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 15882
+  },
+  {
+   "date": "2026-04-17",
+   "yt_subscribers": 55,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 12938
+  },
+  {
+   "date": "2026-04-18",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 15324
+  },
+  {
+   "date": "2026-04-19",
+   "yt_subscribers": 55,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 1,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 21068
+  },
+  {
+   "date": "2026-04-20",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 17200
+  },
+  {
+   "date": "2026-04-21",
+   "yt_subscribers": 55,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 11,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 19562
+  },
+  {
+   "date": "2026-04-22",
+   "yt_subscribers": 55,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 15089
+  },
+  {
+   "date": "2026-04-23",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 13940
+  },
+  {
+   "date": "2026-04-24",
+   "yt_subscribers": 55,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 4,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 8650
+  },
+  {
+   "date": "2026-04-25",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 11326
+  },
+  {
+   "date": "2026-04-26",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 12622
+  },
+  {
+   "date": "2026-04-27",
+   "yt_subscribers": 55,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 1,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 12841
+  },
+  {
+   "date": "2026-04-28",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 11135
+  },
+  {
+   "date": "2026-04-29",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 8527
+  },
+  {
+   "date": "2026-04-30",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 6637
+  },
+  {
+   "date": "2026-05-01",
+   "yt_subscribers": 55,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 1,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 6422
+  },
+  {
+   "date": "2026-05-02",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 5570
+  },
+  {
+   "date": "2026-05-03",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 8532
+  },
+  {
+   "date": "2026-05-04",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 7988
+  },
+  {
+   "date": "2026-05-05",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 30024
+  },
+  {
+   "date": "2026-05-06",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 160680
+  },
+  {
+   "date": "2026-05-07",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 76214
+  },
+  {
+   "date": "2026-05-08",
+   "yt_subscribers": 55,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 27,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 43452
+  },
+  {
+   "date": "2026-05-09",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 41379
+  },
+  {
+   "date": "2026-05-10",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 35009
+  },
+  {
+   "date": "2026-05-11",
+   "yt_subscribers": 55,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 33210
+  },
+  {
+   "date": "2026-05-12",
+   "yt_subscribers": 55,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 4,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 22664
+  },
+  {
+   "date": "2026-05-13",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 27961
+  },
+  {
+   "date": "2026-05-14",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 26670
+  },
+  {
+   "date": "2026-05-15",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 23169
+  },
+  {
+   "date": "2026-05-16",
+   "yt_subscribers": 55,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 1,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 25513
+  },
+  {
+   "date": "2026-05-17",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 28357
+  },
+  {
+   "date": "2026-05-18",
+   "yt_subscribers": 55,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 3,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 24909
+  },
+  {
+   "date": "2026-05-19",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 19831
+  },
+  {
+   "date": "2026-05-20",
+   "yt_subscribers": 56,
+   "yt_change": 1,
+   "yt_real": false,
+   "yt_views": 43,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 14455
+  },
+  {
+   "date": "2026-05-21",
+   "yt_subscribers": 56,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 7,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 10564
+  },
+  {
+   "date": "2026-05-22",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 8846
+  },
+  {
+   "date": "2026-05-23",
+   "yt_subscribers": 56,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 4,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 12834
+  },
+  {
+   "date": "2026-05-24",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 19085
+  },
+  {
+   "date": "2026-05-25",
+   "yt_subscribers": 56,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 2,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 22186
+  },
+  {
+   "date": "2026-05-26",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 14792
+  },
+  {
+   "date": "2026-05-27",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 11997
+  },
+  {
+   "date": "2026-05-28",
+   "yt_subscribers": 56,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 2,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 10662
+  },
+  {
+   "date": "2026-05-29",
+   "yt_subscribers": 56,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 7659
+  },
+  {
+   "date": "2026-05-30",
+   "yt_subscribers": 56,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 2,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 8887
+  },
+  {
+   "date": "2026-05-31",
+   "yt_subscribers": 56,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 1,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 10979
+  },
+  {
+   "date": "2026-06-01",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 18602
+  },
+  {
+   "date": "2026-06-02",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 15091
+  },
+  {
+   "date": "2026-06-03",
+   "yt_subscribers": 56,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 1,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 14848
+  },
+  {
+   "date": "2026-06-04",
+   "yt_subscribers": 56,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 2,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 14117
+  },
+  {
+   "date": "2026-06-05",
+   "yt_subscribers": 56,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 1,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 15268
+  },
+  {
+   "date": "2026-06-06",
+   "yt_subscribers": 56,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 2,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 22164
+  },
+  {
+   "date": "2026-06-07",
+   "yt_subscribers": 56,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 6,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 19827
+  },
+  {
+   "date": "2026-06-08",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 14434
+  },
+  {
+   "date": "2026-06-09",
+   "yt_subscribers": 57,
+   "yt_change": 1,
+   "yt_real": false,
+   "yt_views": 4,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 5470
+  },
+  {
+   "date": "2026-06-10",
+   "yt_subscribers": 57,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 3,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 4116
+  },
+  {
+   "date": "2026-06-11",
+   "yt_subscribers": 57,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 3860
+  },
+  {
+   "date": "2026-06-12",
+   "yt_subscribers": 57,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 3,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 4796
+  },
+  {
+   "date": "2026-06-13",
+   "yt_subscribers": 58,
+   "yt_change": 1,
+   "yt_real": false,
+   "yt_views": 8,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 5273
+  },
+  {
+   "date": "2026-06-14",
+   "yt_subscribers": 58,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 3,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 4520
+  },
+  {
+   "date": "2026-06-15",
+   "yt_subscribers": 58,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 7,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 26033
+  },
+  {
+   "date": "2026-06-16",
+   "yt_subscribers": 58,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 14,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 24538
+  },
+  {
+   "date": "2026-06-17",
+   "yt_subscribers": 58,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 1,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 7364
+  },
+  {
+   "date": "2026-06-18",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 7087
+  },
+  {
+   "date": "2026-06-19",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 6144
+  },
+  {
+   "date": "2026-06-20",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 8283
+  },
+  {
+   "date": "2026-06-21",
+   "yt_subscribers": 58,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 6109
+  },
+  {
+   "date": "2026-06-22",
+   "yt_subscribers": 58,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 1,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 5768
+  },
+  {
+   "date": "2026-06-23",
+   "yt_subscribers": 59,
+   "yt_change": 1,
+   "yt_real": false,
+   "yt_views": 1,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 8424
+  },
+  {
+   "date": "2026-06-24",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 5127
+  },
+  {
+   "date": "2026-06-25",
+   "yt_subscribers": 59,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 2,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 5224
+  },
+  {
+   "date": "2026-06-26",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 7991
+  },
+  {
+   "date": "2026-06-27",
+   "yt_subscribers": 59,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 2,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 7037
+  },
+  {
+   "date": "2026-06-28",
+   "yt_subscribers": 59,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 1,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 5713
+  },
+  {
+   "date": "2026-06-29",
+   "yt_subscribers": 59,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 5,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 4394
+  },
+  {
+   "date": "2026-06-30",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 3707
+  },
+  {
+   "date": "2026-07-01",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 3795
+  },
+  {
+   "date": "2026-07-02",
+   "yt_subscribers": 59,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 3,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 3585
+  },
+  {
+   "date": "2026-07-03",
+   "yt_subscribers": 59,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 4427
+  },
+  {
+   "date": "2026-07-04",
+   "yt_subscribers": 59,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 1,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 4449
+  },
+  {
+   "date": "2026-07-05",
+   "yt_subscribers": 59,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 5,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 8074
+  },
+  {
+   "date": "2026-07-06",
+   "yt_subscribers": 60,
+   "yt_change": 1,
+   "yt_real": false,
+   "yt_views": 9,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 5898
+  },
+  {
+   "date": "2026-07-07",
+   "yt_subscribers": 60,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 1,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 7949
+  },
+  {
+   "date": "2026-07-08",
+   "yt_subscribers": 60,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 2,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 8718
+  },
+  {
+   "date": "2026-07-09",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 10238
+  },
+  {
+   "date": "2026-07-10",
+   "yt_subscribers": 60,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 5,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 7392
+  },
+  {
+   "date": "2026-07-11",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 8875
+  },
+  {
+   "date": "2026-07-12",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 14787
+  },
+  {
+   "date": "2026-07-13",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 12445
+  },
+  {
+   "date": "2026-07-14",
+   "yt_subscribers": 60,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 4,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 7278
+  },
+  {
+   "date": "2026-07-15",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 7341
+  },
+  {
+   "date": "2026-07-16",
+   "yt_subscribers": 60,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 2,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 5621
+  },
+  {
+   "date": "2026-07-17",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 4632
+  },
+  {
+   "date": "2026-07-18",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 5639
+  },
+  {
+   "date": "2026-07-19",
+   "yt_subscribers": 61,
+   "yt_change": 1,
+   "yt_real": false,
+   "yt_views": 674,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 6242
+  },
+  {
+   "date": "2026-07-20",
+   "yt_subscribers": 61,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 10,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 9197
+  },
+  {
+   "date": "2026-07-21",
+   "yt_subscribers": 62,
+   "yt_change": 1,
+   "yt_real": false,
+   "yt_views": 11,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 8276
+  },
+  {
+   "date": "2026-07-22",
+   "yt_subscribers": 62,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 3,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 7405
+  },
+  {
+   "date": "2026-07-23",
+   "yt_subscribers": 62,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 5028
+  },
+  {
+   "date": "2026-07-24",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 4953
+  },
+  {
+   "date": "2026-07-25",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 4032
+  },
+  {
+   "date": "2026-07-26",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 4087
+  },
+  {
+   "date": "2026-07-27",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 6809
+  },
+  {
+   "date": "2026-07-28",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 4539
+  },
+  {
+   "date": "2026-07-29",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 5930
+  },
+  {
+   "date": "2026-07-30",
+   "yt_subscribers": 62,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 1,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 7563
+  },
+  {
+   "date": "2026-07-31",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 5733
+  },
+  {
+   "date": "2026-08-01",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 4069
+  },
+  {
+   "date": "2026-08-02",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 4597
+  },
+  {
+   "date": "2026-08-03",
+   "yt_subscribers": 62,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 1,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 3698
+  },
+  {
+   "date": "2026-08-04",
+   "yt_subscribers": 63,
+   "yt_change": 1,
+   "yt_real": false,
+   "yt_views": 3,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 4052
+  },
+  {
+   "date": "2026-08-05",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 4076
+  },
+  {
+   "date": "2026-08-06",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 2360
+  },
+  {
+   "date": "2026-08-07",
+   "yt_subscribers": 63,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 2421
+  },
+  {
+   "date": "2026-08-08",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 2895
+  },
+  {
+   "date": "2026-08-09",
+   "yt_subscribers": 63,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 4,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 3297
+  },
+  {
+   "date": "2026-08-10",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 3634
+  },
+  {
+   "date": "2026-08-11",
+   "yt_subscribers": 63,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 2,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 2583
+  },
+  {
+   "date": "2026-08-12",
+   "yt_subscribers": 63,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 8,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 4052
+  },
+  {
+   "date": "2026-08-13",
+   "yt_subscribers": 63,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 2,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 4001
+  },
+  {
+   "date": "2026-08-14",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 5814
+  },
+  {
+   "date": "2026-08-15",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 4893
+  },
+  {
+   "date": "2026-08-16",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 9474
+  },
+  {
+   "date": "2026-08-17",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 4910
+  },
+  {
+   "date": "2026-08-18",
+   "yt_subscribers": 63,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 3,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 4661
+  },
+  {
+   "date": "2026-08-19",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 3007
+  },
+  {
+   "date": "2026-08-20",
+   "yt_subscribers": 63,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 1,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 3137
+  },
+  {
+   "date": "2026-08-21",
+   "yt_subscribers": 63,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 2314
+  },
+  {
+   "date": "2026-08-22",
+   "yt_subscribers": 63,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 1,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 4204
+  },
+  {
+   "date": "2026-08-23",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 3288
+  },
+  {
+   "date": "2026-08-24",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 2444
+  },
+  {
+   "date": "2026-08-25",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 8262
+  },
+  {
+   "date": "2026-08-26",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 7489
+  },
+  {
+   "date": "2026-08-27",
+   "yt_subscribers": 64,
+   "yt_change": 1,
+   "yt_real": false,
+   "yt_views": 3,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 6321
+  },
+  {
+   "date": "2026-08-28",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 4311
+  },
+  {
+   "date": "2026-08-29",
+   "yt_subscribers": 64,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 2,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 5606
+  },
+  {
+   "date": "2026-08-30",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 7260
+  },
+  {
+   "date": "2026-08-31",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 3480
+  },
+  {
+   "date": "2026-09-01",
+   "yt_subscribers": 64,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 2,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 3954
+  },
+  {
+   "date": "2026-09-02",
+   "yt_subscribers": 64,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 4,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 5009
+  },
+  {
+   "date": "2026-09-03",
+   "yt_subscribers": 64,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 1,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 2930
+  },
+  {
+   "date": "2026-09-04",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 1529
+  },
+  {
+   "date": "2026-09-05",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": 0,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 4311
+  },
+  {
+   "date": "2026-09-06",
+   "yt_subscribers": 65,
+   "yt_change": 1,
+   "yt_real": false,
+   "yt_views": 2,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 4130
+  },
+  {
+   "date": "2026-09-07",
+   "yt_subscribers": 65,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 2,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 3295
+  },
+  {
+   "date": "2026-09-08",
+   "yt_subscribers": 65,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 4,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 2794
+  },
+  {
+   "date": "2026-09-09",
+   "yt_subscribers": 65,
+   "yt_change": 0,
+   "yt_real": false,
+   "yt_views": 4,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 7927
+  },
+  {
+   "date": "2026-09-10",
+   "yt_subscribers": 66,
+   "yt_change": 1,
+   "yt_real": false,
+   "yt_views": 1,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 56740
+  },
+  {
    "date": "2026-09-11",
    "yt_subscribers": 66,
    "yt_change": 0,
    "yt_real": false,
    "yt_views": 3,
-   "ig_followers": 7200,
+   "ig_followers": 7197,
    "ig_change": 53,
    "ig_real": false,
    "ig_views": 11556
@@ -32,7 +3706,7 @@
    "yt_change": 2,
    "yt_real": false,
    "yt_views": 24,
-   "ig_followers": 7223,
+   "ig_followers": 7220,
    "ig_change": 23,
    "ig_real": false,
    "ig_views": 9759
@@ -43,7 +3717,7 @@
    "yt_change": 0,
    "yt_real": false,
    "yt_views": 1,
-   "ig_followers": 7241,
+   "ig_followers": 7238,
    "ig_change": 18,
    "ig_real": false,
    "ig_views": 5231
@@ -54,7 +3728,7 @@
    "yt_change": 0,
    "yt_real": false,
    "yt_views": 21,
-   "ig_followers": 7250,
+   "ig_followers": 7247,
    "ig_change": 9,
    "ig_real": false,
    "ig_views": 4035
@@ -65,7 +3739,7 @@
    "yt_change": 0,
    "yt_real": false,
    "yt_views": 11,
-   "ig_followers": 7272,
+   "ig_followers": 7269,
    "ig_change": 22,
    "ig_real": false,
    "ig_views": 9130
@@ -76,7 +3750,7 @@
    "yt_change": 1,
    "yt_real": false,
    "yt_views": 20,
-   "ig_followers": 7284,
+   "ig_followers": 7281,
    "ig_change": 12,
    "ig_real": false,
    "ig_views": 4301
@@ -87,7 +3761,7 @@
    "yt_change": 1,
    "yt_real": false,
    "yt_views": 7,
-   "ig_followers": 7292,
+   "ig_followers": 7289,
    "ig_change": 8,
    "ig_real": false,
    "ig_views": 2444
@@ -98,7 +3772,7 @@
    "yt_change": 0,
    "yt_real": false,
    "yt_views": 11,
-   "ig_followers": 7302,
+   "ig_followers": 7299,
    "ig_change": 10,
    "ig_real": false,
    "ig_views": 2134
@@ -109,7 +3783,7 @@
    "yt_change": 0,
    "yt_real": false,
    "yt_views": 1,
-   "ig_followers": 7311,
+   "ig_followers": 7308,
    "ig_change": 9,
    "ig_real": false,
    "ig_views": 5784
@@ -120,7 +3794,7 @@
    "yt_change": 0,
    "yt_real": false,
    "yt_views": 6,
-   "ig_followers": 7319,
+   "ig_followers": 7316,
    "ig_change": 8,
    "ig_real": false,
    "ig_views": 6236
@@ -131,7 +3805,7 @@
    "yt_change": 0,
    "yt_real": false,
    "yt_views": 16,
-   "ig_followers": 7328,
+   "ig_followers": 7325,
    "ig_change": 9,
    "ig_real": false,
    "ig_views": 5221
@@ -142,7 +3816,7 @@
    "yt_change": 1,
    "yt_real": false,
    "yt_views": 5,
-   "ig_followers": 7334,
+   "ig_followers": 7331,
    "ig_change": 6,
    "ig_real": false,
    "ig_views": 3710
@@ -153,7 +3827,7 @@
    "yt_change": 0,
    "yt_real": false,
    "yt_views": 17,
-   "ig_followers": 7343,
+   "ig_followers": 7340,
    "ig_change": 9,
    "ig_real": false,
    "ig_views": 1871
@@ -164,7 +3838,7 @@
    "yt_change": 0,
    "yt_real": false,
    "yt_views": 24,
-   "ig_followers": 7350,
+   "ig_followers": 7347,
    "ig_change": 7,
    "ig_real": false,
    "ig_views": 2288
@@ -175,7 +3849,7 @@
    "yt_change": 0,
    "yt_real": false,
    "yt_views": 22,
-   "ig_followers": 7354,
+   "ig_followers": 7351,
    "ig_change": 4,
    "ig_real": false,
    "ig_views": 2966
@@ -186,7 +3860,7 @@
    "yt_change": 0,
    "yt_real": false,
    "yt_views": 3,
-   "ig_followers": 7360,
+   "ig_followers": 7357,
    "ig_change": 6,
    "ig_real": false,
    "ig_views": 940
@@ -197,7 +3871,7 @@
    "yt_change": 0,
    "yt_real": false,
    "yt_views": 5,
-   "ig_followers": 7365,
+   "ig_followers": 7362,
    "ig_change": 5,
    "ig_real": false,
    "ig_views": 1328
@@ -208,7 +3882,7 @@
    "yt_change": 1,
    "yt_real": false,
    "yt_views": 6,
-   "ig_followers": 7368,
+   "ig_followers": 7365,
    "ig_change": 3,
    "ig_real": false,
    "ig_views": 4518
@@ -219,7 +3893,7 @@
    "yt_change": 1,
    "yt_real": false,
    "yt_views": 4,
-   "ig_followers": 7371,
+   "ig_followers": 7368,
    "ig_change": 3,
    "ig_real": false,
    "ig_views": 2525
@@ -230,7 +3904,7 @@
    "yt_change": 0,
    "yt_real": false,
    "yt_views": 216,
-   "ig_followers": 7381,
+   "ig_followers": 7378,
    "ig_change": 10,
    "ig_real": false,
    "ig_views": 5534
@@ -241,7 +3915,7 @@
    "yt_change": 2,
    "yt_real": false,
    "yt_views": 1645,
-   "ig_followers": 7386,
+   "ig_followers": 7383,
    "ig_change": 5,
    "ig_real": false,
    "ig_views": 4156
@@ -252,7 +3926,7 @@
    "yt_change": 10,
    "yt_real": false,
    "yt_views": 2078,
-   "ig_followers": 7393,
+   "ig_followers": 7390,
    "ig_change": 7,
    "ig_real": false,
    "ig_views": 2831
@@ -263,7 +3937,7 @@
    "yt_change": 0,
    "yt_real": false,
    "yt_views": 959,
-   "ig_followers": 7397,
+   "ig_followers": 7394,
    "ig_change": 4,
    "ig_real": false,
    "ig_views": 2497
@@ -274,7 +3948,7 @@
    "yt_change": 0,
    "yt_real": false,
    "yt_views": 1412,
-   "ig_followers": 7405,
+   "ig_followers": 7402,
    "ig_change": 8,
    "ig_real": false,
    "ig_views": 3773
@@ -285,7 +3959,7 @@
    "yt_change": 0,
    "yt_real": false,
    "yt_views": 1127,
-   "ig_followers": 7411,
+   "ig_followers": 7408,
    "ig_change": 6,
    "ig_real": false,
    "ig_views": 1905
@@ -296,7 +3970,7 @@
    "yt_change": 0,
    "yt_real": false,
    "yt_views": 535,
-   "ig_followers": 7416,
+   "ig_followers": 7413,
    "ig_change": 5,
    "ig_real": false,
    "ig_views": 1548
@@ -307,18 +3981,18 @@
    "yt_change": 0,
    "yt_real": false,
    "yt_views": 532,
-   "ig_followers": 7421,
+   "ig_followers": 7418,
    "ig_change": 5,
    "ig_real": false,
    "ig_views": 1058
   },
   {
    "date": "2026-10-08",
-   "yt_subscribers": null,
-   "yt_change": null,
+   "yt_subscribers": 85,
+   "yt_change": 0,
    "yt_real": false,
-   "yt_views": null,
-   "ig_followers": 7425,
+   "yt_views": 48,
+   "ig_followers": 7422,
    "ig_change": 4,
    "ig_real": false,
    "ig_views": 2456
@@ -329,8 +4003,8 @@
    "yt_change": null,
    "yt_real": false,
    "yt_views": null,
-   "ig_followers": null,
-   "ig_change": null,
+   "ig_followers": 7425,
+   "ig_change": 3,
    "ig_real": false,
    "ig_views": 1840
   },
@@ -343,7 +4017,7 @@
    "ig_followers": 7425,
    "ig_change": null,
    "ig_real": true,
-   "ig_views": 397
+   "ig_views": 2743
   },
   {
    "date": "2026-10-11",
@@ -354,7 +4028,7 @@
    "ig_followers": 7425,
    "ig_change": 0,
    "ig_real": true,
-   "ig_views": null
+   "ig_views": 0
   }
  ],
  "top": {
@@ -2127,6 +5801,2344 @@
  },
  "reported": [
   {
+   "date": "2025-10-12",
+   "ig_views": 0,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2025-10-13",
+   "ig_views": 0,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2025-10-14",
+   "ig_views": 0,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2025-10-15",
+   "ig_views": 0,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2025-10-16",
+   "ig_views": 0,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2025-10-17",
+   "ig_views": 0,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2025-10-18",
+   "ig_views": 0,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2025-10-19",
+   "ig_views": 0,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2025-10-20",
+   "ig_views": 0,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2025-10-21",
+   "ig_views": 0,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2025-10-22",
+   "ig_views": 0,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2025-10-23",
+   "ig_views": 439,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2025-10-24",
+   "ig_views": 1016,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2025-10-25",
+   "ig_views": 4,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2025-10-26",
+   "ig_views": 0,
+   "ig_new_followers": null,
+   "yt_views": 351,
+   "yt_net_subscribers": 1
+  },
+  {
+   "date": "2025-10-27",
+   "ig_views": 111,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2025-10-28",
+   "ig_views": 210,
+   "ig_new_followers": null,
+   "yt_views": 46,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2025-10-29",
+   "ig_views": 114,
+   "ig_new_followers": null,
+   "yt_views": 42,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2025-10-30",
+   "ig_views": 487,
+   "ig_new_followers": null,
+   "yt_views": 1,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2025-10-31",
+   "ig_views": 148,
+   "ig_new_followers": null,
+   "yt_views": 2,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2025-11-01",
+   "ig_views": 1720,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2025-11-02",
+   "ig_views": 505,
+   "ig_new_followers": null,
+   "yt_views": 208,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2025-11-03",
+   "ig_views": 122,
+   "ig_new_followers": null,
+   "yt_views": 1124,
+   "yt_net_subscribers": 2
+  },
+  {
+   "date": "2025-11-04",
+   "ig_views": 89,
+   "ig_new_followers": null,
+   "yt_views": 57,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2025-11-05",
+   "ig_views": 219,
+   "ig_new_followers": null,
+   "yt_views": 1075,
+   "yt_net_subscribers": 1
+  },
+  {
+   "date": "2025-11-06",
+   "ig_views": 18,
+   "ig_new_followers": null,
+   "yt_views": 1290,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2025-11-07",
+   "ig_views": 294,
+   "ig_new_followers": null,
+   "yt_views": 881,
+   "yt_net_subscribers": 2
+  },
+  {
+   "date": "2025-11-08",
+   "ig_views": 163,
+   "ig_new_followers": null,
+   "yt_views": 1143,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2025-11-09",
+   "ig_views": 144,
+   "ig_new_followers": null,
+   "yt_views": 7,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2025-11-10",
+   "ig_views": 137,
+   "ig_new_followers": null,
+   "yt_views": 1097,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2025-11-11",
+   "ig_views": 658,
+   "ig_new_followers": null,
+   "yt_views": 108,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2025-11-12",
+   "ig_views": 606,
+   "ig_new_followers": null,
+   "yt_views": 7,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2025-11-13",
+   "ig_views": 281,
+   "ig_new_followers": null,
+   "yt_views": 1257,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2025-11-14",
+   "ig_views": 189,
+   "ig_new_followers": null,
+   "yt_views": 331,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2025-11-15",
+   "ig_views": 42,
+   "ig_new_followers": null,
+   "yt_views": 226,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2025-11-16",
+   "ig_views": 923,
+   "ig_new_followers": null,
+   "yt_views": 832,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2025-11-17",
+   "ig_views": 33,
+   "ig_new_followers": null,
+   "yt_views": 5,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2025-11-18",
+   "ig_views": 53,
+   "ig_new_followers": null,
+   "yt_views": 2049,
+   "yt_net_subscribers": 1
+  },
+  {
+   "date": "2025-11-19",
+   "ig_views": 222,
+   "ig_new_followers": null,
+   "yt_views": 67,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2025-11-20",
+   "ig_views": 45,
+   "ig_new_followers": null,
+   "yt_views": 2,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2025-11-21",
+   "ig_views": 164,
+   "ig_new_followers": null,
+   "yt_views": 2748,
+   "yt_net_subscribers": 3
+  },
+  {
+   "date": "2025-11-22",
+   "ig_views": 24,
+   "ig_new_followers": null,
+   "yt_views": 2731,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2025-11-23",
+   "ig_views": 119,
+   "ig_new_followers": null,
+   "yt_views": 1234,
+   "yt_net_subscribers": 7
+  },
+  {
+   "date": "2025-11-24",
+   "ig_views": 156,
+   "ig_new_followers": null,
+   "yt_views": 3290,
+   "yt_net_subscribers": 3
+  },
+  {
+   "date": "2025-11-25",
+   "ig_views": 174,
+   "ig_new_followers": null,
+   "yt_views": 1349,
+   "yt_net_subscribers": 2
+  },
+  {
+   "date": "2025-11-26",
+   "ig_views": 1087,
+   "ig_new_followers": null,
+   "yt_views": 2457,
+   "yt_net_subscribers": 3
+  },
+  {
+   "date": "2025-11-27",
+   "ig_views": 1217,
+   "ig_new_followers": null,
+   "yt_views": 694,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2025-11-28",
+   "ig_views": 1028,
+   "ig_new_followers": null,
+   "yt_views": 307,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2025-11-29",
+   "ig_views": 1566,
+   "ig_new_followers": null,
+   "yt_views": 1207,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2025-11-30",
+   "ig_views": 2823,
+   "ig_new_followers": null,
+   "yt_views": 1270,
+   "yt_net_subscribers": 2
+  },
+  {
+   "date": "2025-12-01",
+   "ig_views": 2016,
+   "ig_new_followers": null,
+   "yt_views": 582,
+   "yt_net_subscribers": 1
+  },
+  {
+   "date": "2025-12-02",
+   "ig_views": 299,
+   "ig_new_followers": null,
+   "yt_views": 845,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2025-12-03",
+   "ig_views": 305,
+   "ig_new_followers": null,
+   "yt_views": 16,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2025-12-04",
+   "ig_views": 220,
+   "ig_new_followers": null,
+   "yt_views": 217,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2025-12-05",
+   "ig_views": 95,
+   "ig_new_followers": null,
+   "yt_views": 760,
+   "yt_net_subscribers": 2
+  },
+  {
+   "date": "2025-12-06",
+   "ig_views": 96,
+   "ig_new_followers": null,
+   "yt_views": 3,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2025-12-07",
+   "ig_views": 41,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2025-12-08",
+   "ig_views": 472,
+   "ig_new_followers": null,
+   "yt_views": 8,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2025-12-09",
+   "ig_views": 1552,
+   "ig_new_followers": null,
+   "yt_views": 1519,
+   "yt_net_subscribers": 1
+  },
+  {
+   "date": "2025-12-10",
+   "ig_views": 373,
+   "ig_new_followers": null,
+   "yt_views": 728,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2025-12-11",
+   "ig_views": 76,
+   "ig_new_followers": null,
+   "yt_views": 989,
+   "yt_net_subscribers": 1
+  },
+  {
+   "date": "2025-12-12",
+   "ig_views": 2120,
+   "ig_new_followers": null,
+   "yt_views": 1333,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2025-12-13",
+   "ig_views": 5863,
+   "ig_new_followers": null,
+   "yt_views": 1757,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2025-12-14",
+   "ig_views": 6710,
+   "ig_new_followers": null,
+   "yt_views": 173,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2025-12-15",
+   "ig_views": 8471,
+   "ig_new_followers": null,
+   "yt_views": 690,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2025-12-16",
+   "ig_views": 3010,
+   "ig_new_followers": null,
+   "yt_views": 437,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2025-12-17",
+   "ig_views": 7389,
+   "ig_new_followers": null,
+   "yt_views": 1730,
+   "yt_net_subscribers": 1
+  },
+  {
+   "date": "2025-12-18",
+   "ig_views": 3451,
+   "ig_new_followers": null,
+   "yt_views": 1886,
+   "yt_net_subscribers": 2
+  },
+  {
+   "date": "2025-12-19",
+   "ig_views": 3689,
+   "ig_new_followers": null,
+   "yt_views": 35,
+   "yt_net_subscribers": 1
+  },
+  {
+   "date": "2025-12-20",
+   "ig_views": 3058,
+   "ig_new_followers": null,
+   "yt_views": 44,
+   "yt_net_subscribers": 1
+  },
+  {
+   "date": "2025-12-21",
+   "ig_views": 2742,
+   "ig_new_followers": null,
+   "yt_views": 12,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2025-12-22",
+   "ig_views": 2610,
+   "ig_new_followers": null,
+   "yt_views": 1757,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2025-12-23",
+   "ig_views": 6113,
+   "ig_new_followers": null,
+   "yt_views": 1458,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2025-12-24",
+   "ig_views": 1880,
+   "ig_new_followers": null,
+   "yt_views": 413,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2025-12-25",
+   "ig_views": 1563,
+   "ig_new_followers": null,
+   "yt_views": 7,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2025-12-26",
+   "ig_views": 545,
+   "ig_new_followers": null,
+   "yt_views": 6,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2025-12-27",
+   "ig_views": 130,
+   "ig_new_followers": null,
+   "yt_views": 2,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2025-12-28",
+   "ig_views": 745,
+   "ig_new_followers": null,
+   "yt_views": 150,
+   "yt_net_subscribers": 1
+  },
+  {
+   "date": "2025-12-29",
+   "ig_views": 4532,
+   "ig_new_followers": null,
+   "yt_views": 1149,
+   "yt_net_subscribers": 1
+  },
+  {
+   "date": "2025-12-30",
+   "ig_views": 3747,
+   "ig_new_followers": null,
+   "yt_views": 242,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2025-12-31",
+   "ig_views": 688,
+   "ig_new_followers": null,
+   "yt_views": 1053,
+   "yt_net_subscribers": 1
+  },
+  {
+   "date": "2026-01-01",
+   "ig_views": 2204,
+   "ig_new_followers": null,
+   "yt_views": 31,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-01-02",
+   "ig_views": 240,
+   "ig_new_followers": null,
+   "yt_views": 2,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-01-03",
+   "ig_views": 600,
+   "ig_new_followers": null,
+   "yt_views": 2,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-01-04",
+   "ig_views": 2120,
+   "ig_new_followers": null,
+   "yt_views": 2,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-01-05",
+   "ig_views": 119,
+   "ig_new_followers": null,
+   "yt_views": 1,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-01-06",
+   "ig_views": 44,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-01-07",
+   "ig_views": 48,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-01-08",
+   "ig_views": 37,
+   "ig_new_followers": null,
+   "yt_views": 2,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-01-09",
+   "ig_views": 332,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-01-10",
+   "ig_views": 45,
+   "ig_new_followers": null,
+   "yt_views": 1,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-01-11",
+   "ig_views": 55,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-01-12",
+   "ig_views": 27,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-01-13",
+   "ig_views": 2740,
+   "ig_new_followers": null,
+   "yt_views": 2,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-01-14",
+   "ig_views": 1058,
+   "ig_new_followers": null,
+   "yt_views": 1,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-01-15",
+   "ig_views": 746,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-01-16",
+   "ig_views": 1985,
+   "ig_new_followers": null,
+   "yt_views": 1,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-01-17",
+   "ig_views": 1110,
+   "ig_new_followers": null,
+   "yt_views": 1,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-01-18",
+   "ig_views": 721,
+   "ig_new_followers": null,
+   "yt_views": 136,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-01-19",
+   "ig_views": 589,
+   "ig_new_followers": null,
+   "yt_views": 9,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-01-20",
+   "ig_views": 531,
+   "ig_new_followers": null,
+   "yt_views": 3,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-01-21",
+   "ig_views": 402,
+   "ig_new_followers": null,
+   "yt_views": 74,
+   "yt_net_subscribers": 1
+  },
+  {
+   "date": "2026-01-22",
+   "ig_views": 1918,
+   "ig_new_followers": null,
+   "yt_views": 251,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-01-23",
+   "ig_views": 1522,
+   "ig_new_followers": null,
+   "yt_views": 231,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-01-24",
+   "ig_views": 1008,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": -1
+  },
+  {
+   "date": "2026-01-25",
+   "ig_views": 1894,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-01-26",
+   "ig_views": 1098,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-01-27",
+   "ig_views": 118,
+   "ig_new_followers": null,
+   "yt_views": 1371,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-01-28",
+   "ig_views": 2069,
+   "ig_new_followers": null,
+   "yt_views": 44,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-01-29",
+   "ig_views": 769,
+   "ig_new_followers": null,
+   "yt_views": 2278,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-01-30",
+   "ig_views": 421,
+   "ig_new_followers": null,
+   "yt_views": 406,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-01-31",
+   "ig_views": 2566,
+   "ig_new_followers": null,
+   "yt_views": 140,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-02-01",
+   "ig_views": 1136,
+   "ig_new_followers": null,
+   "yt_views": 116,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-02-02",
+   "ig_views": 6263,
+   "ig_new_followers": null,
+   "yt_views": 1,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-02-03",
+   "ig_views": 2619,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-02-04",
+   "ig_views": 3059,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-02-05",
+   "ig_views": 4033,
+   "ig_new_followers": null,
+   "yt_views": 1,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-02-06",
+   "ig_views": 2747,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-02-07",
+   "ig_views": 1437,
+   "ig_new_followers": null,
+   "yt_views": 6,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-02-08",
+   "ig_views": 6881,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-02-09",
+   "ig_views": 13707,
+   "ig_new_followers": null,
+   "yt_views": 1632,
+   "yt_net_subscribers": 2
+  },
+  {
+   "date": "2026-02-10",
+   "ig_views": 3267,
+   "ig_new_followers": null,
+   "yt_views": 1555,
+   "yt_net_subscribers": 1
+  },
+  {
+   "date": "2026-02-11",
+   "ig_views": 2550,
+   "ig_new_followers": null,
+   "yt_views": 243,
+   "yt_net_subscribers": 1
+  },
+  {
+   "date": "2026-02-12",
+   "ig_views": 1690,
+   "ig_new_followers": null,
+   "yt_views": 32,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-02-13",
+   "ig_views": 3378,
+   "ig_new_followers": null,
+   "yt_views": 1,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-02-14",
+   "ig_views": 3015,
+   "ig_new_followers": null,
+   "yt_views": 8,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-02-15",
+   "ig_views": 4180,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-02-16",
+   "ig_views": 3255,
+   "ig_new_followers": null,
+   "yt_views": 2,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-02-17",
+   "ig_views": 4043,
+   "ig_new_followers": null,
+   "yt_views": 4,
+   "yt_net_subscribers": 1
+  },
+  {
+   "date": "2026-02-18",
+   "ig_views": 3839,
+   "ig_new_followers": null,
+   "yt_views": 161,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-02-19",
+   "ig_views": 5932,
+   "ig_new_followers": null,
+   "yt_views": 1168,
+   "yt_net_subscribers": 1
+  },
+  {
+   "date": "2026-02-20",
+   "ig_views": 1409,
+   "ig_new_followers": null,
+   "yt_views": 167,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-02-21",
+   "ig_views": 1646,
+   "ig_new_followers": null,
+   "yt_views": 115,
+   "yt_net_subscribers": 1
+  },
+  {
+   "date": "2026-02-22",
+   "ig_views": 4814,
+   "ig_new_followers": null,
+   "yt_views": 42,
+   "yt_net_subscribers": 1
+  },
+  {
+   "date": "2026-02-23",
+   "ig_views": 3224,
+   "ig_new_followers": null,
+   "yt_views": 35,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-02-24",
+   "ig_views": 3950,
+   "ig_new_followers": null,
+   "yt_views": 759,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-02-25",
+   "ig_views": 13289,
+   "ig_new_followers": null,
+   "yt_views": 2838,
+   "yt_net_subscribers": 3
+  },
+  {
+   "date": "2026-02-26",
+   "ig_views": 11599,
+   "ig_new_followers": null,
+   "yt_views": 240,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-02-27",
+   "ig_views": 9444,
+   "ig_new_followers": null,
+   "yt_views": 662,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-02-28",
+   "ig_views": 11004,
+   "ig_new_followers": null,
+   "yt_views": 72,
+   "yt_net_subscribers": 1
+  },
+  {
+   "date": "2026-03-01",
+   "ig_views": 8486,
+   "ig_new_followers": null,
+   "yt_views": 73,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-03-02",
+   "ig_views": 6864,
+   "ig_new_followers": null,
+   "yt_views": 13,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-03-03",
+   "ig_views": 6767,
+   "ig_new_followers": null,
+   "yt_views": 1,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-03-04",
+   "ig_views": 7772,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-03-05",
+   "ig_views": 6023,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-03-06",
+   "ig_views": 20959,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-03-07",
+   "ig_views": 11410,
+   "ig_new_followers": null,
+   "yt_views": 2,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-03-08",
+   "ig_views": 51593,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-03-09",
+   "ig_views": 52682,
+   "ig_new_followers": null,
+   "yt_views": 1,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-03-10",
+   "ig_views": 43348,
+   "ig_new_followers": null,
+   "yt_views": 1,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-03-11",
+   "ig_views": 55075,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-03-12",
+   "ig_views": 85082,
+   "ig_new_followers": null,
+   "yt_views": 2,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-03-13",
+   "ig_views": 102765,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-03-14",
+   "ig_views": 128497,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-03-15",
+   "ig_views": 167224,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-03-16",
+   "ig_views": 156551,
+   "ig_new_followers": null,
+   "yt_views": 1,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-03-17",
+   "ig_views": 110898,
+   "ig_new_followers": null,
+   "yt_views": 1,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-03-18",
+   "ig_views": 77342,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-03-19",
+   "ig_views": 68757,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-03-20",
+   "ig_views": 60221,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-03-21",
+   "ig_views": 50983,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-03-22",
+   "ig_views": 43876,
+   "ig_new_followers": null,
+   "yt_views": 11,
+   "yt_net_subscribers": 1
+  },
+  {
+   "date": "2026-03-23",
+   "ig_views": 29343,
+   "ig_new_followers": null,
+   "yt_views": 1,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-03-24",
+   "ig_views": 35450,
+   "ig_new_followers": null,
+   "yt_views": 1,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-03-25",
+   "ig_views": 32929,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-03-26",
+   "ig_views": 33202,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-03-27",
+   "ig_views": 34747,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-03-28",
+   "ig_views": 21497,
+   "ig_new_followers": null,
+   "yt_views": 10,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-03-29",
+   "ig_views": 25552,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-03-30",
+   "ig_views": 17317,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-03-31",
+   "ig_views": 14914,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-04-01",
+   "ig_views": 16382,
+   "ig_new_followers": null,
+   "yt_views": 7,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-04-02",
+   "ig_views": 15887,
+   "ig_new_followers": null,
+   "yt_views": 9,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-04-03",
+   "ig_views": 17110,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-04-04",
+   "ig_views": 17805,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-04-05",
+   "ig_views": 33722,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-04-06",
+   "ig_views": 39965,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-04-07",
+   "ig_views": 29761,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-04-08",
+   "ig_views": 34541,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-04-09",
+   "ig_views": 33073,
+   "ig_new_followers": null,
+   "yt_views": 2,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-04-10",
+   "ig_views": 46054,
+   "ig_new_followers": null,
+   "yt_views": 4,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-04-11",
+   "ig_views": 59832,
+   "ig_new_followers": null,
+   "yt_views": 1,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-04-12",
+   "ig_views": 77345,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-04-13",
+   "ig_views": 47065,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-04-14",
+   "ig_views": 28025,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-04-15",
+   "ig_views": 23611,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-04-16",
+   "ig_views": 15882,
+   "ig_new_followers": null,
+   "yt_views": 10,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-04-17",
+   "ig_views": 12938,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-04-18",
+   "ig_views": 15324,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-04-19",
+   "ig_views": 21068,
+   "ig_new_followers": null,
+   "yt_views": 1,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-04-20",
+   "ig_views": 17200,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-04-21",
+   "ig_views": 19562,
+   "ig_new_followers": null,
+   "yt_views": 11,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-04-22",
+   "ig_views": 15089,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-04-23",
+   "ig_views": 13940,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-04-24",
+   "ig_views": 8650,
+   "ig_new_followers": null,
+   "yt_views": 4,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-04-25",
+   "ig_views": 11326,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-04-26",
+   "ig_views": 12622,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-04-27",
+   "ig_views": 12841,
+   "ig_new_followers": null,
+   "yt_views": 1,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-04-28",
+   "ig_views": 11135,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-04-29",
+   "ig_views": 8527,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-04-30",
+   "ig_views": 6637,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-05-01",
+   "ig_views": 6422,
+   "ig_new_followers": null,
+   "yt_views": 1,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-05-02",
+   "ig_views": 5570,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-05-03",
+   "ig_views": 8532,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-05-04",
+   "ig_views": 7988,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-05-05",
+   "ig_views": 30024,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-05-06",
+   "ig_views": 160680,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-05-07",
+   "ig_views": 76214,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-05-08",
+   "ig_views": 43452,
+   "ig_new_followers": null,
+   "yt_views": 27,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-05-09",
+   "ig_views": 41379,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-05-10",
+   "ig_views": 35009,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-05-11",
+   "ig_views": 33210,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-05-12",
+   "ig_views": 22664,
+   "ig_new_followers": null,
+   "yt_views": 4,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-05-13",
+   "ig_views": 27961,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-05-14",
+   "ig_views": 26670,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-05-15",
+   "ig_views": 23169,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-05-16",
+   "ig_views": 25513,
+   "ig_new_followers": null,
+   "yt_views": 1,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-05-17",
+   "ig_views": 28357,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-05-18",
+   "ig_views": 24909,
+   "ig_new_followers": null,
+   "yt_views": 3,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-05-19",
+   "ig_views": 19831,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-05-20",
+   "ig_views": 14455,
+   "ig_new_followers": null,
+   "yt_views": 43,
+   "yt_net_subscribers": 1
+  },
+  {
+   "date": "2026-05-21",
+   "ig_views": 10564,
+   "ig_new_followers": null,
+   "yt_views": 7,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-05-22",
+   "ig_views": 8846,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-05-23",
+   "ig_views": 12834,
+   "ig_new_followers": null,
+   "yt_views": 4,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-05-24",
+   "ig_views": 19085,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-05-25",
+   "ig_views": 22186,
+   "ig_new_followers": null,
+   "yt_views": 2,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-05-26",
+   "ig_views": 14792,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-05-27",
+   "ig_views": 11997,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-05-28",
+   "ig_views": 10662,
+   "ig_new_followers": null,
+   "yt_views": 2,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-05-29",
+   "ig_views": 7659,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-05-30",
+   "ig_views": 8887,
+   "ig_new_followers": null,
+   "yt_views": 2,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-05-31",
+   "ig_views": 10979,
+   "ig_new_followers": null,
+   "yt_views": 1,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-06-01",
+   "ig_views": 18602,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-06-02",
+   "ig_views": 15091,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-06-03",
+   "ig_views": 14848,
+   "ig_new_followers": null,
+   "yt_views": 1,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-06-04",
+   "ig_views": 14117,
+   "ig_new_followers": null,
+   "yt_views": 2,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-06-05",
+   "ig_views": 15268,
+   "ig_new_followers": null,
+   "yt_views": 1,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-06-06",
+   "ig_views": 22164,
+   "ig_new_followers": null,
+   "yt_views": 2,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-06-07",
+   "ig_views": 19827,
+   "ig_new_followers": null,
+   "yt_views": 6,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-06-08",
+   "ig_views": 14434,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-06-09",
+   "ig_views": 5470,
+   "ig_new_followers": null,
+   "yt_views": 4,
+   "yt_net_subscribers": 1
+  },
+  {
+   "date": "2026-06-10",
+   "ig_views": 4116,
+   "ig_new_followers": null,
+   "yt_views": 3,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-06-11",
+   "ig_views": 3860,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-06-12",
+   "ig_views": 4796,
+   "ig_new_followers": null,
+   "yt_views": 3,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-06-13",
+   "ig_views": 5273,
+   "ig_new_followers": null,
+   "yt_views": 8,
+   "yt_net_subscribers": 1
+  },
+  {
+   "date": "2026-06-14",
+   "ig_views": 4520,
+   "ig_new_followers": null,
+   "yt_views": 3,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-06-15",
+   "ig_views": 26033,
+   "ig_new_followers": null,
+   "yt_views": 7,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-06-16",
+   "ig_views": 24538,
+   "ig_new_followers": null,
+   "yt_views": 14,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-06-17",
+   "ig_views": 7364,
+   "ig_new_followers": null,
+   "yt_views": 1,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-06-18",
+   "ig_views": 7087,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-06-19",
+   "ig_views": 6144,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-06-20",
+   "ig_views": 8283,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-06-21",
+   "ig_views": 6109,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-06-22",
+   "ig_views": 5768,
+   "ig_new_followers": null,
+   "yt_views": 1,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-06-23",
+   "ig_views": 8424,
+   "ig_new_followers": null,
+   "yt_views": 1,
+   "yt_net_subscribers": 1
+  },
+  {
+   "date": "2026-06-24",
+   "ig_views": 5127,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-06-25",
+   "ig_views": 5224,
+   "ig_new_followers": null,
+   "yt_views": 2,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-06-26",
+   "ig_views": 7991,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-06-27",
+   "ig_views": 7037,
+   "ig_new_followers": null,
+   "yt_views": 2,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-06-28",
+   "ig_views": 5713,
+   "ig_new_followers": null,
+   "yt_views": 1,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-06-29",
+   "ig_views": 4394,
+   "ig_new_followers": null,
+   "yt_views": 5,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-06-30",
+   "ig_views": 3707,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-07-01",
+   "ig_views": 3795,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-07-02",
+   "ig_views": 3585,
+   "ig_new_followers": null,
+   "yt_views": 3,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-07-03",
+   "ig_views": 4427,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-07-04",
+   "ig_views": 4449,
+   "ig_new_followers": null,
+   "yt_views": 1,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-07-05",
+   "ig_views": 8074,
+   "ig_new_followers": null,
+   "yt_views": 5,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-07-06",
+   "ig_views": 5898,
+   "ig_new_followers": null,
+   "yt_views": 9,
+   "yt_net_subscribers": 1
+  },
+  {
+   "date": "2026-07-07",
+   "ig_views": 7949,
+   "ig_new_followers": null,
+   "yt_views": 1,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-07-08",
+   "ig_views": 8718,
+   "ig_new_followers": null,
+   "yt_views": 2,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-07-09",
+   "ig_views": 10238,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-07-10",
+   "ig_views": 7392,
+   "ig_new_followers": null,
+   "yt_views": 5,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-07-11",
+   "ig_views": 8875,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-07-12",
+   "ig_views": 14787,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-07-13",
+   "ig_views": 12445,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-07-14",
+   "ig_views": 7278,
+   "ig_new_followers": null,
+   "yt_views": 4,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-07-15",
+   "ig_views": 7341,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-07-16",
+   "ig_views": 5621,
+   "ig_new_followers": null,
+   "yt_views": 2,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-07-17",
+   "ig_views": 4632,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-07-18",
+   "ig_views": 5639,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-07-19",
+   "ig_views": 6242,
+   "ig_new_followers": null,
+   "yt_views": 674,
+   "yt_net_subscribers": 1
+  },
+  {
+   "date": "2026-07-20",
+   "ig_views": 9197,
+   "ig_new_followers": null,
+   "yt_views": 10,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-07-21",
+   "ig_views": 8276,
+   "ig_new_followers": null,
+   "yt_views": 11,
+   "yt_net_subscribers": 1
+  },
+  {
+   "date": "2026-07-22",
+   "ig_views": 7405,
+   "ig_new_followers": null,
+   "yt_views": 3,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-07-23",
+   "ig_views": 5028,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-07-24",
+   "ig_views": 4953,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-07-25",
+   "ig_views": 4032,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-07-26",
+   "ig_views": 4087,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-07-27",
+   "ig_views": 6809,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-07-28",
+   "ig_views": 4539,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-07-29",
+   "ig_views": 5930,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-07-30",
+   "ig_views": 7563,
+   "ig_new_followers": null,
+   "yt_views": 1,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-07-31",
+   "ig_views": 5733,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-08-01",
+   "ig_views": 4069,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-08-02",
+   "ig_views": 4597,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-08-03",
+   "ig_views": 3698,
+   "ig_new_followers": null,
+   "yt_views": 1,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-08-04",
+   "ig_views": 4052,
+   "ig_new_followers": null,
+   "yt_views": 3,
+   "yt_net_subscribers": 1
+  },
+  {
+   "date": "2026-08-05",
+   "ig_views": 4076,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-08-06",
+   "ig_views": 2360,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-08-07",
+   "ig_views": 2421,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-08-08",
+   "ig_views": 2895,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-08-09",
+   "ig_views": 3297,
+   "ig_new_followers": null,
+   "yt_views": 4,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-08-10",
+   "ig_views": 3634,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-08-11",
+   "ig_views": 2583,
+   "ig_new_followers": null,
+   "yt_views": 2,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-08-12",
+   "ig_views": 4052,
+   "ig_new_followers": null,
+   "yt_views": 8,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-08-13",
+   "ig_views": 4001,
+   "ig_new_followers": null,
+   "yt_views": 2,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-08-14",
+   "ig_views": 5814,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-08-15",
+   "ig_views": 4893,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-08-16",
+   "ig_views": 9474,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-08-17",
+   "ig_views": 4910,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-08-18",
+   "ig_views": 4661,
+   "ig_new_followers": null,
+   "yt_views": 3,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-08-19",
+   "ig_views": 3007,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-08-20",
+   "ig_views": 3137,
+   "ig_new_followers": null,
+   "yt_views": 1,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-08-21",
+   "ig_views": 2314,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-08-22",
+   "ig_views": 4204,
+   "ig_new_followers": null,
+   "yt_views": 1,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-08-23",
+   "ig_views": 3288,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-08-24",
+   "ig_views": 2444,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-08-25",
+   "ig_views": 8262,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-08-26",
+   "ig_views": 7489,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-08-27",
+   "ig_views": 6321,
+   "ig_new_followers": null,
+   "yt_views": 3,
+   "yt_net_subscribers": 1
+  },
+  {
+   "date": "2026-08-28",
+   "ig_views": 4311,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-08-29",
+   "ig_views": 5606,
+   "ig_new_followers": null,
+   "yt_views": 2,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-08-30",
+   "ig_views": 7260,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-08-31",
+   "ig_views": 3480,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-09-01",
+   "ig_views": 3954,
+   "ig_new_followers": null,
+   "yt_views": 2,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-09-02",
+   "ig_views": 5009,
+   "ig_new_followers": null,
+   "yt_views": 4,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-09-03",
+   "ig_views": 2930,
+   "ig_new_followers": null,
+   "yt_views": 1,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-09-04",
+   "ig_views": 1529,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-09-05",
+   "ig_views": 4311,
+   "ig_new_followers": null,
+   "yt_views": 0,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-09-06",
+   "ig_views": 4130,
+   "ig_new_followers": null,
+   "yt_views": 2,
+   "yt_net_subscribers": 1
+  },
+  {
+   "date": "2026-09-07",
+   "ig_views": 3295,
+   "ig_new_followers": null,
+   "yt_views": 2,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-09-08",
+   "ig_views": 2794,
+   "ig_new_followers": null,
+   "yt_views": 4,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-09-09",
+   "ig_views": 7927,
+   "ig_new_followers": null,
+   "yt_views": 4,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-09-10",
+   "ig_views": 56740,
+   "ig_new_followers": null,
+   "yt_views": 1,
+   "yt_net_subscribers": 1
+  },
+  {
    "date": "2026-09-11",
    "ig_views": 11556,
    "ig_new_followers": 53,
@@ -2319,19 +8331,26 @@
    "date": "2026-10-08",
    "ig_views": 2456,
    "ig_new_followers": 4,
-   "yt_views": null,
-   "yt_net_subscribers": null
+   "yt_views": 48,
+   "yt_net_subscribers": 0
   },
   {
    "date": "2026-10-09",
    "ig_views": 1840,
-   "ig_new_followers": 0,
+   "ig_new_followers": 3,
    "yt_views": null,
    "yt_net_subscribers": null
   },
   {
    "date": "2026-10-10",
-   "ig_views": 397,
+   "ig_views": 2743,
+   "ig_new_followers": 0,
+   "yt_views": null,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-10-11",
+   "ig_views": 0,
    "ig_new_followers": 0,
    "yt_views": null,
    "yt_net_subscribers": null

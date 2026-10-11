@@ -36,4 +36,11 @@ Most said (grouped by theme, biggest group first), Popular (most liked first) an
 Instagram's newest day is still running when the daily pull happens, so 1D uses the day before it.
 YouTube reports 2 to 3 days late, so its latest full day is older.
 
+## 90D and 365D
+
+`data.json` holds a year of daily numbers. YouTube views and subscriber changes and Instagram views were
+filled in once from a 365-day pull. Instagram only gives follower changes for the last 30 days, so its
+follower history starts in September 2026 and grows by a day with every refresh. When a range is longer
+than what a platform has, its card says "Since <date>" instead of the range.
+
 This branch is separate from the rest of the repo on purpose: it shares no files or history with `master`.

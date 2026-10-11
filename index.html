@@ -156,6 +156,7 @@ body { margin: 0; background: var(--ez-bg); }
   .ez-table th, .ez-table td { padding-inline: 6px; }
 }
 @media (max-width: 420px) {
+  .ez-bar .ez-pills button { padding-inline: 9px; }
   .ez-stat-v { font-size: 15px; }
   .ez-card { padding: 16px; }
 }
@@ -182,6 +183,8 @@ body { margin: 0; background: var(--ez-bg); }
       <button type="button" data-param="range" data-value="7">7D</button>
       <button type="button" data-param="range" data-value="14">14D</button>
       <button type="button" data-param="range" data-value="30">30D</button>
+      <button type="button" data-param="range" data-value="90">90D</button>
+      <button type="button" data-param="range" data-value="365">365D</button>
       <button type="button" data-param="range" data-value="all">All</button>
     </div>
   </div>
@@ -367,8 +370,10 @@ body { margin: 0; background: var(--ez-bg); }
   const fmtDayYear = d3.utcFormat('%b %-d, %Y');
   const compact = new Intl.NumberFormat('en', {notation: 'compact', maximumFractionDigits: 1});
   const asDate = (v) => new Date(String(v).slice(0, 10) + 'T00:00:00Z');
+  /* "Oct 12", or "Oct 12, 2025" when the range it starts crosses into another year. */
+  const startDay = (first, last) => (String(first).slice(0, 4) === String(last).slice(0, 4) ? fmtDay : fmtDayYear)(asDate(first));
 
-  const CHOICES = {range: ['1', '7', '14', '30', 'all'], view: ['both', 'views', 'audience'], metric: ['pct', 'net', 'avg'], cview: ['themes', 'popular', 'open']};
+  const CHOICES = {range: ['1', '7', '14', '30', '90', '365', 'all'], view: ['both', 'views', 'audience'], metric: ['pct', 'net', 'avg'], cview: ['themes', 'popular', 'open']};
   const state = {range: '14', view: 'both', metric: 'pct', cview: 'themes'};
   try {
     const saved = JSON.parse(localStorage.getItem('main-stats') || '{}');
@@ -380,7 +385,7 @@ body { margin: 0; background: var(--ez-bg); }
     int: (v) => fmtInt(v),
     signed: (v) => (v > 0 ? '+' : '') + fmtInt(v),
     dec: (v) => fmtDec(v),
-    pct: (v) => fmtPct(v) + '%',
+    pct: (v) => (Math.abs(v) >= 1000 ? fmtInt(Math.round(v)) : fmtPct(v)) + '%',
     spct: (v) => (v > 0 ? '+' : '') + fmtDec(v) + '%',
     day: (v) => fmtDay(asDate(v)),
     dayyear: (v) => fmtDayYear(asDate(v)),
@@ -389,8 +394,8 @@ body { margin: 0; background: var(--ez-bg); }
   const METRIC = {pct: ['pct', 'pct'], net: ['net', 'int'], avg: ['avg', 'dec']};
 
   const PLATFORMS = [
-    {key: 'yt', chart: 'chart-youtube', total: 'yt_subscribers', delta: 'yt_change', views: 'yt_views', real: 'yt_real', color: 'var(--ez-yt)', noun: 'subscribers', label: 'YouTube subscribers and views'},
-    {key: 'ig', chart: 'chart-instagram', total: 'ig_followers', delta: 'ig_change', views: 'ig_views', real: 'ig_real', color: 'var(--ez-ig)', noun: 'followers', label: 'Instagram followers and views', partial: true},
+    {key: 'yt', chart: 'chart-youtube', total: 'yt_subscribers', delta: 'yt_change', views: 'yt_views', real: 'yt_real', color: 'var(--ez-yt)', noun: 'subscribers', label: 'YouTube subscribers and views', name: 'YouTube'},
+    {key: 'ig', chart: 'chart-instagram', total: 'ig_followers', delta: 'ig_change', views: 'ig_views', real: 'ig_real', color: 'var(--ez-ig)', noun: 'followers', label: 'Instagram followers and views', name: 'Instagram'},
   ];
 
   let DATA = null;
@@ -424,20 +429,19 @@ body { margin: 0; background: var(--ez-bg); }
     };
   };
 
-  /* The 1D view. Views: the latest day the platform has finished counting (Instagram's newest day is
-     still running when the daily refresh pulls it, so that one is skipped). Audience: the latest day with a change. */
+  /* The 1D view. Views: the latest day the platform has finished counting. The newest day either platform
+     reports is still being counted when the daily refresh pulls it, so that one is skipped.
+     Audience: the latest day with a change. */
   const dayOf = (p) => {
     const all = DATA.daily;
     const counted = all.filter((d) => d[p.views] != null);
-    const viewDay = counted[counted.length - 1 - (p.partial ? 1 : 0)] || null;
+    const viewDay = counted[counted.length - 2] || null;
     const at = viewDay ? all.indexOf(viewDay) : -1;
     const before = at > 0 && all[at - 1][p.views] != null ? all[at - 1] : null;
-    const week = at < 0 ? [] : all.slice(Math.max(0, at - 6), at + 1).filter((d) => d[p.views] != null);
     const changed = all.filter((d) => d[p.delta] != null);
     return {
       viewDay, before,
       vs: viewDay && before && before[p.views] > 0 ? ((viewDay[p.views] - before[p.views]) / before[p.views]) * 100 : null,
-      avg7: week.length ? Math.round(week.reduce((t, d) => t + d[p.views], 0) / week.length) : null,
       audDay: changed[changed.length - 1] || null,
     };
   };
@@ -503,7 +507,7 @@ body { margin: 0; background: var(--ez-bg); }
     text(m.l - 6, y2b, 'end', '0');
     if (showAud) { text(W - m.r + 6, y1t, 'start', lab(audDomain[1])); text(W - m.r + 6, y1b, 'start', lab(audDomain[0])); }
     if (both) text(W - m.r + 6, y2t, 'start', lab(lineMax));
-    text(m.l, y1b + 15, 'start', fmtDay(asDate(pts[0].date)));
+    text(m.l, y1b + 15, 'start', startDay(pts[0].date, pts[pts.length - 1].date));
     text(W - m.r, y1b + 15, 'end', fmtDay(asDate(pts[pts.length - 1].date)));
 
     const stroke = (path, color, width) => path.attr('fill', 'none').attr('stroke', color).attr('stroke-width', width).attr('stroke-linejoin', 'round').attr('stroke-linecap', 'round');
@@ -713,7 +717,7 @@ body { margin: 0; background: var(--ez-bg); }
       'yt.name': DATA.profile.youtube.title, 'yt.total': DATA.profile.youtube.subscribers,
       'ig.name': DATA.profile.instagram.username, 'ig.total': DATA.profile.instagram.followers,
     };
-    const label = state.range === 'all' ? 'All ' + all.length + ' days' : 'Last ' + state.range + ' days';
+    const label = state.range === 'all' || all.length < Number(state.range) ? 'All ' + all.length + ' days' : 'Last ' + state.range + ' days';
     const totals = {}, focus = {}, fullDays = [];
     PLATFORMS.forEach((p) => {
       const f = one ? dayOf(p) : null, w = weekOf(p);
@@ -723,8 +727,8 @@ body { margin: 0; background: var(--ez-bg); }
       focus[p.key] = f && f.viewDay ? f.viewDay.date : null;
       const on = (d) => (d ? FORMAT.day(d.date) : '');
       const cells = f
-        ? [['Views', f.viewDay && f.viewDay[p.views], 'int', on(f.viewDay)], ['Vs day before', f.vs, 'spct', on(f.before)],
-           ['Net change', f.audDay && f.audDay[p.delta], 'signed', on(f.audDay)], ['Avg views, 7d', f.avg7, 'int', '']]
+        ? [['% growth', t.pct, 'pct', on(f.audDay)], ['Net change', t.net, 'signed', on(f.audDay)],
+           ['Views', f.viewDay && f.viewDay[p.views], 'int', on(f.viewDay)], ['Vs day before', f.vs, 'spct', on(f.before)]]
         : [['% growth', t.pct, 'pct'], ['Net change', t.net, 'signed'], ['Avg / day', t.avg, 'dec'], ['Views', t.views, 'int']];
       root.querySelector('[data-stats="' + p.key + '"]').replaceChildren(...cells.map(([name, v, fmt, when]) => {
         const cell = el('div');
@@ -732,12 +736,15 @@ body { margin: 0; background: var(--ez-bg); }
         if (f) cell.append(el('div', 'ez-stat-d', when || '\u00a0'));
         return cell;
       }));
-      root.querySelector('[data-note="' + p.key + '"]').textContent = f ? (f.audDay ? 'On ' + FORMAT.day(f.audDay.date) : 'Not reported yet') : label;
-      if (f && f.viewDay) fullDays.push((p.key === 'yt' ? 'YouTube ' : 'Instagram ') + FORMAT.day(f.viewDay.date));
+      const firstChange = days.find((d) => d[p.delta] != null);
+      const short = firstChange && days.indexOf(firstChange) > 3;
+      const since = short ? 'Since ' + startDay(firstChange.date, days[days.length - 1].date) + ' · ' + (days.length - days.indexOf(firstChange)) + ' days' : label;
+      root.querySelector('[data-note="' + p.key + '"]').textContent = f ? (f.audDay ? 'On ' + FORMAT.day(f.audDay.date) : 'Not reported yet') : since;
+      if (f && f.viewDay) fullDays.push(p.name + ' ' + FORMAT.day(f.viewDay.date));
     });
     document.getElementById('dates-line').textContent = one
       ? 'Latest full day: ' + (fullDays.join(' · ') || 'not reported yet')
-      : FORMAT.day(days[0].date) + ' to ' + FORMAT.dayyear(days[days.length - 1].date);
+      : startDay(days[0].date, days[days.length - 1].date) + ' to ' + FORMAT.dayyear(days[days.length - 1].date);
 
     root.dataset.view = state.view;
     syncPills();

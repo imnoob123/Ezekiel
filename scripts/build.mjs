@@ -8,6 +8,9 @@
 // raw/ holds one JSON file per pull, exactly as Windsor.ai returned it
 // (a bare array of rows, or {"result": [...]}):
 //   ig_profile  ig_daily  ig_media  yt_channel  yt_views  yt_subs  yt_videos
+// one optional file to fill in older days (the daily pulls only reach back 30 days):
+//   ig_history   date and views for up to a year; Instagram gives follower changes for 30 days only.
+//                yt_views and yt_subs can simply be pulled for a longer range, they need no extra file.
 // and two optional ones for the Comments section:
 //   ig_comments  every comment and reply on the posts of the last 30 days
 //   ig_themes    which theme each comment belongs to, written by the daily task:
@@ -114,6 +117,9 @@ const reportedRow = (date) => {
   if (!reported.has(date)) reported.set(date, { date, ig_views: null, ig_new_followers: null, yt_views: null, yt_net_subscribers: null });
   return reported.get(date);
 };
+for (const r of readRaw('ig_history', { optional: true })) {
+  reportedRow(dayOf(r.date, 'ig_history date')).ig_views = num(r.views, `ig_history views on ${r.date}`);
+}
 for (const r of igDaily) {
   const row = reportedRow(dayOf(r.date, 'ig_daily date'));
   row.ig_views = num(r.views, `ig_daily views on ${r.date}`);
