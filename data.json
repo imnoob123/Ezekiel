@@ -1,11 +1,11 @@
 {
- "updated_at": "2026-10-14T12:04:11.666Z",
+ "updated_at": "2026-10-14T16:08:12.682Z",
  "tracking_since": "2026-10-10",
  "profile": {
   "instagram": {
    "username": "ezekutee",
-   "followers": 7405,
-   "posts": 406
+   "followers": 7403,
+   "posts": 407
   },
   "youtube": {
    "title": "Ezekute",
@@ -4062,6 +4062,17 @@
    "ig_change": -17,
    "ig_real": true,
    "ig_views": 280
+  },
+  {
+   "date": "2026-10-15",
+   "yt_subscribers": 85,
+   "yt_change": 0,
+   "yt_real": true,
+   "yt_views": null,
+   "ig_followers": 7403,
+   "ig_change": -2,
+   "ig_real": true,
+   "ig_views": null
   }
  ],
  "top": {
@@ -8383,6 +8394,12 @@
   {
    "date": "2026-10-14",
    "ig_followers": 7405,
+   "yt_subscribers": 85,
+   "yt_lifetime_views": 76855
+  },
+  {
+   "date": "2026-10-15",
+   "ig_followers": 7403,
    "yt_subscribers": 85,
    "yt_lifetime_views": 76855
   }
