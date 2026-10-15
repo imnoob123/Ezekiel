@@ -1,17 +1,17 @@
 {
- "updated_at": "2026-10-14T16:08:12.682Z",
+ "updated_at": "2026-10-15T16:08:37.147Z",
  "tracking_since": "2026-10-10",
  "profile": {
   "instagram": {
    "username": "ezekutee",
-   "followers": 7403,
-   "posts": 407
+   "followers": 7397,
+   "posts": 408
   },
   "youtube": {
    "title": "Ezekute",
    "subscribers": 85,
-   "lifetime_views": 76855,
-   "videos": 133
+   "lifetime_views": 77035,
+   "videos": 135
   }
  },
  "daily": [
@@ -4035,7 +4035,7 @@
    "yt_subscribers": 85,
    "yt_change": 0,
    "yt_real": true,
-   "yt_views": null,
+   "yt_views": 1435,
    "ig_followers": 7425,
    "ig_change": 0,
    "ig_real": true,
@@ -4050,7 +4050,7 @@
    "ig_followers": 7422,
    "ig_change": -3,
    "ig_real": true,
-   "ig_views": 3515
+   "ig_views": 3516
   },
   {
    "date": "2026-10-14",
@@ -4061,7 +4061,7 @@
    "ig_followers": 7405,
    "ig_change": -17,
    "ig_real": true,
-   "ig_views": 280
+   "ig_views": 2243
   },
   {
    "date": "2026-10-15",
@@ -4072,40 +4072,31 @@
    "ig_followers": 7403,
    "ig_change": -2,
    "ig_real": true,
+   "ig_views": 1073
+  },
+  {
+   "date": "2026-10-16",
+   "yt_subscribers": 85,
+   "yt_change": 0,
+   "yt_real": true,
+   "yt_views": null,
+   "ig_followers": 7397,
+   "ig_change": -6,
+   "ig_real": true,
    "ig_views": null
   }
  ],
  "top": {
   "instagram": [
    {
-    "permalink": "https://www.instagram.com/reel/DdUOPCTyOCv/",
-    "caption": "10 Things to Unlearn from School",
-    "date": "2026-09-15",
-    "views": 3337,
-    "likes": 63,
-    "comments": 4,
-    "shares": 23,
-    "saves": 42
-   },
-   {
-    "permalink": "https://www.instagram.com/reel/DdUOKlTyL-6/",
-    "caption": "10 Things to Unlearn from School",
-    "date": "2026-09-15",
-    "views": 2681,
-    "likes": 35,
-    "comments": 2,
-    "shares": 8,
-    "saves": 20
-   },
-   {
-    "permalink": "https://www.instagram.com/reel/DdTgBZvoPcN/",
-    "caption": "is it possible to love God and still listen to his music?",
-    "date": "2026-09-15",
-    "views": 2621,
-    "likes": 111,
-    "comments": 19,
-    "shares": 13,
-    "saves": 21
+    "permalink": "https://www.instagram.com/p/DebxCFxEsXD/",
+    "caption": "Bro this kid has a kill count of 7 and somehow nobody’s coming after him. Never been arrested. Never been questioned. Honestly the cops wou…",
+    "date": "2026-10-13",
+    "views": 2850,
+    "likes": 45,
+    "comments": 3,
+    "shares": 3,
+    "saves": 4
    },
    {
     "permalink": "https://www.instagram.com/reel/Dd6PJRGSoCO/",
@@ -4126,16 +4117,6 @@
     "comments": 3,
     "shares": 2,
     "saves": 18
-   },
-   {
-    "permalink": "https://www.instagram.com/p/DebxCFxEsXD/",
-    "caption": "Bro this kid has a kill count of 7 and somehow nobody’s coming after him. Never been arrested. Never been questioned. Honestly the cops wou…",
-    "date": "2026-10-13",
-    "views": 2336,
-    "likes": 39,
-    "comments": 3,
-    "shares": 2,
-    "saves": 3
    },
    {
     "permalink": "https://www.instagram.com/reel/Ddhl5GhT8ie/",
@@ -4261,7 +4242,7 @@
     "permalink": "https://www.instagram.com/reel/DeZUeyEyTj-/",
     "caption": "Canon event",
     "date": "2026-10-12",
-    "views": 1657,
+    "views": 1663,
     "likes": 28,
     "comments": 1,
     "shares": 0,
@@ -4331,7 +4312,7 @@
     "permalink": "https://www.instagram.com/reel/DeW9mNLyxwe/",
     "caption": "5 “Signs” that you are faking productivity",
     "date": "2026-10-11",
-    "views": 1463,
+    "views": 1471,
     "likes": 13,
     "comments": 0,
     "shares": 0,
@@ -4378,6 +4359,14 @@
     "comments": 0
    },
    {
+    "video": "iXmnfgqiEj4",
+    "title": "Stop crying about it 😂",
+    "published": "2026-10-11",
+    "views": 1210,
+    "likes": 8,
+    "comments": 0
+   },
+   {
     "video": "wvhG9vArcS8",
     "title": "How to become respected like Jesus",
     "published": "2026-10-02",
@@ -4394,11 +4383,11 @@
     "comments": 0
    },
    {
-    "video": "iXmnfgqiEj4",
-    "title": "Stop crying about it 😂",
-    "published": "2026-10-11",
-    "views": 1116,
-    "likes": 6,
+    "video": "8wZJuSereDA",
+    "title": "5 Signs You Are 'Fake Working' (And How To Fix It)",
+    "published": "2026-10-12",
+    "views": 1086,
+    "likes": 4,
     "comments": 0
    },
    {
@@ -4455,6 +4444,14 @@
     "published": "2026-10-07",
     "views": 303,
     "likes": 8,
+    "comments": 0
+   },
+   {
+    "video": "bIKsggODQLQ",
+    "title": "Do the work that you've been avoiding",
+    "published": "2026-10-13",
+    "views": 252,
+    "likes": 0,
     "comments": 0
    },
    {
@@ -5578,32 +5575,6 @@
      "theme": "faith"
     },
     {
-     "id": "18143297842537346",
-     "text": "Sorry im following🔥",
-     "likes": 1,
-     "replies": 0,
-     "at": "2026-09-17T10:39:02Z",
-     "post": "https://www.instagram.com/reel/DdUOPCTyOCv/",
-     "caption": "10 Things to Unlearn from School",
-     "posted": "2026-09-15",
-     "is_reply": false,
-     "replied": false,
-     "theme": "praise"
-    },
-    {
-     "id": "17883385314505143",
-     "text": "@ezekutee yeah yeah. But it depends what you're listening to, and the lyrics that you're listening to no matter how good the time/beats are. At one point listening to songs becomes vanity, and you stop listening to music later on",
-     "likes": 0,
-     "replies": 0,
-     "at": "2026-09-17T09:40:20Z",
-     "post": "https://www.instagram.com/reel/DdTgBZvoPcN/",
-     "caption": "is it possible to love God and still listen to his music?",
-     "posted": "2026-09-15",
-     "is_reply": true,
-     "replied": false,
-     "theme": "debate"
-    },
-    {
      "id": "18085324094290726",
      "text": "Godbless you man! And thanks bro you’re awesome! 😎",
      "likes": 1,
@@ -5641,149 +5612,6 @@
      "is_reply": false,
      "replied": true,
      "theme": "pushback"
-    },
-    {
-     "id": "17982360288087086",
-     "text": "communist propaganda",
-     "likes": 2,
-     "replies": 0,
-     "at": "2026-09-16T12:17:51Z",
-     "post": "https://www.instagram.com/reel/DdUOPCTyOCv/",
-     "caption": "10 Things to Unlearn from School",
-     "posted": "2026-09-15",
-     "is_reply": false,
-     "replied": false,
-     "theme": "pushback"
-    },
-    {
-     "id": "17983532919078877",
-     "text": "Bruh you asked Chat GPT.",
-     "likes": 1,
-     "replies": 2,
-     "at": "2026-09-16T05:56:45Z",
-     "post": "https://www.instagram.com/reel/DdTgBZvoPcN/",
-     "caption": "is it possible to love God and still listen to his music?",
-     "posted": "2026-09-15",
-     "is_reply": false,
-     "replied": true,
-     "theme": "pushback"
-    },
-    {
-     "id": "17970569337151689",
-     "text": "So don’t save your money or work hard? Got it",
-     "likes": 1,
-     "replies": 1,
-     "at": "2026-09-16T01:02:07Z",
-     "post": "https://www.instagram.com/reel/DdUOKlTyL-6/",
-     "caption": "10 Things to Unlearn from School",
-     "posted": "2026-09-15",
-     "is_reply": false,
-     "replied": true,
-     "theme": "pushback"
-    },
-    {
-     "id": "18101786927360297",
-     "text": "intellectual slop",
-     "likes": 0,
-     "replies": 0,
-     "at": "2026-09-15T22:32:39Z",
-     "post": "https://www.instagram.com/reel/DdUOPCTyOCv/",
-     "caption": "10 Things to Unlearn from School",
-     "posted": "2026-09-15",
-     "is_reply": false,
-     "replied": false,
-     "theme": "pushback"
-    },
-    {
-     "id": "18109462901132498",
-     "text": "I guess I won't work or save money and just be broke",
-     "likes": 3,
-     "replies": 0,
-     "at": "2026-09-15T21:09:47Z",
-     "post": "https://www.instagram.com/reel/DdUOPCTyOCv/",
-     "caption": "10 Things to Unlearn from School",
-     "posted": "2026-09-15",
-     "is_reply": false,
-     "replied": false,
-     "theme": "pushback"
-    },
-    {
-     "id": "18129128749682889",
-     "text": "U need to be very careful to guard your heart",
-     "likes": 2,
-     "replies": 0,
-     "at": "2026-09-15T19:01:06Z",
-     "post": "https://www.instagram.com/reel/DdTgBZvoPcN/",
-     "caption": "is it possible to love God and still listen to his music?",
-     "posted": "2026-09-15",
-     "is_reply": false,
-     "replied": false,
-     "theme": "debate"
-    },
-    {
-     "id": "18442951210135925",
-     "text": "@ezekutee I was just quoting the lyrics of the song you used in your Reel to criticize how it tries to romanticize trading your soul for a wish. And no, as a Christian I wouldn't trade my soul for a wish. 1. John 2:17: And the world is passing away, and the lust of it; but he who does the will of God abides forever.",
-     "likes": 0,
-     "replies": 0,
-     "at": "2026-09-15T18:26:10Z",
-     "post": "https://www.instagram.com/reel/DdTgBZvoPcN/",
-     "caption": "is it possible to love God and still listen to his music?",
-     "posted": "2026-09-15",
-     "is_reply": true,
-     "replied": false,
-     "theme": "debate"
-    },
-    {
-     "id": "18112961867044270",
-     "text": "INSANE editing bro",
-     "likes": 1,
-     "replies": 1,
-     "at": "2026-09-15T17:00:56Z",
-     "post": "https://www.instagram.com/reel/DdTgBZvoPcN/",
-     "caption": "is it possible to love God and still listen to his music?",
-     "posted": "2026-09-15",
-     "is_reply": false,
-     "replied": true,
-     "theme": "style"
-    },
-    {
-     "id": "18025834613909429",
-     "text": "\"I would trade my soul for a wish\" (Call Me Maybe) Mark 8:36: \"For what will it profit a man if he gains the whole world, and loses his own soul?\" Modern music really tries to sell this as a romantic ideal.",
-     "likes": 6,
-     "replies": 2,
-     "at": "2026-09-15T15:33:03Z",
-     "post": "https://www.instagram.com/reel/DdTgBZvoPcN/",
-     "caption": "is it possible to love God and still listen to his music?",
-     "posted": "2026-09-15",
-     "is_reply": false,
-     "replied": true,
-     "theme": "debate"
-    },
-    {
-     "id": "18006730688780113",
-     "text": "Can I listen to some drake",
-     "likes": 2,
-     "replies": 5,
-     "at": "2026-09-15T15:10:59Z",
-     "post": "https://www.instagram.com/reel/DdTgBZvoPcN/",
-     "caption": "is it possible to love God and still listen to his music?",
-     "posted": "2026-09-15",
-     "is_reply": false,
-     "replied": true,
-     "theme": "ask"
-    },
-    {
-     "id": "18131484937662594",
-     "text": "I'm atheist myself and I just wonder why Christians feel guilty to listen to music that doesn't preach God's word?",
-     "likes": 5,
-     "replies": 3,
-     "at": "2026-09-15T11:47:15Z",
-     "post": "https://www.instagram.com/reel/DdTgBZvoPcN/",
-     "caption": "is it possible to love God and still listen to his music?",
-     "posted": "2026-09-15",
-     "is_reply": false,
-     "replied": true,
-     "theme": "ask"
     }
    ]
   }
@@ -8348,19 +8176,26 @@
    "date": "2026-10-12",
    "ig_views": 4067,
    "ig_new_followers": 3,
-   "yt_views": null,
-   "yt_net_subscribers": null
+   "yt_views": 1435,
+   "yt_net_subscribers": 0
   },
   {
    "date": "2026-10-13",
-   "ig_views": 3515,
-   "ig_new_followers": 0,
+   "ig_views": 3516,
+   "ig_new_followers": 3,
    "yt_views": null,
    "yt_net_subscribers": null
   },
   {
    "date": "2026-10-14",
-   "ig_views": 280,
+   "ig_views": 2243,
+   "ig_new_followers": 0,
+   "yt_views": null,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-10-15",
+   "ig_views": 1073,
    "ig_new_followers": 0,
    "yt_views": null,
    "yt_net_subscribers": null
@@ -8402,6 +8237,12 @@
    "ig_followers": 7403,
    "yt_subscribers": 85,
    "yt_lifetime_views": 76855
+  },
+  {
+   "date": "2026-10-16",
+   "ig_followers": 7397,
+   "yt_subscribers": 85,
+   "yt_lifetime_views": 77035
   }
  ]
 }
