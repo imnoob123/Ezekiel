@@ -1,16 +1,16 @@
 {
- "updated_at": "2026-10-16T16:08:52.021Z",
+ "updated_at": "2026-10-17T16:07:54.989Z",
  "tracking_since": "2026-10-10",
  "profile": {
   "instagram": {
    "username": "ezekiellaii",
-   "followers": 7404,
+   "followers": 7397,
    "posts": 409
   },
   "youtube": {
    "title": "Ezekute",
    "subscribers": 85,
-   "lifetime_views": 77035,
+   "lifetime_views": 77044,
    "videos": 136
   }
  },
@@ -4057,7 +4057,7 @@
    "yt_subscribers": 85,
    "yt_change": 0,
    "yt_real": true,
-   "yt_views": null,
+   "yt_views": 128,
    "ig_followers": 7405,
    "ig_change": -17,
    "ig_real": true,
@@ -4083,7 +4083,7 @@
    "ig_followers": 7397,
    "ig_change": -6,
    "ig_real": true,
-   "ig_views": 568
+   "ig_views": 935
   },
   {
    "date": "2026-10-17",
@@ -4094,6 +4094,17 @@
    "ig_followers": 7404,
    "ig_change": 7,
    "ig_real": true,
+   "ig_views": 271
+  },
+  {
+   "date": "2026-10-18",
+   "yt_subscribers": 85,
+   "yt_change": 0,
+   "yt_real": true,
+   "yt_views": null,
+   "ig_followers": 7397,
+   "ig_change": -7,
+   "ig_real": true,
    "ig_views": null
   }
  ],
@@ -4103,8 +4114,8 @@
     "permalink": "https://www.instagram.com/p/DebxCFxEsXD/",
     "caption": "Bro this kid has a kill count of 7 and somehow nobody’s coming after him. Never been arrested. Never been questioned. Honestly the cops wou…",
     "date": "2026-10-13",
-    "views": 2999,
-    "likes": 46,
+    "views": 3074,
+    "likes": 47,
     "comments": 3,
     "shares": 3,
     "saves": 4
@@ -4330,6 +4341,16 @@
     "saves": 1
    },
    {
+    "permalink": "https://www.instagram.com/reel/DehMMgEy3B0/",
+    "caption": "7 Things that you can’t do as an ambitious man",
+    "date": "2026-10-15",
+    "views": 1413,
+    "likes": 27,
+    "comments": 0,
+    "shares": 3,
+    "saves": 10
+   },
+   {
     "permalink": "https://www.instagram.com/reel/DeCU27OS3Di/",
     "caption": "🤡",
     "date": "2026-10-03",
@@ -4338,16 +4359,6 @@
     "comments": 4,
     "shares": 1,
     "saves": 4
-   },
-   {
-    "permalink": "https://www.instagram.com/reel/DehMMgEy3B0/",
-    "caption": "7 Things that you can’t do as an ambitious man",
-    "date": "2026-10-15",
-    "views": 1338,
-    "likes": 25,
-    "comments": 0,
-    "shares": 3,
-    "saves": 10
    },
    {
     "permalink": "https://www.instagram.com/p/Dd6mENiElmW/",
@@ -4378,6 +4389,14 @@
     "comments": 0
    },
    {
+    "video": "8wZJuSereDA",
+    "title": "5 Signs You Are 'Fake Working' (And How To Fix It)",
+    "published": "2026-10-12",
+    "views": 1189,
+    "likes": 4,
+    "comments": 0
+   },
+   {
     "video": "wvhG9vArcS8",
     "title": "How to become respected like Jesus",
     "published": "2026-10-02",
@@ -4391,14 +4410,6 @@
     "published": "2026-10-04",
     "views": 1144,
     "likes": 7,
-    "comments": 0
-   },
-   {
-    "video": "8wZJuSereDA",
-    "title": "5 Signs You Are 'Fake Working' (And How To Fix It)",
-    "published": "2026-10-12",
-    "views": 1088,
-    "likes": 4,
     "comments": 0
    },
    {
@@ -4445,7 +4456,7 @@
     "video": "bIKsggODQLQ",
     "title": "Do the work that you've been avoiding",
     "published": "2026-10-13",
-    "views": 412,
+    "views": 438,
     "likes": 1,
     "comments": 0
    },
@@ -5441,45 +5452,6 @@
      "is_reply": false,
      "replied": false,
      "theme": "list"
-    },
-    {
-     "id": "18008476658975219",
-     "text": "Praise God amen 🙏",
-     "likes": 1,
-     "replies": 0,
-     "at": "2026-09-17T11:55:22Z",
-     "post": "https://www.instagram.com/reel/DdYu26do21r/",
-     "caption": "",
-     "posted": "2026-09-17",
-     "is_reply": false,
-     "replied": false,
-     "theme": "faith"
-    },
-    {
-     "id": "18443793193126121",
-     "text": "JESUS CHRIST IS LORD!!!!!",
-     "likes": 1,
-     "replies": 0,
-     "at": "2026-09-17T11:37:19Z",
-     "post": "https://www.instagram.com/reel/DdYu26do21r/",
-     "caption": "",
-     "posted": "2026-09-17",
-     "is_reply": false,
-     "replied": false,
-     "theme": "faith"
-    },
-    {
-     "id": "18085324094290726",
-     "text": "Godbless you man! And thanks bro you’re awesome! 😎",
-     "likes": 1,
-     "replies": 0,
-     "at": "2026-09-17T02:27:23Z",
-     "post": "https://www.instagram.com/reel/DdXembjyOt4/",
-     "caption": "",
-     "posted": "2026-09-17",
-     "is_reply": false,
-     "replied": false,
-     "theme": "praise"
     }
    ]
   }
@@ -8058,19 +8030,26 @@
    "date": "2026-10-14",
    "ig_views": 2243,
    "ig_new_followers": 4,
-   "yt_views": null,
-   "yt_net_subscribers": null
+   "yt_views": 128,
+   "yt_net_subscribers": 0
   },
   {
    "date": "2026-10-15",
    "ig_views": 2351,
-   "ig_new_followers": 0,
+   "ig_new_followers": 11,
    "yt_views": null,
    "yt_net_subscribers": null
   },
   {
    "date": "2026-10-16",
-   "ig_views": 568,
+   "ig_views": 935,
+   "ig_new_followers": 0,
+   "yt_views": null,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-10-17",
+   "ig_views": 271,
    "ig_new_followers": 0,
    "yt_views": null,
    "yt_net_subscribers": null
@@ -8124,6 +8103,12 @@
    "ig_followers": 7404,
    "yt_subscribers": 85,
    "yt_lifetime_views": 77035
+  },
+  {
+   "date": "2026-10-18",
+   "ig_followers": 7397,
+   "yt_subscribers": 85,
+   "yt_lifetime_views": 77044
   }
  ]
 }
