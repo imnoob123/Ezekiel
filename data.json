@@ -1,16 +1,16 @@
 {
- "updated_at": "2026-10-17T16:07:54.989Z",
+ "updated_at": "2026-10-18T16:13:41.506Z",
  "tracking_since": "2026-10-10",
  "profile": {
   "instagram": {
    "username": "ezekiellaii",
-   "followers": 7397,
-   "posts": 409
+   "followers": 7391,
+   "posts": 411
   },
   "youtube": {
    "title": "Ezekute",
    "subscribers": 85,
-   "lifetime_views": 77044,
+   "lifetime_views": 77046,
    "videos": 136
   }
  },
@@ -4068,7 +4068,7 @@
    "yt_subscribers": 85,
    "yt_change": 0,
    "yt_real": true,
-   "yt_views": null,
+   "yt_views": 4,
    "ig_followers": 7403,
    "ig_change": -2,
    "ig_real": true,
@@ -4094,7 +4094,7 @@
    "ig_followers": 7404,
    "ig_change": 7,
    "ig_real": true,
-   "ig_views": 271
+   "ig_views": 870
   },
   {
    "date": "2026-10-18",
@@ -4104,6 +4104,17 @@
    "yt_views": null,
    "ig_followers": 7397,
    "ig_change": -7,
+   "ig_real": true,
+   "ig_views": 797
+  },
+  {
+   "date": "2026-10-19",
+   "yt_subscribers": 85,
+   "yt_change": 0,
+   "yt_real": true,
+   "yt_views": null,
+   "ig_followers": 7391,
+   "ig_change": -6,
    "ig_real": true,
    "ig_views": null
   }
@@ -4344,11 +4355,11 @@
     "permalink": "https://www.instagram.com/reel/DehMMgEy3B0/",
     "caption": "7 Things that you can’t do as an ambitious man",
     "date": "2026-10-15",
-    "views": 1413,
-    "likes": 27,
+    "views": 1427,
+    "likes": 28,
     "comments": 0,
     "shares": 3,
-    "saves": 10
+    "saves": 11
    },
    {
     "permalink": "https://www.instagram.com/reel/DeCU27OS3Di/",
@@ -4425,7 +4436,7 @@
     "title": "How to find your IKIGAI in 20 min",
     "published": "2026-10-05",
     "views": 770,
-    "likes": 13,
+    "likes": 12,
     "comments": 0
    },
    {
@@ -8037,19 +8048,26 @@
    "date": "2026-10-15",
    "ig_views": 2351,
    "ig_new_followers": 11,
-   "yt_views": null,
-   "yt_net_subscribers": null
+   "yt_views": 4,
+   "yt_net_subscribers": 0
   },
   {
    "date": "2026-10-16",
    "ig_views": 935,
-   "ig_new_followers": 0,
+   "ig_new_followers": 4,
    "yt_views": null,
    "yt_net_subscribers": null
   },
   {
    "date": "2026-10-17",
-   "ig_views": 271,
+   "ig_views": 870,
+   "ig_new_followers": 0,
+   "yt_views": null,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-10-18",
+   "ig_views": 797,
    "ig_new_followers": 0,
    "yt_views": null,
    "yt_net_subscribers": null
@@ -8109,6 +8127,12 @@
    "ig_followers": 7397,
    "yt_subscribers": 85,
    "yt_lifetime_views": 77044
+  },
+  {
+   "date": "2026-10-19",
+   "ig_followers": 7391,
+   "yt_subscribers": 85,
+   "yt_lifetime_views": 77046
   }
  ]
 }
