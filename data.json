@@ -1,16 +1,16 @@
 {
- "updated_at": "2026-10-18T16:13:41.506Z",
+ "updated_at": "2026-10-19T16:14:05.814Z",
  "tracking_since": "2026-10-10",
  "profile": {
   "instagram": {
    "username": "ezekiellaii",
-   "followers": 7391,
+   "followers": 7390,
    "posts": 411
   },
   "youtube": {
    "title": "Ezekute",
    "subscribers": 85,
-   "lifetime_views": 77046,
+   "lifetime_views": 77053,
    "videos": 136
   }
  },
@@ -4079,7 +4079,7 @@
    "yt_subscribers": 85,
    "yt_change": 0,
    "yt_real": true,
-   "yt_views": null,
+   "yt_views": 2,
    "ig_followers": 7397,
    "ig_change": -6,
    "ig_real": true,
@@ -4094,7 +4094,7 @@
    "ig_followers": 7404,
    "ig_change": 7,
    "ig_real": true,
-   "ig_views": 870
+   "ig_views": 871
   },
   {
    "date": "2026-10-18",
@@ -4105,7 +4105,7 @@
    "ig_followers": 7397,
    "ig_change": -7,
    "ig_real": true,
-   "ig_views": 797
+   "ig_views": 2044
   },
   {
    "date": "2026-10-19",
@@ -4115,6 +4115,17 @@
    "yt_views": null,
    "ig_followers": 7391,
    "ig_change": -6,
+   "ig_real": true,
+   "ig_views": 920
+  },
+  {
+   "date": "2026-10-20",
+   "yt_subscribers": 85,
+   "yt_change": 0,
+   "yt_real": true,
+   "yt_views": null,
+   "ig_followers": 7390,
+   "ig_change": -1,
    "ig_real": true,
    "ig_views": null
   }
@@ -4200,16 +4211,6 @@
     "comments": 2,
     "shares": 15,
     "saves": 21
-   },
-   {
-    "permalink": "https://www.instagram.com/reel/DdeFIz3Sqen/",
-    "caption": "How To Build Respect with 48 Law From The Bible",
-    "date": "2026-09-19",
-    "views": 1741,
-    "likes": 86,
-    "comments": 0,
-    "shares": 9,
-    "saves": 54
    },
    {
     "permalink": "https://www.instagram.com/reel/Dd1dEL7SeV_/",
@@ -4342,6 +4343,16 @@
     "saves": 3
    },
    {
+    "permalink": "https://www.instagram.com/reel/DehMMgEy3B0/",
+    "caption": "7 Things that you can’t do as an ambitious man",
+    "date": "2026-10-15",
+    "views": 1433,
+    "likes": 28,
+    "comments": 0,
+    "shares": 3,
+    "saves": 11
+   },
+   {
     "permalink": "https://www.instagram.com/reel/DeZUa9MyqyM/",
     "caption": "Canon event",
     "date": "2026-10-12",
@@ -4350,16 +4361,6 @@
     "comments": 0,
     "shares": 3,
     "saves": 1
-   },
-   {
-    "permalink": "https://www.instagram.com/reel/DehMMgEy3B0/",
-    "caption": "7 Things that you can’t do as an ambitious man",
-    "date": "2026-10-15",
-    "views": 1427,
-    "likes": 28,
-    "comments": 0,
-    "shares": 3,
-    "saves": 11
    },
    {
     "permalink": "https://www.instagram.com/reel/DeCU27OS3Di/",
@@ -4554,6 +4555,19 @@
     }
    ],
    "items": [
+    {
+     "id": "18560944294076923",
+     "text": "FACTS",
+     "likes": 1,
+     "replies": 0,
+     "at": "2026-10-18T22:41:57Z",
+     "post": "https://www.instagram.com/p/DeostAwSsvc/",
+     "caption": "",
+     "posted": "2026-10-18",
+     "is_reply": false,
+     "replied": false,
+     "theme": "praise"
+    },
     {
      "id": "18017057336936766",
      "text": "execute",
@@ -8055,19 +8069,26 @@
    "date": "2026-10-16",
    "ig_views": 935,
    "ig_new_followers": 4,
-   "yt_views": null,
-   "yt_net_subscribers": null
+   "yt_views": 2,
+   "yt_net_subscribers": 0
   },
   {
    "date": "2026-10-17",
-   "ig_views": 870,
-   "ig_new_followers": 0,
+   "ig_views": 871,
+   "ig_new_followers": 5,
    "yt_views": null,
    "yt_net_subscribers": null
   },
   {
    "date": "2026-10-18",
-   "ig_views": 797,
+   "ig_views": 2044,
+   "ig_new_followers": 0,
+   "yt_views": null,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-10-19",
+   "ig_views": 920,
    "ig_new_followers": 0,
    "yt_views": null,
    "yt_net_subscribers": null
@@ -8133,6 +8154,12 @@
    "ig_followers": 7391,
    "yt_subscribers": 85,
    "yt_lifetime_views": 77046
+  },
+  {
+   "date": "2026-10-20",
+   "ig_followers": 7390,
+   "yt_subscribers": 85,
+   "yt_lifetime_views": 77053
   }
  ]
 }
