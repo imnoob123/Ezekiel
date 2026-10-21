@@ -1,17 +1,17 @@
 {
- "updated_at": "2026-10-19T16:14:05.814Z",
+ "updated_at": "2026-10-21T16:18:08.865Z",
  "tracking_since": "2026-10-10",
  "profile": {
   "instagram": {
    "username": "ezekiellaii",
-   "followers": 7390,
-   "posts": 411
+   "followers": 7379,
+   "posts": 412
   },
   "youtube": {
    "title": "Ezekute",
    "subscribers": 85,
-   "lifetime_views": 77053,
-   "videos": 136
+   "lifetime_views": 77063,
+   "videos": 137
   }
  },
  "daily": [
@@ -4090,7 +4090,7 @@
    "yt_subscribers": 85,
    "yt_change": 0,
    "yt_real": true,
-   "yt_views": null,
+   "yt_views": 4,
    "ig_followers": 7404,
    "ig_change": 7,
    "ig_real": true,
@@ -4101,7 +4101,7 @@
    "yt_subscribers": 85,
    "yt_change": 0,
    "yt_real": true,
-   "yt_views": null,
+   "yt_views": 7,
    "ig_followers": 7397,
    "ig_change": -7,
    "ig_real": true,
@@ -4116,7 +4116,7 @@
    "ig_followers": 7391,
    "ig_change": -6,
    "ig_real": true,
-   "ig_views": 920
+   "ig_views": 1505
   },
   {
    "date": "2026-10-20",
@@ -4126,6 +4126,28 @@
    "yt_views": null,
    "ig_followers": 7390,
    "ig_change": -1,
+   "ig_real": true,
+   "ig_views": 736
+  },
+  {
+   "date": "2026-10-21",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": null,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 870
+  },
+  {
+   "date": "2026-10-22",
+   "yt_subscribers": 85,
+   "yt_change": null,
+   "yt_real": true,
+   "yt_views": null,
+   "ig_followers": 7379,
+   "ig_change": null,
    "ig_real": true,
    "ig_views": null
   }
@@ -4153,36 +4175,6 @@
     "saves": 17
    },
    {
-    "permalink": "https://www.instagram.com/reel/DdfeU3Kofae/",
-    "caption": "How I stopped projecting insecurities to other for respect",
-    "date": "2026-09-20",
-    "views": 2364,
-    "likes": 63,
-    "comments": 3,
-    "shares": 2,
-    "saves": 18
-   },
-   {
-    "permalink": "https://www.instagram.com/reel/Ddhl5GhT8ie/",
-    "caption": "Comment 48 for the entire list",
-    "date": "2026-09-20",
-    "views": 2277,
-    "likes": 149,
-    "comments": 15,
-    "shares": 24,
-    "saves": 102
-   },
-   {
-    "permalink": "https://www.instagram.com/reel/DdfVirCSfaK/",
-    "caption": "48 Law From The Bible",
-    "date": "2026-09-20",
-    "views": 2053,
-    "likes": 130,
-    "comments": 2,
-    "shares": 26,
-    "saves": 70
-   },
-   {
     "permalink": "https://www.instagram.com/reel/DdtcBx0yo-b/",
     "caption": "How to disrespect God 101",
     "date": "2026-09-25",
@@ -4191,16 +4183,6 @@
     "comments": 2,
     "shares": 5,
     "saves": 13
-   },
-   {
-    "permalink": "https://www.instagram.com/reel/DdkMyVJSunT/",
-    "caption": "Capitalism is peak",
-    "date": "2026-09-21",
-    "views": 1838,
-    "likes": 48,
-    "comments": 2,
-    "shares": 3,
-    "saves": 32
    },
    {
     "permalink": "https://www.instagram.com/reel/Dd9T_YvS1nK/",
@@ -4251,16 +4233,6 @@
     "comments": 2,
     "shares": 9,
     "saves": 53
-   },
-   {
-    "permalink": "https://www.instagram.com/reel/DdfVoRWSZPj/",
-    "caption": "48 Law From The Bible",
-    "date": "2026-09-20",
-    "views": 1667,
-    "likes": 91,
-    "comments": 2,
-    "shares": 18,
-    "saves": 34
    },
    {
     "permalink": "https://www.instagram.com/reel/DeZUeyEyTj-/",
@@ -4323,16 +4295,6 @@
     "saves": 8
    },
    {
-    "permalink": "https://www.instagram.com/reel/DdkK_v8z_Bp/",
-    "caption": "Indeed the rich get richer",
-    "date": "2026-09-21",
-    "views": 1510,
-    "likes": 44,
-    "comments": 0,
-    "shares": 1,
-    "saves": 15
-   },
-   {
     "permalink": "https://www.instagram.com/reel/DeW9mNLyxwe/",
     "caption": "5 “Signs” that you are faking productivity",
     "date": "2026-10-11",
@@ -4388,7 +4350,7 @@
     "video": "EniSlDEYJ9s",
     "title": "10 Things to Unlearn From School 🤮",
     "published": "2026-10-01",
-    "views": 1860,
+    "views": 1863,
     "likes": 18,
     "comments": 0
    },
@@ -4428,7 +4390,7 @@
     "video": "wimPlb5srU0",
     "title": "You don't fight level 100 boss at level 2",
     "published": "2026-10-01",
-    "views": 1059,
+    "views": 1060,
     "likes": 6,
     "comments": 1
    },
@@ -4436,7 +4398,7 @@
     "video": "4YdQvgfU1bU",
     "title": "How to find your IKIGAI in 20 min",
     "published": "2026-10-05",
-    "views": 770,
+    "views": 771,
     "likes": 12,
     "comments": 0
    },
@@ -4508,9 +4470,9 @@
     "video": "O6h_ujVeP0o",
     "title": "People are sadist when it comes to themselves",
     "published": "2026-09-20",
-    "views": 30,
+    "views": 26,
     "likes": 0,
-    "comments": 1
+    "comments": 0
    }
   ]
  },
@@ -5219,19 +5181,6 @@
      "theme": "style"
     },
     {
-     "id": "18110910899591947",
-     "text": "48 laws",
-     "likes": 0,
-     "replies": 0,
-     "at": "2026-09-28T12:53:35Z",
-     "post": "https://www.instagram.com/reel/Ddhl5GhT8ie/",
-     "caption": "Comment 48 for the entire list",
-     "posted": "2026-09-20",
-     "is_reply": false,
-     "replied": false,
-     "theme": "list"
-    },
-    {
      "id": "17873941794585874",
      "text": "Good message but can we not do the swearing part",
      "likes": 5,
@@ -5258,19 +5207,6 @@
      "theme": "list"
     },
     {
-     "id": "17971887881989441",
-     "text": "48",
-     "likes": 1,
-     "replies": 0,
-     "at": "2026-09-24T16:57:01Z",
-     "post": "https://www.instagram.com/reel/Ddhl5GhT8ie/",
-     "caption": "Comment 48 for the entire list",
-     "posted": "2026-09-20",
-     "is_reply": false,
-     "replied": false,
-     "theme": "list"
-    },
-    {
      "id": "17966135139168290",
      "text": "48",
      "likes": 1,
@@ -5282,19 +5218,6 @@
      "is_reply": false,
      "replied": false,
      "theme": "list"
-    },
-    {
-     "id": "18474918910115864",
-     "text": "Exactly what i needed to hear rn tysm",
-     "likes": 1,
-     "replies": 2,
-     "at": "2026-09-23T17:45:29Z",
-     "post": "https://www.instagram.com/p/DdjNNQbEvUO/",
-     "caption": "",
-     "posted": "2026-09-21",
-     "is_reply": false,
-     "replied": false,
-     "theme": "praise"
     },
     {
      "id": "17891850843434803",
@@ -5334,149 +5257,6 @@
      "is_reply": false,
      "replied": false,
      "theme": "ask"
-    },
-    {
-     "id": "17899812774658053",
-     "text": "Yeah you're just wrong on that",
-     "likes": 1,
-     "replies": 1,
-     "at": "2026-09-22T09:49:43Z",
-     "post": "https://www.instagram.com/reel/DdkMyVJSunT/",
-     "caption": "Capitalism is peak",
-     "posted": "2026-09-21",
-     "is_reply": false,
-     "replied": false,
-     "theme": "pushback"
-    },
-    {
-     "id": "17871194169639267",
-     "text": "48",
-     "likes": 1,
-     "replies": 1,
-     "at": "2026-09-21T13:55:09Z",
-     "post": "https://www.instagram.com/reel/Ddhl5GhT8ie/",
-     "caption": "Comment 48 for the entire list",
-     "posted": "2026-09-20",
-     "is_reply": false,
-     "replied": false,
-     "theme": "list"
-    },
-    {
-     "id": "18312000211304736",
-     "text": "48",
-     "likes": 1,
-     "replies": 1,
-     "at": "2026-09-21T05:17:20Z",
-     "post": "https://www.instagram.com/reel/Ddhl5GhT8ie/",
-     "caption": "Comment 48 for the entire list",
-     "posted": "2026-09-20",
-     "is_reply": false,
-     "replied": false,
-     "theme": "list"
-    },
-    {
-     "id": "17902783554592143",
-     "text": "🔥",
-     "likes": 1,
-     "replies": 1,
-     "at": "2026-09-21T04:36:08Z",
-     "post": "https://www.instagram.com/reel/Ddhl5GhT8ie/",
-     "caption": "Comment 48 for the entire list",
-     "posted": "2026-09-20",
-     "is_reply": false,
-     "replied": false,
-     "theme": "praise"
-    },
-    {
-     "id": "18018880109927189",
-     "text": "48",
-     "likes": 2,
-     "replies": 1,
-     "at": "2026-09-21T03:06:46Z",
-     "post": "https://www.instagram.com/reel/Ddhl5GhT8ie/",
-     "caption": "Comment 48 for the entire list",
-     "posted": "2026-09-20",
-     "is_reply": false,
-     "replied": false,
-     "theme": "list"
-    },
-    {
-     "id": "17902908324592939",
-     "text": "48",
-     "likes": 1,
-     "replies": 2,
-     "at": "2026-09-21T01:17:40Z",
-     "post": "https://www.instagram.com/reel/Ddhl5GhT8ie/",
-     "caption": "Comment 48 for the entire list",
-     "posted": "2026-09-20",
-     "is_reply": false,
-     "replied": false,
-     "theme": "list"
-    },
-    {
-     "id": "17902951797576087",
-     "text": "48",
-     "likes": 1,
-     "replies": 1,
-     "at": "2026-09-20T22:38:39Z",
-     "post": "https://www.instagram.com/reel/Ddhl5GhT8ie/",
-     "caption": "Comment 48 for the entire list",
-     "posted": "2026-09-20",
-     "is_reply": false,
-     "replied": false,
-     "theme": "list"
-    },
-    {
-     "id": "17899422267599233",
-     "text": "Somebody did save you and it is Jesus",
-     "likes": 1,
-     "replies": 1,
-     "at": "2026-09-20T10:32:40Z",
-     "post": "https://www.instagram.com/reel/DdfVirCSfaK/",
-     "caption": "48 Law From The Bible",
-     "posted": "2026-09-20",
-     "is_reply": false,
-     "replied": false,
-     "theme": "faith"
-    },
-    {
-     "id": "18054454751566428",
-     "text": "W🔥",
-     "likes": 1,
-     "replies": 1,
-     "at": "2026-09-20T10:28:43Z",
-     "post": "https://www.instagram.com/reel/DdfeU3Kofae/",
-     "caption": "How I stopped projecting insecurities to other for respect",
-     "posted": "2026-09-20",
-     "is_reply": false,
-     "replied": false,
-     "theme": "praise"
-    },
-    {
-     "id": "18071836094743480",
-     "text": "🔥",
-     "likes": 1,
-     "replies": 0,
-     "at": "2026-09-20T06:42:50Z",
-     "post": "https://www.instagram.com/reel/DdfeU3Kofae/",
-     "caption": "How I stopped projecting insecurities to other for respect",
-     "posted": "2026-09-20",
-     "is_reply": false,
-     "replied": false,
-     "theme": "praise"
-    },
-    {
-     "id": "18137177209539988",
-     "text": "48",
-     "likes": 2,
-     "replies": 1,
-     "at": "2026-09-20T04:22:19Z",
-     "post": "https://www.instagram.com/reel/DdfVoRWSZPj/",
-     "caption": "48 Law From The Bible",
-     "posted": "2026-09-20",
-     "is_reply": false,
-     "replied": false,
-     "theme": "list"
     }
    ]
   }
@@ -8076,19 +7856,33 @@
    "date": "2026-10-17",
    "ig_views": 871,
    "ig_new_followers": 5,
-   "yt_views": null,
-   "yt_net_subscribers": null
+   "yt_views": 4,
+   "yt_net_subscribers": 0
   },
   {
    "date": "2026-10-18",
    "ig_views": 2044,
+   "ig_new_followers": 5,
+   "yt_views": 7,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-10-19",
+   "ig_views": 1505,
+   "ig_new_followers": 6,
+   "yt_views": null,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-10-20",
+   "ig_views": 736,
    "ig_new_followers": 0,
    "yt_views": null,
    "yt_net_subscribers": null
   },
   {
-   "date": "2026-10-19",
-   "ig_views": 920,
+   "date": "2026-10-21",
+   "ig_views": 870,
    "ig_new_followers": 0,
    "yt_views": null,
    "yt_net_subscribers": null
@@ -8160,6 +7954,12 @@
    "ig_followers": 7390,
    "yt_subscribers": 85,
    "yt_lifetime_views": 77053
+  },
+  {
+   "date": "2026-10-22",
+   "ig_followers": 7379,
+   "yt_subscribers": 85,
+   "yt_lifetime_views": 77063
   }
  ]
 }
