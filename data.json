@@ -1,16 +1,16 @@
 {
- "updated_at": "2026-10-21T16:18:08.865Z",
+ "updated_at": "2026-10-22T16:17:30.279Z",
  "tracking_since": "2026-10-10",
  "profile": {
   "instagram": {
    "username": "ezekiellaii",
    "followers": 7379,
-   "posts": 412
+   "posts": 414
   },
   "youtube": {
    "title": "Ezekute",
    "subscribers": 85,
-   "lifetime_views": 77063,
+   "lifetime_views": 77080,
    "videos": 137
   }
  },
@@ -4112,7 +4112,7 @@
    "yt_subscribers": 85,
    "yt_change": 0,
    "yt_real": true,
-   "yt_views": null,
+   "yt_views": 6,
    "ig_followers": 7391,
    "ig_change": -6,
    "ig_real": true,
@@ -4138,7 +4138,7 @@
    "ig_followers": null,
    "ig_change": null,
    "ig_real": false,
-   "ig_views": 870
+   "ig_views": 2159
   },
   {
    "date": "2026-10-22",
@@ -4148,6 +4148,17 @@
    "yt_views": null,
    "ig_followers": 7379,
    "ig_change": null,
+   "ig_real": true,
+   "ig_views": 930
+  },
+  {
+   "date": "2026-10-23",
+   "yt_subscribers": 85,
+   "yt_change": 0,
+   "yt_real": true,
+   "yt_views": null,
+   "ig_followers": 7379,
+   "ig_change": 0,
    "ig_real": true,
    "ig_views": null
   }
@@ -4245,6 +4256,16 @@
     "saves": 0
    },
    {
+    "permalink": "https://www.instagram.com/reel/DewUXs3S3s1/",
+    "caption": "Enlighten me",
+    "date": "2026-10-21",
+    "views": 1642,
+    "likes": 31,
+    "comments": 2,
+    "shares": 4,
+    "saves": 11
+   },
+   {
     "permalink": "https://www.instagram.com/reel/Dd_eOnxSKhT/",
     "caption": "Are you in?",
     "date": "2026-10-02",
@@ -4253,16 +4274,6 @@
     "comments": 8,
     "shares": 34,
     "saves": 8
-   },
-   {
-    "permalink": "https://www.instagram.com/reel/DdmJmepSXsQ/",
-    "caption": "48 ways to become capable of anything",
-    "date": "2026-09-22",
-    "views": 1598,
-    "likes": 144,
-    "comments": 5,
-    "shares": 32,
-    "saves": 96
    },
    {
     "permalink": "https://www.instagram.com/reel/Dd1dAHxStDU/",
@@ -4462,17 +4473,9 @@
     "video": "CI9RAG8zIn0",
     "title": "judge a book by its cover",
     "published": "2026-09-23",
-    "views": 40,
+    "views": 41,
     "likes": 1,
     "comments": 2
-   },
-   {
-    "video": "O6h_ujVeP0o",
-    "title": "People are sadist when it comes to themselves",
-    "published": "2026-09-20",
-    "views": 26,
-    "likes": 0,
-    "comments": 0
    }
   ]
  },
@@ -4517,6 +4520,32 @@
     }
    ],
    "items": [
+    {
+     "id": "18119359216952354",
+     "text": "Now*",
+     "likes": 0,
+     "replies": 0,
+     "at": "2026-10-22T14:40:52Z",
+     "post": "https://www.instagram.com/reel/DewUXs3S3s1/",
+     "caption": "Enlighten me",
+     "posted": "2026-10-21",
+     "is_reply": false,
+     "replied": false,
+     "theme": "other"
+    },
+    {
+     "id": "17911290750483831",
+     "text": "Following with 3rd account noe",
+     "likes": 0,
+     "replies": 0,
+     "at": "2026-10-22T14:40:50Z",
+     "post": "https://www.instagram.com/reel/DewUXs3S3s1/",
+     "caption": "Enlighten me",
+     "posted": "2026-10-21",
+     "is_reply": false,
+     "replied": false,
+     "theme": "praise"
+    },
     {
      "id": "18560944294076923",
      "text": "FACTS",
@@ -5218,45 +5247,6 @@
      "is_reply": false,
      "replied": false,
      "theme": "list"
-    },
-    {
-     "id": "17891850843434803",
-     "text": "So basically twins we gotta lock in",
-     "likes": 4,
-     "replies": 1,
-     "at": "2026-09-22T21:29:38Z",
-     "post": "https://www.instagram.com/reel/DdmJmepSXsQ/",
-     "caption": "48 ways to become capable of anything",
-     "posted": "2026-09-22",
-     "is_reply": false,
-     "replied": false,
-     "theme": "in"
-    },
-    {
-     "id": "18182011894423509",
-     "text": "48",
-     "likes": 2,
-     "replies": 0,
-     "at": "2026-09-22T18:40:05Z",
-     "post": "https://www.instagram.com/reel/DdmJmepSXsQ/",
-     "caption": "48 ways to become capable of anything",
-     "posted": "2026-09-22",
-     "is_reply": false,
-     "replied": false,
-     "theme": "list"
-    },
-    {
-     "id": "18282554215294087",
-     "text": "Please do more of these combining the Greatest Book in the world and one of the greatest books written by a man Amen",
-     "likes": 2,
-     "replies": 1,
-     "at": "2026-09-22T16:49:50Z",
-     "post": "https://www.instagram.com/reel/DdmJmepSXsQ/",
-     "caption": "48 ways to become capable of anything",
-     "posted": "2026-09-22",
-     "is_reply": false,
-     "replied": false,
-     "theme": "ask"
     }
    ]
   }
@@ -7870,19 +7860,26 @@
    "date": "2026-10-19",
    "ig_views": 1505,
    "ig_new_followers": 6,
-   "yt_views": null,
-   "yt_net_subscribers": null
+   "yt_views": 6,
+   "yt_net_subscribers": 0
   },
   {
    "date": "2026-10-20",
    "ig_views": 736,
-   "ig_new_followers": 0,
+   "ig_new_followers": 5,
    "yt_views": null,
    "yt_net_subscribers": null
   },
   {
    "date": "2026-10-21",
-   "ig_views": 870,
+   "ig_views": 2159,
+   "ig_new_followers": 0,
+   "yt_views": null,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-10-22",
+   "ig_views": 930,
    "ig_new_followers": 0,
    "yt_views": null,
    "yt_net_subscribers": null
@@ -7960,6 +7957,12 @@
    "ig_followers": 7379,
    "yt_subscribers": 85,
    "yt_lifetime_views": 77063
+  },
+  {
+   "date": "2026-10-23",
+   "ig_followers": 7379,
+   "yt_subscribers": 85,
+   "yt_lifetime_views": 77080
   }
  ]
 }
