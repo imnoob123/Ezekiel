@@ -198,7 +198,7 @@ export default function Today() {
           {missed && <p className="mb-3 font-medium">Missed yesterday. Today&apos;s task is smaller.</p>}
           {callout && <p className="mb-4 text-[15px] leading-snug text-text/80">{callout}</p>}
           <p className="glow-text mb-5 text-[20px] font-semibold leading-tight">{building}</p>
-          <StepEditor missed={missed} busy={busy} onStart={start} />
+          <StepEditor building={building} missed={missed} busy={busy} onStart={start} />
           <button onClick={() => setStage("input")} className="label mt-4 block w-full text-center hover:text-text">
             Back
           </button>

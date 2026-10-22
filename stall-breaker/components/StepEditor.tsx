@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { STEP_MINUTES, checkSteps, halve, isThinkingStep, limitsFor } from "@/lib/coach";
 import type { Step } from "@/lib/store";
 
@@ -16,7 +16,9 @@ export default function StepEditor({
   missed,
   busy,
   onStart,
+  building,
 }: {
+  building: string;
   missed: boolean;
   busy: boolean;
   onStart: (steps: Step[], finishLine: string) => void;
@@ -29,6 +31,34 @@ export default function StepEditor({
   ].slice(0, missed ? 2 : 3));
   const [finish, setFinish] = useState("");
   const [err, setErr] = useState<string | null>(null);
+
+  const [aiOn, setAiOn] = useState(false);
+  const [aiBusy, setAiBusy] = useState(false);
+
+  useEffect(() => {
+    fetch("/api/coach").then((r) => r.json()).then((d) => setAiOn(Boolean(d.enabled))).catch(() => {});
+  }, []);
+
+  // Optional: AI drafts the steps, you still edit them and the same rules apply.
+  async function suggest() {
+    setAiBusy(true);
+    setErr(null);
+    try {
+      const res = await fetch("/api/coach", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ building, missed }),
+      });
+      const d = await res.json();
+      if (!res.ok) throw new Error(d.error);
+      setSteps(d.steps);
+      setFinish(d.finish);
+    } catch (e) {
+      setErr(e instanceof Error ? e.message : "AI hiccup.");
+    } finally {
+      setAiBusy(false);
+    }
+  }
 
   const filled = steps.filter((s) => s.text.trim()).map((s) => ({ ...s, text: s.text.trim() }));
   const total = filled.reduce((n, s) => n + s.minutes, 0);
@@ -51,6 +81,12 @@ export default function StepEditor({
     <div>
       <p className="label">Break it down</p>
       <p className="mt-1 text-[14px] text-muted">So small it feels almost too easy. Actions, not thinking.</p>
+
+      {aiOn && (
+        <button type="button" onClick={suggest} disabled={aiBusy} className="label mt-3 block hover:text-text">
+          {aiBusy ? "Thinking…" : "Suggest steps with AI"}
+        </button>
+      )}
 
       <ol className="mt-4 space-y-2">
         {steps.map((s, i) => {

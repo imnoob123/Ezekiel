@@ -7,7 +7,7 @@ Three screens:
 - **Ledger**: every promise with its proof, kept/missed, and a growth chart of kept promises.
 - **Setback**: rant → "What can you get from this?" → one next move, sent straight to Today.
 
-No AI and no API costs: the coaching is rules in `lib/coach.ts`.
+The coaching is rules in `lib/coach.ts`. AI is optional and free: see "Optional AI" below.
 
 ## Run locally
 
@@ -40,3 +40,11 @@ With no keys it still runs in local mode: no login, ledger saved in that browser
 - `lib/coach.ts`: the excuse call-outs, step rules (minutes, caps, banned "thinking" words), and the weekly stewardship review. Edit here to change how it coaches.
 - `app/(app)/today`, `ledger`, `setback`: the three screens.
 - `supabase/migrations/001_init.sql`: the database.
+
+## Optional AI (free, via FreeLLMAPI)
+[FreeLLMAPI](https://github.com/tashfeenahmed/freellmapi) is a self-hosted router that puts many free LLM tiers behind one OpenAI-compatible endpoint.
+1. Run it (Docker one-liner on its README), open http://localhost:3001, add free provider keys, copy the unified key.
+2. In `.env.local` set `FREELLM_BASE_URL=http://localhost:3001/v1` and `FREELLM_API_KEY=<unified key>`.
+3. A "Suggest steps with AI" button appears on the step editor. It only drafts; you edit, and the same step rules apply.
+
+On Vercel the router must be reachable from the internet (host it on a VPS), since `localhost` is not. Without the env vars the button is hidden.
