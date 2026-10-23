@@ -1,16 +1,16 @@
 {
- "updated_at": "2026-10-22T16:17:30.279Z",
+ "updated_at": "2026-10-23T16:17:47.260Z",
  "tracking_since": "2026-10-10",
  "profile": {
   "instagram": {
    "username": "ezekiellaii",
-   "followers": 7379,
-   "posts": 414
+   "followers": 7374,
+   "posts": 415
   },
   "youtube": {
    "title": "Ezekute",
    "subscribers": 85,
-   "lifetime_views": 77080,
+   "lifetime_views": 77081,
    "videos": 137
   }
  },
@@ -4123,7 +4123,7 @@
    "yt_subscribers": 85,
    "yt_change": 0,
    "yt_real": true,
-   "yt_views": null,
+   "yt_views": 7,
    "ig_followers": 7390,
    "ig_change": -1,
    "ig_real": true,
@@ -4135,8 +4135,8 @@
    "yt_change": null,
    "yt_real": false,
    "yt_views": null,
-   "ig_followers": null,
-   "ig_change": null,
+   "ig_followers": 7379,
+   "ig_change": 4,
    "ig_real": false,
    "ig_views": 2159
   },
@@ -4149,7 +4149,7 @@
    "ig_followers": 7379,
    "ig_change": null,
    "ig_real": true,
-   "ig_views": 930
+   "ig_views": 3346
   },
   {
    "date": "2026-10-23",
@@ -4160,27 +4160,48 @@
    "ig_followers": 7379,
    "ig_change": 0,
    "ig_real": true,
+   "ig_views": 518
+  },
+  {
+   "date": "2026-10-24",
+   "yt_subscribers": 85,
+   "yt_change": 0,
+   "yt_real": true,
+   "yt_views": null,
+   "ig_followers": 7374,
+   "ig_change": -5,
+   "ig_real": true,
    "ig_views": null
   }
  ],
  "top": {
   "instagram": [
    {
+    "permalink": "https://www.instagram.com/p/DeEoUmgE51o/",
+    "caption": "Your attitude determines everything",
+    "date": "2026-10-04",
+    "views": 4641,
+    "likes": 122,
+    "comments": 8,
+    "shares": 8,
+    "saves": 51
+   },
+   {
     "permalink": "https://www.instagram.com/p/DebxCFxEsXD/",
     "caption": "Bro this kid has a kill count of 7 and somehow nobody’s coming after him. Never been arrested. Never been questioned. Honestly the cops wou…",
     "date": "2026-10-13",
-    "views": 3074,
-    "likes": 47,
-    "comments": 3,
+    "views": 3340,
+    "likes": 50,
+    "comments": 5,
     "shares": 3,
-    "saves": 4
+    "saves": 5
    },
    {
     "permalink": "https://www.instagram.com/reel/Dd6PJRGSoCO/",
     "caption": "hot unpopular take",
     "date": "2026-09-30",
-    "views": 2542,
-    "likes": 52,
+    "views": 2571,
+    "likes": 53,
     "comments": 46,
     "shares": 15,
     "saves": 17
@@ -4189,7 +4210,7 @@
     "permalink": "https://www.instagram.com/reel/DdtcBx0yo-b/",
     "caption": "How to disrespect God 101",
     "date": "2026-09-25",
-    "views": 1966,
+    "views": 1968,
     "likes": 55,
     "comments": 2,
     "shares": 5,
@@ -4199,48 +4220,48 @@
     "permalink": "https://www.instagram.com/reel/Dd9T_YvS1nK/",
     "caption": "Only one went to heaven 👆",
     "date": "2026-10-01",
-    "views": 1827,
+    "views": 1841,
     "likes": 110,
     "comments": 2,
     "shares": 15,
     "saves": 21
    },
    {
+    "permalink": "https://www.instagram.com/reel/DeUgJ80yeHp/",
+    "caption": "How to ruin your life in 13 steps",
+    "date": "2026-10-10",
+    "views": 1823,
+    "likes": 48,
+    "comments": 3,
+    "shares": 1,
+    "saves": 18
+   },
+   {
     "permalink": "https://www.instagram.com/reel/Dd1dEL7SeV_/",
     "caption": "Actionless prayer 🫥",
     "date": "2026-09-28",
-    "views": 1740,
+    "views": 1751,
     "likes": 55,
     "comments": 1,
     "shares": 1,
     "saves": 5
    },
    {
-    "permalink": "https://www.instagram.com/reel/DeUgJ80yeHp/",
-    "caption": "How to ruin your life in 13 steps",
-    "date": "2026-10-10",
-    "views": 1734,
-    "likes": 42,
-    "comments": 3,
-    "shares": 1,
-    "saves": 15
-   },
-   {
-    "permalink": "https://www.instagram.com/p/DeEoUmgE51o/",
-    "caption": "Your attitude determines everything",
-    "date": "2026-10-04",
-    "views": 1724,
-    "likes": 55,
-    "comments": 7,
-    "shares": 3,
-    "saves": 7
+    "permalink": "https://www.instagram.com/reel/DewUXs3S3s1/",
+    "caption": "Enlighten me",
+    "date": "2026-10-21",
+    "views": 1745,
+    "likes": 35,
+    "comments": 2,
+    "shares": 4,
+    "saves": 11
    },
    {
     "permalink": "https://www.instagram.com/reel/Dd6zmNIyA3J/",
     "caption": "How to become respected like Jesus",
     "date": "2026-09-30",
-    "views": 1713,
-    "likes": 94,
+    "views": 1728,
+    "likes": 95,
     "comments": 2,
     "shares": 9,
     "saves": 53
@@ -4249,28 +4270,18 @@
     "permalink": "https://www.instagram.com/reel/DeZUeyEyTj-/",
     "caption": "Canon event",
     "date": "2026-10-12",
-    "views": 1664,
-    "likes": 28,
+    "views": 1690,
+    "likes": 31,
     "comments": 1,
     "shares": 0,
     "saves": 0
    },
    {
-    "permalink": "https://www.instagram.com/reel/DewUXs3S3s1/",
-    "caption": "Enlighten me",
-    "date": "2026-10-21",
-    "views": 1642,
-    "likes": 31,
-    "comments": 2,
-    "shares": 4,
-    "saves": 11
-   },
-   {
     "permalink": "https://www.instagram.com/reel/Dd_eOnxSKhT/",
     "caption": "Are you in?",
     "date": "2026-10-02",
-    "views": 1634,
-    "likes": 28,
+    "views": 1668,
+    "likes": 30,
     "comments": 8,
     "shares": 34,
     "saves": 8
@@ -4279,7 +4290,7 @@
     "permalink": "https://www.instagram.com/reel/Dd1dAHxStDU/",
     "caption": "Actionless prayer 🫥",
     "date": "2026-09-28",
-    "views": 1596,
+    "views": 1597,
     "likes": 104,
     "comments": 0,
     "shares": 5,
@@ -4289,7 +4300,7 @@
     "permalink": "https://www.instagram.com/reel/Dd39TpryWBI/",
     "caption": "How to rewire your attention span so you can spot more opportunities in life",
     "date": "2026-09-29",
-    "views": 1591,
+    "views": 1597,
     "likes": 45,
     "comments": 8,
     "shares": 7,
@@ -4299,18 +4310,28 @@
     "permalink": "https://www.instagram.com/reel/DeCHGOUS-3t/",
     "caption": "Dont be a degen",
     "date": "2026-10-03",
-    "views": 1529,
+    "views": 1540,
     "likes": 46,
     "comments": 15,
     "shares": 18,
     "saves": 8
    },
    {
+    "permalink": "https://www.instagram.com/reel/DezTgilSRH3/",
+    "caption": "If you keep polishing things and never send them, here’s what to do instead. 5 steps to overcome perfectionism: 1. Name what you’re avoidin…",
+    "date": "2026-10-22",
+    "views": 1527,
+    "likes": 34,
+    "comments": 0,
+    "shares": 4,
+    "saves": 8
+   },
+   {
     "permalink": "https://www.instagram.com/reel/DeW9mNLyxwe/",
     "caption": "5 “Signs” that you are faking productivity",
     "date": "2026-10-11",
-    "views": 1471,
-    "likes": 13,
+    "views": 1497,
+    "likes": 15,
     "comments": 0,
     "shares": 0,
     "saves": 3
@@ -4319,8 +4340,8 @@
     "permalink": "https://www.instagram.com/reel/DehMMgEy3B0/",
     "caption": "7 Things that you can’t do as an ambitious man",
     "date": "2026-10-15",
-    "views": 1433,
-    "likes": 28,
+    "views": 1446,
+    "likes": 29,
     "comments": 0,
     "shares": 3,
     "saves": 11
@@ -4339,8 +4360,8 @@
     "permalink": "https://www.instagram.com/reel/DeCU27OS3Di/",
     "caption": "🤡",
     "date": "2026-10-03",
-    "views": 1383,
-    "likes": 19,
+    "views": 1426,
+    "likes": 20,
     "comments": 4,
     "shares": 1,
     "saves": 4
@@ -4349,11 +4370,21 @@
     "permalink": "https://www.instagram.com/p/Dd6mENiElmW/",
     "caption": "I lowkey enjoy making this",
     "date": "2026-09-30",
-    "views": 1241,
-    "likes": 27,
+    "views": 1264,
+    "likes": 29,
     "comments": 2,
     "shares": 0,
     "saves": 2
+   },
+   {
+    "permalink": "https://www.instagram.com/reel/DeeX2Uty2_N/",
+    "caption": "COMPETITION IS GONNA GET HIGHER AND HIGHER",
+    "date": "2026-10-14",
+    "views": 1019,
+    "likes": 12,
+    "comments": 1,
+    "shares": 6,
+    "saves": 4
    }
   ],
   "youtube": [
@@ -4473,7 +4504,7 @@
     "video": "CI9RAG8zIn0",
     "title": "judge a book by its cover",
     "published": "2026-09-23",
-    "views": 41,
+    "views": 40,
     "likes": 1,
     "comments": 2
    }
@@ -4521,9 +4552,22 @@
    ],
    "items": [
     {
+     "id": "18119276779994088",
+     "text": "Fax",
+     "likes": 1,
+     "replies": 0,
+     "at": "2026-10-22T16:24:44Z",
+     "post": "https://www.instagram.com/reel/Dew4rWaS2I7/",
+     "caption": "",
+     "posted": "2026-10-21",
+     "is_reply": false,
+     "replied": false,
+     "theme": "praise"
+    },
+    {
      "id": "18119359216952354",
      "text": "Now*",
-     "likes": 0,
+     "likes": 1,
      "replies": 0,
      "at": "2026-10-22T14:40:52Z",
      "post": "https://www.instagram.com/reel/DewUXs3S3s1/",
@@ -4536,7 +4580,7 @@
     {
      "id": "17911290750483831",
      "text": "Following with 3rd account noe",
-     "likes": 0,
+     "likes": 1,
      "replies": 0,
      "at": "2026-10-22T14:40:50Z",
      "post": "https://www.instagram.com/reel/DewUXs3S3s1/",
@@ -4576,7 +4620,7 @@
      "id": "17999036435823457",
      "text": "Why is this normalize? May Jesus Christ Bless him even if he killed 7 people but why is this being normalized tho??",
      "likes": 1,
-     "replies": 1,
+     "replies": 3,
      "at": "2026-10-13T12:25:06Z",
      "post": "https://www.instagram.com/p/DebxCFxEsXD/",
      "caption": "Bro this kid has a kill count of 7 and somehow nobody’s coming after him. Never been arrested. Never been questioned. Honestly the cops wou…",
@@ -4594,6 +4638,45 @@
      "post": "https://www.instagram.com/reel/DeZUeyEyTj-/",
      "caption": "Canon event",
      "posted": "2026-10-12",
+     "is_reply": false,
+     "replied": false,
+     "theme": "praise"
+    },
+    {
+     "id": "17960279994237963",
+     "text": "Viva Cristo Rey!",
+     "likes": 1,
+     "replies": 0,
+     "at": "2026-10-12T11:51:47Z",
+     "post": "https://www.instagram.com/p/DeEoUmgE51o/",
+     "caption": "Your attitude determines everything",
+     "posted": "2026-10-04",
+     "is_reply": false,
+     "replied": false,
+     "theme": "faith"
+    },
+    {
+     "id": "17910123084490193",
+     "text": "Fah is this shit 💔😭",
+     "likes": 1,
+     "replies": 0,
+     "at": "2026-10-12T11:01:20Z",
+     "post": "https://www.instagram.com/reel/DeHMCvlSxKB/",
+     "caption": "",
+     "posted": "2026-10-05",
+     "is_reply": false,
+     "replied": false,
+     "theme": "other"
+    },
+    {
+     "id": "18130663828749440",
+     "text": "For sure bro 🔥",
+     "likes": 1,
+     "replies": 0,
+     "at": "2026-10-12T03:35:02Z",
+     "post": "https://www.instagram.com/reel/DeHMCvlSxKB/",
+     "caption": "",
+     "posted": "2026-10-05",
      "is_reply": false,
      "replied": false,
      "theme": "praise"
@@ -4634,7 +4717,7 @@
      "caption": "Are you in?",
      "posted": "2026-10-02",
      "is_reply": false,
-     "replied": false,
+     "replied": true,
      "theme": "in"
     },
     {
@@ -4660,7 +4743,7 @@
      "caption": "Your attitude determines everything",
      "posted": "2026-10-04",
      "is_reply": false,
-     "replied": false,
+     "replied": true,
      "theme": "ask"
     },
     {
@@ -4673,20 +4756,20 @@
      "caption": "Your attitude determines everything",
      "posted": "2026-10-04",
      "is_reply": false,
-     "replied": false,
+     "replied": true,
      "theme": "style"
     },
     {
      "id": "18050413571606261",
      "text": "Everything was fine until I saw the book 'Rich Dad Poor Dad'.",
-     "likes": 3,
+     "likes": 4,
      "replies": 2,
      "at": "2026-10-04T12:51:18Z",
      "post": "https://www.instagram.com/p/DeEoUmgE51o/",
      "caption": "Your attitude determines everything",
      "posted": "2026-10-04",
      "is_reply": false,
-     "replied": false,
+     "replied": true,
      "theme": "pushback"
     },
     {
@@ -4738,7 +4821,7 @@
      "caption": "Dont be a degen",
      "posted": "2026-10-03",
      "is_reply": false,
-     "replied": false,
+     "replied": true,
      "theme": "debate"
     },
     {
@@ -4751,7 +4834,7 @@
      "caption": "Dont be a degen",
      "posted": "2026-10-03",
      "is_reply": false,
-     "replied": false,
+     "replied": true,
      "theme": "pushback"
     },
     {
@@ -4764,7 +4847,7 @@
      "caption": "Are you in?",
      "posted": "2026-10-02",
      "is_reply": false,
-     "replied": false,
+     "replied": true,
      "theme": "in"
     },
     {
@@ -4777,7 +4860,7 @@
      "caption": "Are you in?",
      "posted": "2026-10-02",
      "is_reply": false,
-     "replied": false,
+     "replied": true,
      "theme": "in"
     },
     {
@@ -4805,19 +4888,6 @@
      "is_reply": false,
      "replied": false,
      "theme": "faith"
-    },
-    {
-     "id": "17983524756106104",
-     "text": "Cul✝️",
-     "likes": 0,
-     "replies": 0,
-     "at": "2026-10-01T17:46:07Z",
-     "post": "https://www.instagram.com/reel/Dd6PJRGSoCO/",
-     "caption": "hot unpopular take",
-     "posted": "2026-09-30",
-     "is_reply": false,
-     "replied": false,
-     "theme": "praise"
     },
     {
      "id": "18089142155690468",
@@ -4894,7 +4964,7 @@
      "caption": "hot unpopular take",
      "posted": "2026-09-30",
      "is_reply": false,
-     "replied": false,
+     "replied": true,
      "theme": "faith"
     },
     {
@@ -4907,7 +4977,7 @@
      "caption": "hot unpopular take",
      "posted": "2026-09-30",
      "is_reply": false,
-     "replied": false,
+     "replied": true,
      "theme": "pushback"
     },
     {
@@ -4920,7 +4990,7 @@
      "caption": "hot unpopular take",
      "posted": "2026-09-30",
      "is_reply": false,
-     "replied": false,
+     "replied": true,
      "theme": "faith"
     },
     {
@@ -4959,7 +5029,7 @@
      "caption": "hot unpopular take",
      "posted": "2026-09-30",
      "is_reply": false,
-     "replied": false,
+     "replied": true,
      "theme": "pushback"
     },
     {
@@ -4972,7 +5042,7 @@
      "caption": "hot unpopular take",
      "posted": "2026-09-30",
      "is_reply": false,
-     "replied": false,
+     "replied": true,
      "theme": "faith"
     },
     {
@@ -4985,7 +5055,7 @@
      "caption": "hot unpopular take",
      "posted": "2026-09-30",
      "is_reply": false,
-     "replied": false,
+     "replied": true,
      "theme": "faith"
     },
     {
@@ -4998,7 +5068,7 @@
      "caption": "hot unpopular take",
      "posted": "2026-09-30",
      "is_reply": false,
-     "replied": false,
+     "replied": true,
      "theme": "faith"
     },
     {
@@ -5011,7 +5081,7 @@
      "caption": "hot unpopular take",
      "posted": "2026-09-30",
      "is_reply": false,
-     "replied": false,
+     "replied": true,
      "theme": "ask"
     },
     {
@@ -5024,7 +5094,7 @@
      "caption": "hot unpopular take",
      "posted": "2026-09-30",
      "is_reply": false,
-     "replied": false,
+     "replied": true,
      "theme": "debate"
     },
     {
@@ -5037,7 +5107,7 @@
      "caption": "hot unpopular take",
      "posted": "2026-09-30",
      "is_reply": false,
-     "replied": false,
+     "replied": true,
      "theme": "faith"
     },
     {
@@ -5050,7 +5120,7 @@
      "caption": "How to become respected like Jesus",
      "posted": "2026-09-30",
      "is_reply": false,
-     "replied": false,
+     "replied": true,
      "theme": "style"
     },
     {
@@ -5063,7 +5133,7 @@
      "caption": "hot unpopular take",
      "posted": "2026-09-30",
      "is_reply": false,
-     "replied": false,
+     "replied": true,
      "theme": "pushback"
     },
     {
@@ -5076,7 +5146,7 @@
      "caption": "I lowkey enjoy making this",
      "posted": "2026-09-30",
      "is_reply": false,
-     "replied": false,
+     "replied": true,
      "theme": "praise"
     },
     {
@@ -5128,7 +5198,7 @@
      "caption": "hot unpopular take",
      "posted": "2026-09-30",
      "is_reply": false,
-     "replied": false,
+     "replied": true,
      "theme": "pushback"
     },
     {
@@ -5141,7 +5211,7 @@
      "caption": "hot unpopular take",
      "posted": "2026-09-30",
      "is_reply": false,
-     "replied": false,
+     "replied": true,
      "theme": "faith"
     },
     {
@@ -5154,7 +5224,7 @@
      "caption": "How to rewire your attention span so you can spot more opportunities in life",
      "posted": "2026-09-29",
      "is_reply": false,
-     "replied": false,
+     "replied": true,
      "theme": "list"
     },
     {
@@ -5167,7 +5237,7 @@
      "caption": "How to rewire your attention span so you can spot more opportunities in life",
      "posted": "2026-09-29",
      "is_reply": false,
-     "replied": false,
+     "replied": true,
      "theme": "style"
     },
     {
@@ -5180,7 +5250,7 @@
      "caption": "How to rewire your attention span so you can spot more opportunities in life",
      "posted": "2026-09-29",
      "is_reply": false,
-     "replied": false,
+     "replied": true,
      "theme": "list"
     },
     {
@@ -5193,7 +5263,7 @@
      "caption": "How to rewire your attention span so you can spot more opportunities in life",
      "posted": "2026-09-29",
      "is_reply": false,
-     "replied": false,
+     "replied": true,
      "theme": "other"
     },
     {
@@ -5219,7 +5289,7 @@
      "caption": "How to disrespect God 101",
      "posted": "2026-09-25",
      "is_reply": false,
-     "replied": false,
+     "replied": true,
      "theme": "style"
     },
     {
@@ -7867,19 +7937,26 @@
    "date": "2026-10-20",
    "ig_views": 736,
    "ig_new_followers": 5,
-   "yt_views": null,
-   "yt_net_subscribers": null
+   "yt_views": 7,
+   "yt_net_subscribers": 0
   },
   {
    "date": "2026-10-21",
    "ig_views": 2159,
-   "ig_new_followers": 0,
+   "ig_new_followers": 4,
    "yt_views": null,
    "yt_net_subscribers": null
   },
   {
    "date": "2026-10-22",
-   "ig_views": 930,
+   "ig_views": 3346,
+   "ig_new_followers": 0,
+   "yt_views": null,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-10-23",
+   "ig_views": 518,
    "ig_new_followers": 0,
    "yt_views": null,
    "yt_net_subscribers": null
@@ -7963,6 +8040,12 @@
    "ig_followers": 7379,
    "yt_subscribers": 85,
    "yt_lifetime_views": 77080
+  },
+  {
+   "date": "2026-10-24",
+   "ig_followers": 7374,
+   "yt_subscribers": 85,
+   "yt_lifetime_views": 77081
   }
  ]
 }
