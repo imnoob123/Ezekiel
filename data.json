@@ -1,17 +1,17 @@
 {
- "updated_at": "2026-10-23T16:17:47.260Z",
+ "updated_at": "2026-10-24T16:13:26.948Z",
  "tracking_since": "2026-10-10",
  "profile": {
   "instagram": {
    "username": "ezekiellaii",
-   "followers": 7374,
-   "posts": 415
+   "followers": 7371,
+   "posts": 418
   },
   "youtube": {
    "title": "Ezekute",
    "subscribers": 85,
    "lifetime_views": 77081,
-   "videos": 137
+   "videos": 139
   }
  },
  "daily": [
@@ -4131,11 +4131,11 @@
   },
   {
    "date": "2026-10-21",
-   "yt_subscribers": null,
-   "yt_change": null,
+   "yt_subscribers": 85,
+   "yt_change": 0,
    "yt_real": false,
-   "yt_views": null,
-   "ig_followers": 7379,
+   "yt_views": 10,
+   "ig_followers": 7372,
    "ig_change": 4,
    "ig_real": false,
    "ig_views": 2159
@@ -4147,9 +4147,9 @@
    "yt_real": true,
    "yt_views": null,
    "ig_followers": 7379,
-   "ig_change": null,
+   "ig_change": 7,
    "ig_real": true,
-   "ig_views": 3346
+   "ig_views": 3347
   },
   {
    "date": "2026-10-23",
@@ -4160,7 +4160,7 @@
    "ig_followers": 7379,
    "ig_change": 0,
    "ig_real": true,
-   "ig_views": 518
+   "ig_views": 3319
   },
   {
    "date": "2026-10-24",
@@ -4170,6 +4170,17 @@
    "yt_views": null,
    "ig_followers": 7374,
    "ig_change": -5,
+   "ig_real": true,
+   "ig_views": 3000
+  },
+  {
+   "date": "2026-10-25",
+   "yt_subscribers": 85,
+   "yt_change": 0,
+   "yt_real": true,
+   "yt_views": null,
+   "ig_followers": 7371,
+   "ig_change": -3,
    "ig_real": true,
    "ig_views": null
   }
@@ -4190,8 +4201,8 @@
     "permalink": "https://www.instagram.com/p/DebxCFxEsXD/",
     "caption": "Bro this kid has a kill count of 7 and somehow nobody’s coming after him. Never been arrested. Never been questioned. Honestly the cops wou…",
     "date": "2026-10-13",
-    "views": 3340,
-    "likes": 50,
+    "views": 3364,
+    "likes": 51,
     "comments": 5,
     "shares": 3,
     "saves": 5
@@ -4205,6 +4216,16 @@
     "comments": 46,
     "shares": 15,
     "saves": 17
+   },
+   {
+    "permalink": "https://www.instagram.com/reel/De4BGMVysTr/",
+    "caption": "1% Better everyday is 365% Better every year",
+    "date": "2026-10-24",
+    "views": 2142,
+    "likes": 27,
+    "comments": 0,
+    "shares": 0,
+    "saves": 5
    },
    {
     "permalink": "https://www.instagram.com/reel/DdtcBx0yo-b/",
@@ -4237,6 +4258,26 @@
     "saves": 18
    },
    {
+    "permalink": "https://www.instagram.com/reel/De1zcSoSgXW/",
+    "caption": "Consistency isnt giving 100% Someday you give 40%",
+    "date": "2026-10-23",
+    "views": 1784,
+    "likes": 30,
+    "comments": 0,
+    "shares": 0,
+    "saves": 6
+   },
+   {
+    "permalink": "https://www.instagram.com/reel/DewUXs3S3s1/",
+    "caption": "Enlighten me",
+    "date": "2026-10-21",
+    "views": 1755,
+    "likes": 35,
+    "comments": 2,
+    "shares": 4,
+    "saves": 11
+   },
+   {
     "permalink": "https://www.instagram.com/reel/Dd1dEL7SeV_/",
     "caption": "Actionless prayer 🫥",
     "date": "2026-09-28",
@@ -4247,14 +4288,14 @@
     "saves": 5
    },
    {
-    "permalink": "https://www.instagram.com/reel/DewUXs3S3s1/",
-    "caption": "Enlighten me",
-    "date": "2026-10-21",
-    "views": 1745,
-    "likes": 35,
-    "comments": 2,
+    "permalink": "https://www.instagram.com/reel/DezTgilSRH3/",
+    "caption": "If you keep polishing things and never send them, here’s what to do instead. 5 steps to overcome perfectionism: 1. Name what you’re avoidin…",
+    "date": "2026-10-22",
+    "views": 1750,
+    "likes": 42,
+    "comments": 1,
     "shares": 4,
-    "saves": 11
+    "saves": 9
    },
    {
     "permalink": "https://www.instagram.com/reel/Dd6zmNIyA3J/",
@@ -4270,7 +4311,7 @@
     "permalink": "https://www.instagram.com/reel/DeZUeyEyTj-/",
     "caption": "Canon event",
     "date": "2026-10-12",
-    "views": 1690,
+    "views": 1696,
     "likes": 31,
     "comments": 1,
     "shares": 0,
@@ -4317,16 +4358,6 @@
     "saves": 8
    },
    {
-    "permalink": "https://www.instagram.com/reel/DezTgilSRH3/",
-    "caption": "If you keep polishing things and never send them, here’s what to do instead. 5 steps to overcome perfectionism: 1. Name what you’re avoidin…",
-    "date": "2026-10-22",
-    "views": 1527,
-    "likes": 34,
-    "comments": 0,
-    "shares": 4,
-    "saves": 8
-   },
-   {
     "permalink": "https://www.instagram.com/reel/DeW9mNLyxwe/",
     "caption": "5 “Signs” that you are faking productivity",
     "date": "2026-10-11",
@@ -4340,7 +4371,7 @@
     "permalink": "https://www.instagram.com/reel/DehMMgEy3B0/",
     "caption": "7 Things that you can’t do as an ambitious man",
     "date": "2026-10-15",
-    "views": 1446,
+    "views": 1447,
     "likes": 29,
     "comments": 0,
     "shares": 3,
@@ -4375,6 +4406,16 @@
     "comments": 2,
     "shares": 0,
     "saves": 2
+   },
+   {
+    "permalink": "https://www.instagram.com/p/Dey_1ZQEmxM/",
+    "caption": "Valentines day is still 115 days away 💔🥀 Valentines day is still 115 days away 💔🥀 I built a free Claude skill that walks you through st…",
+    "date": "2026-10-22",
+    "views": 1082,
+    "likes": 14,
+    "comments": 0,
+    "shares": 1,
+    "saves": 3
    },
    {
     "permalink": "https://www.instagram.com/reel/DeeX2Uty2_N/",
@@ -4440,7 +4481,7 @@
     "video": "4YdQvgfU1bU",
     "title": "How to find your IKIGAI in 20 min",
     "published": "2026-10-05",
-    "views": 771,
+    "views": 772,
     "likes": 12,
     "comments": 0
    },
@@ -4504,7 +4545,7 @@
     "video": "CI9RAG8zIn0",
     "title": "judge a book by its cover",
     "published": "2026-09-23",
-    "views": 40,
+    "views": 31,
     "likes": 1,
     "comments": 2
    }
@@ -4619,7 +4660,7 @@
     {
      "id": "17999036435823457",
      "text": "Why is this normalize? May Jesus Christ Bless him even if he killed 7 people but why is this being normalized tho??",
-     "likes": 1,
+     "likes": 2,
      "replies": 3,
      "at": "2026-10-13T12:25:06Z",
      "post": "https://www.instagram.com/p/DebxCFxEsXD/",
@@ -4914,19 +4955,6 @@
      "is_reply": false,
      "replied": false,
      "theme": "praise"
-    },
-    {
-     "id": "18123131098920895",
-     "text": "48",
-     "likes": 0,
-     "replies": 0,
-     "at": "2026-10-01T10:41:57Z",
-     "post": "https://www.instagram.com/p/Ddql3K_kmdI/",
-     "caption": "",
-     "posted": "2026-09-24",
-     "is_reply": false,
-     "replied": false,
-     "theme": "list"
     },
     {
      "id": "18077463794710648",
@@ -5291,32 +5319,6 @@
      "is_reply": false,
      "replied": true,
      "theme": "style"
-    },
-    {
-     "id": "17867165793659272",
-     "text": "48",
-     "likes": 1,
-     "replies": 0,
-     "at": "2026-09-24T21:21:30Z",
-     "post": "https://www.instagram.com/p/Ddql3K_kmdI/",
-     "caption": "",
-     "posted": "2026-09-24",
-     "is_reply": false,
-     "replied": false,
-     "theme": "list"
-    },
-    {
-     "id": "17966135139168290",
-     "text": "48",
-     "likes": 1,
-     "replies": 0,
-     "at": "2026-09-24T13:39:10Z",
-     "post": "https://www.instagram.com/p/Ddql3K_kmdI/",
-     "caption": "",
-     "posted": "2026-09-24",
-     "is_reply": false,
-     "replied": false,
-     "theme": "list"
     }
    ]
   }
@@ -7944,19 +7946,26 @@
    "date": "2026-10-21",
    "ig_views": 2159,
    "ig_new_followers": 4,
-   "yt_views": null,
-   "yt_net_subscribers": null
+   "yt_views": 10,
+   "yt_net_subscribers": 0
   },
   {
    "date": "2026-10-22",
-   "ig_views": 3346,
-   "ig_new_followers": 0,
+   "ig_views": 3347,
+   "ig_new_followers": 7,
    "yt_views": null,
    "yt_net_subscribers": null
   },
   {
    "date": "2026-10-23",
-   "ig_views": 518,
+   "ig_views": 3319,
+   "ig_new_followers": 0,
+   "yt_views": null,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-10-24",
+   "ig_views": 3000,
    "ig_new_followers": 0,
    "yt_views": null,
    "yt_net_subscribers": null
@@ -8044,6 +8053,12 @@
   {
    "date": "2026-10-24",
    "ig_followers": 7374,
+   "yt_subscribers": 85,
+   "yt_lifetime_views": 77081
+  },
+  {
+   "date": "2026-10-25",
+   "ig_followers": 7371,
    "yt_subscribers": 85,
    "yt_lifetime_views": 77081
   }
