@@ -1,16 +1,16 @@
 {
- "updated_at": "2026-10-25T16:17:14.846Z",
+ "updated_at": "2026-10-26T16:21:54.554Z",
  "tracking_since": "2026-10-10",
  "profile": {
   "instagram": {
    "username": "ezekiellaii",
-   "followers": 7365,
-   "posts": 419
+   "followers": 7359,
+   "posts": 420
   },
   "youtube": {
    "title": "Ezekute",
    "subscribers": 85,
-   "lifetime_views": 77081,
+   "lifetime_views": 77172,
    "videos": 140
   }
  },
@@ -4156,7 +4156,7 @@
    "yt_subscribers": 85,
    "yt_change": 0,
    "yt_real": true,
-   "yt_views": null,
+   "yt_views": 0,
    "ig_followers": 7379,
    "ig_change": 0,
    "ig_real": true,
@@ -4182,7 +4182,7 @@
    "ig_followers": 7371,
    "ig_change": -3,
    "ig_real": true,
-   "ig_views": 710
+   "ig_views": 4786
   },
   {
    "date": "2026-10-26",
@@ -4191,6 +4191,17 @@
    "yt_real": true,
    "yt_views": null,
    "ig_followers": 7365,
+   "ig_change": -6,
+   "ig_real": true,
+   "ig_views": 1115
+  },
+  {
+   "date": "2026-10-27",
+   "yt_subscribers": 85,
+   "yt_change": 0,
+   "yt_real": true,
+   "yt_views": null,
+   "ig_followers": 7359,
    "ig_change": -6,
    "ig_real": true,
    "ig_views": null
@@ -4212,8 +4223,8 @@
     "permalink": "https://www.instagram.com/p/DebxCFxEsXD/",
     "caption": "Bro this kid has a kill count of 7 and somehow nobody’s coming after him. Never been arrested. Never been questioned. Honestly the cops wou…",
     "date": "2026-10-13",
-    "views": 3370,
-    "likes": 51,
+    "views": 3387,
+    "likes": 52,
     "comments": 5,
     "shares": 3,
     "saves": 5
@@ -4232,9 +4243,29 @@
     "permalink": "https://www.instagram.com/reel/De4BGMVysTr/",
     "caption": "1% Better everyday is 365% Better every year",
     "date": "2026-10-24",
-    "views": 2304,
-    "likes": 34,
+    "views": 2418,
+    "likes": 36,
     "comments": 0,
+    "shares": 0,
+    "saves": 6
+   },
+   {
+    "permalink": "https://www.instagram.com/reel/De7AtWYSSCR/",
+    "caption": "We are gonna win",
+    "date": "2026-10-25",
+    "views": 2158,
+    "likes": 64,
+    "comments": 0,
+    "shares": 8,
+    "saves": 8
+   },
+   {
+    "permalink": "https://www.instagram.com/reel/De1zcSoSgXW/",
+    "caption": "Consistency isnt giving 100% Someday you give 40%",
+    "date": "2026-10-23",
+    "views": 1850,
+    "likes": 34,
+    "comments": 2,
     "shares": 0,
     "saves": 6
    },
@@ -4249,14 +4280,14 @@
     "saves": 21
    },
    {
-    "permalink": "https://www.instagram.com/reel/De1zcSoSgXW/",
-    "caption": "Consistency isnt giving 100% Someday you give 40%",
-    "date": "2026-10-23",
-    "views": 1840,
-    "likes": 34,
-    "comments": 2,
-    "shares": 0,
-    "saves": 6
+    "permalink": "https://www.instagram.com/reel/De7Av-BSNQ2/",
+    "caption": "Unpatched method",
+    "date": "2026-10-25",
+    "views": 1835,
+    "likes": 38,
+    "comments": 6,
+    "shares": 75,
+    "saves": 8
    },
    {
     "permalink": "https://www.instagram.com/reel/DeUgJ80yeHp/",
@@ -4272,9 +4303,9 @@
     "permalink": "https://www.instagram.com/reel/DezTgilSRH3/",
     "caption": "If you keep polishing things and never send them, here’s what to do instead. 5 steps to overcome perfectionism: 1. Name what you’re avoidin…",
     "date": "2026-10-22",
-    "views": 1779,
-    "likes": 44,
-    "comments": 2,
+    "views": 1791,
+    "likes": 45,
+    "comments": 3,
     "shares": 4,
     "saves": 9
    },
@@ -4412,8 +4443,8 @@
     "permalink": "https://www.instagram.com/p/Dey_1ZQEmxM/",
     "caption": "Valentines day is still 115 days away 💔🥀 Valentines day is still 115 days away 💔🥀 I built a free Claude skill that walks you through st…",
     "date": "2026-10-22",
-    "views": 1124,
-    "likes": 14,
+    "views": 1159,
+    "likes": 15,
     "comments": 0,
     "shares": 1,
     "saves": 3
@@ -4422,7 +4453,7 @@
     "permalink": "https://www.instagram.com/reel/DeeX2Uty2_N/",
     "caption": "COMPETITION IS GONNA GET HIGHER AND HIGHER",
     "date": "2026-10-14",
-    "views": 1023,
+    "views": 1024,
     "likes": 12,
     "comments": 1,
     "shares": 6,
@@ -4586,16 +4617,29 @@
    ],
    "items": [
     {
+     "id": "18099992468559737",
+     "text": "Wild method",
+     "likes": 5,
+     "replies": 1,
+     "at": "2026-10-25T16:16:09Z",
+     "post": "https://www.instagram.com/reel/De7Av-BSNQ2/",
+     "caption": "Unpatched method",
+     "posted": "2026-10-25",
+     "is_reply": false,
+     "replied": true,
+     "theme": "praise"
+    },
+    {
      "id": "18040518143839767",
      "text": "I like the way you used the first clip to grab out attention",
-     "likes": 0,
-     "replies": 0,
+     "likes": 1,
+     "replies": 1,
      "at": "2026-10-25T11:41:25Z",
      "post": "https://www.instagram.com/reel/DezTgilSRH3/",
      "caption": "If you keep polishing things and never send them, here’s what to do instead. 5 steps to overcome perfectionism: 1. Name what you’re avoidin…",
      "posted": "2026-10-22",
      "is_reply": false,
-     "replied": false,
+     "replied": true,
      "theme": "style"
     },
     {
@@ -7966,19 +8010,26 @@
    "date": "2026-10-23",
    "ig_views": 3320,
    "ig_new_followers": 2,
-   "yt_views": null,
+   "yt_views": 0,
    "yt_net_subscribers": null
   },
   {
    "date": "2026-10-24",
    "ig_views": 3969,
-   "ig_new_followers": 0,
+   "ig_new_followers": 6,
    "yt_views": null,
    "yt_net_subscribers": null
   },
   {
    "date": "2026-10-25",
-   "ig_views": 710,
+   "ig_views": 4786,
+   "ig_new_followers": 0,
+   "yt_views": null,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-10-26",
+   "ig_views": 1115,
    "ig_new_followers": 0,
    "yt_views": null,
    "yt_net_subscribers": null
@@ -8080,6 +8131,12 @@
    "ig_followers": 7365,
    "yt_subscribers": 85,
    "yt_lifetime_views": 77081
+  },
+  {
+   "date": "2026-10-27",
+   "ig_followers": 7359,
+   "yt_subscribers": 85,
+   "yt_lifetime_views": 77172
   }
  ]
 }
