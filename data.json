@@ -1,16 +1,16 @@
 {
- "updated_at": "2026-10-26T16:21:54.554Z",
+ "updated_at": "2026-10-28T16:19:19.108Z",
  "tracking_since": "2026-10-10",
  "profile": {
   "instagram": {
    "username": "ezekiellaii",
-   "followers": 7359,
-   "posts": 420
+   "followers": 7357,
+   "posts": 423
   },
   "youtube": {
    "title": "Ezekute",
-   "subscribers": 85,
-   "lifetime_views": 77172,
+   "subscribers": 83,
+   "lifetime_views": 77199,
    "videos": 140
   }
  },
@@ -4167,7 +4167,7 @@
    "yt_subscribers": 85,
    "yt_change": 0,
    "yt_real": true,
-   "yt_views": null,
+   "yt_views": 85,
    "ig_followers": 7374,
    "ig_change": -5,
    "ig_real": true,
@@ -4178,7 +4178,7 @@
    "yt_subscribers": 85,
    "yt_change": 0,
    "yt_real": true,
-   "yt_views": null,
+   "yt_views": 17,
    "ig_followers": 7371,
    "ig_change": -3,
    "ig_real": true,
@@ -4193,7 +4193,7 @@
    "ig_followers": 7365,
    "ig_change": -6,
    "ig_real": true,
-   "ig_views": 1115
+   "ig_views": 3104
   },
   {
    "date": "2026-10-27",
@@ -4204,6 +4204,28 @@
    "ig_followers": 7359,
    "ig_change": -6,
    "ig_real": true,
+   "ig_views": 2151
+  },
+  {
+   "date": "2026-10-28",
+   "yt_subscribers": null,
+   "yt_change": null,
+   "yt_real": false,
+   "yt_views": null,
+   "ig_followers": null,
+   "ig_change": null,
+   "ig_real": false,
+   "ig_views": 775
+  },
+  {
+   "date": "2026-10-29",
+   "yt_subscribers": 83,
+   "yt_change": null,
+   "yt_real": true,
+   "yt_views": null,
+   "ig_followers": 7357,
+   "ig_change": null,
+   "ig_real": true,
    "ig_views": null
   }
  ],
@@ -4213,7 +4235,7 @@
     "permalink": "https://www.instagram.com/p/DeEoUmgE51o/",
     "caption": "Your attitude determines everything",
     "date": "2026-10-04",
-    "views": 4641,
+    "views": 4662,
     "likes": 122,
     "comments": 8,
     "shares": 8,
@@ -4233,7 +4255,7 @@
     "permalink": "https://www.instagram.com/reel/Dd6PJRGSoCO/",
     "caption": "hot unpopular take",
     "date": "2026-09-30",
-    "views": 2571,
+    "views": 2575,
     "likes": 53,
     "comments": 46,
     "shares": 15,
@@ -4243,8 +4265,8 @@
     "permalink": "https://www.instagram.com/reel/De4BGMVysTr/",
     "caption": "1% Better everyday is 365% Better every year",
     "date": "2026-10-24",
-    "views": 2418,
-    "likes": 36,
+    "views": 2456,
+    "likes": 38,
     "comments": 0,
     "shares": 0,
     "saves": 6
@@ -4253,20 +4275,40 @@
     "permalink": "https://www.instagram.com/reel/De7AtWYSSCR/",
     "caption": "We are gonna win",
     "date": "2026-10-25",
-    "views": 2158,
-    "likes": 64,
+    "views": 2451,
+    "likes": 77,
     "comments": 0,
     "shares": 8,
-    "saves": 8
+    "saves": 9
+   },
+   {
+    "permalink": "https://www.instagram.com/reel/De7Av-BSNQ2/",
+    "caption": "Unpatched method",
+    "date": "2026-10-25",
+    "views": 2001,
+    "likes": 44,
+    "comments": 7,
+    "shares": 77,
+    "saves": 9
    },
    {
     "permalink": "https://www.instagram.com/reel/De1zcSoSgXW/",
     "caption": "Consistency isnt giving 100% Someday you give 40%",
     "date": "2026-10-23",
-    "views": 1850,
+    "views": 1876,
     "likes": 34,
     "comments": 2,
     "shares": 0,
+    "saves": 6
+   },
+   {
+    "permalink": "https://www.instagram.com/reel/De9iMi8SHKw/",
+    "caption": "I went downward and upward",
+    "date": "2026-10-26",
+    "views": 1846,
+    "likes": 45,
+    "comments": 9,
+    "shares": 2,
     "saves": 6
    },
    {
@@ -4280,22 +4322,12 @@
     "saves": 21
    },
    {
-    "permalink": "https://www.instagram.com/reel/De7Av-BSNQ2/",
-    "caption": "Unpatched method",
-    "date": "2026-10-25",
-    "views": 1835,
-    "likes": 38,
-    "comments": 6,
-    "shares": 75,
-    "saves": 8
-   },
-   {
     "permalink": "https://www.instagram.com/reel/DeUgJ80yeHp/",
     "caption": "How to ruin your life in 13 steps",
     "date": "2026-10-10",
-    "views": 1823,
+    "views": 1834,
     "likes": 48,
-    "comments": 3,
+    "comments": 5,
     "shares": 1,
     "saves": 18
    },
@@ -4303,7 +4335,7 @@
     "permalink": "https://www.instagram.com/reel/DezTgilSRH3/",
     "caption": "If you keep polishing things and never send them, here’s what to do instead. 5 steps to overcome perfectionism: 1. Name what you’re avoidin…",
     "date": "2026-10-22",
-    "views": 1791,
+    "views": 1806,
     "likes": 45,
     "comments": 3,
     "shares": 4,
@@ -4313,27 +4345,17 @@
     "permalink": "https://www.instagram.com/reel/DewUXs3S3s1/",
     "caption": "Enlighten me",
     "date": "2026-10-21",
-    "views": 1759,
+    "views": 1767,
     "likes": 35,
     "comments": 2,
     "shares": 4,
     "saves": 11
    },
    {
-    "permalink": "https://www.instagram.com/reel/Dd1dEL7SeV_/",
-    "caption": "Actionless prayer 🫥",
-    "date": "2026-09-28",
-    "views": 1751,
-    "likes": 55,
-    "comments": 1,
-    "shares": 1,
-    "saves": 5
-   },
-   {
     "permalink": "https://www.instagram.com/reel/Dd6zmNIyA3J/",
     "caption": "How to become respected like Jesus",
     "date": "2026-09-30",
-    "views": 1728,
+    "views": 1732,
     "likes": 95,
     "comments": 2,
     "shares": 9,
@@ -4353,21 +4375,11 @@
     "permalink": "https://www.instagram.com/reel/Dd_eOnxSKhT/",
     "caption": "Are you in?",
     "date": "2026-10-02",
-    "views": 1668,
+    "views": 1670,
     "likes": 30,
     "comments": 8,
     "shares": 34,
     "saves": 8
-   },
-   {
-    "permalink": "https://www.instagram.com/reel/Dd1dAHxStDU/",
-    "caption": "Actionless prayer 🫥",
-    "date": "2026-09-28",
-    "views": 1597,
-    "likes": 104,
-    "comments": 0,
-    "shares": 5,
-    "saves": 24
    },
    {
     "permalink": "https://www.instagram.com/reel/Dd39TpryWBI/",
@@ -4383,7 +4395,7 @@
     "permalink": "https://www.instagram.com/reel/DeCHGOUS-3t/",
     "caption": "Dont be a degen",
     "date": "2026-10-03",
-    "views": 1540,
+    "views": 1542,
     "likes": 46,
     "comments": 15,
     "shares": 18,
@@ -4393,7 +4405,7 @@
     "permalink": "https://www.instagram.com/reel/DeW9mNLyxwe/",
     "caption": "5 “Signs” that you are faking productivity",
     "date": "2026-10-11",
-    "views": 1497,
+    "views": 1499,
     "likes": 15,
     "comments": 0,
     "shares": 0,
@@ -4403,7 +4415,7 @@
     "permalink": "https://www.instagram.com/reel/DehMMgEy3B0/",
     "caption": "7 Things that you can’t do as an ambitious man",
     "date": "2026-10-15",
-    "views": 1447,
+    "views": 1452,
     "likes": 29,
     "comments": 0,
     "shares": 3,
@@ -4423,11 +4435,21 @@
     "permalink": "https://www.instagram.com/reel/DeCU27OS3Di/",
     "caption": "🤡",
     "date": "2026-10-03",
-    "views": 1426,
+    "views": 1427,
     "likes": 20,
     "comments": 4,
     "shares": 1,
     "saves": 4
+   },
+   {
+    "permalink": "https://www.instagram.com/reel/De9hzh-yLaf/",
+    "caption": "Break the rules, follow the law",
+    "date": "2026-10-26",
+    "views": 1324,
+    "likes": 31,
+    "comments": 0,
+    "shares": 7,
+    "saves": 13
    },
    {
     "permalink": "https://www.instagram.com/p/Dd6mENiElmW/",
@@ -4443,8 +4465,8 @@
     "permalink": "https://www.instagram.com/p/Dey_1ZQEmxM/",
     "caption": "Valentines day is still 115 days away 💔🥀 Valentines day is still 115 days away 💔🥀 I built a free Claude skill that walks you through st…",
     "date": "2026-10-22",
-    "views": 1159,
-    "likes": 15,
+    "views": 1244,
+    "likes": 16,
     "comments": 0,
     "shares": 1,
     "saves": 3
@@ -4566,6 +4588,14 @@
     "comments": 0
    },
    {
+    "video": "33ETDRA-F1E",
+    "title": "entrepurner 🔥",
+    "published": "2026-10-24",
+    "views": 93,
+    "likes": 1,
+    "comments": 0
+   },
+   {
     "video": "GysKFWOazFA",
     "title": "how to put your identity in Christ",
     "published": "2026-10-02",
@@ -4617,9 +4647,100 @@
    ],
    "items": [
     {
+     "id": "18096916136413736",
+     "text": "Good boy",
+     "likes": 0,
+     "replies": 0,
+     "at": "2026-10-28T15:58:06Z",
+     "post": "https://www.instagram.com/reel/De9iMi8SHKw/",
+     "caption": "I went downward and upward",
+     "posted": "2026-10-26",
+     "is_reply": false,
+     "replied": false,
+     "theme": "praise"
+    },
+    {
+     "id": "18103168106454947",
+     "text": "That's my boy there I am proud of u brother 🔥🔥",
+     "likes": 1,
+     "replies": 1,
+     "at": "2026-10-28T06:05:11Z",
+     "post": "https://www.instagram.com/reel/De9iMi8SHKw/",
+     "caption": "I went downward and upward",
+     "posted": "2026-10-26",
+     "is_reply": false,
+     "replied": true,
+     "theme": "praise"
+    },
+    {
+     "id": "18114374999157044",
+     "text": "Respect🫡",
+     "likes": 1,
+     "replies": 0,
+     "at": "2026-10-28T02:29:58Z",
+     "post": "https://www.instagram.com/reel/De9iMi8SHKw/",
+     "caption": "I went downward and upward",
+     "posted": "2026-10-26",
+     "is_reply": false,
+     "replied": false,
+     "theme": "praise"
+    },
+    {
+     "id": "18200412766379311",
+     "text": "Now this is a real chigga",
+     "likes": 1,
+     "replies": 0,
+     "at": "2026-10-28T01:01:59Z",
+     "post": "https://www.instagram.com/reel/De9iMi8SHKw/",
+     "caption": "I went downward and upward",
+     "posted": "2026-10-26",
+     "is_reply": false,
+     "replied": false,
+     "theme": "praise"
+    },
+    {
+     "id": "18154381603529254",
+     "text": "@ezekiellaii tell em bro🔥",
+     "likes": 1,
+     "replies": 0,
+     "at": "2026-10-28T00:52:14Z",
+     "post": "https://www.instagram.com/reel/De9iMi8SHKw/",
+     "caption": "I went downward and upward",
+     "posted": "2026-10-26",
+     "is_reply": true,
+     "replied": false,
+     "theme": "praise"
+    },
+    {
+     "id": "17934778101406738",
+     "text": "Beast",
+     "likes": 1,
+     "replies": 0,
+     "at": "2026-10-27T16:55:03Z",
+     "post": "https://www.instagram.com/reel/De9iMi8SHKw/",
+     "caption": "I went downward and upward",
+     "posted": "2026-10-26",
+     "is_reply": false,
+     "replied": false,
+     "theme": "praise"
+    },
+    {
+     "id": "18131834356791965",
+     "text": "wym \"went broke at 16\", most kids this age got a lollipop maybe 😭",
+     "likes": 1,
+     "replies": 2,
+     "at": "2026-10-26T20:35:31Z",
+     "post": "https://www.instagram.com/reel/De9iMi8SHKw/",
+     "caption": "I went downward and upward",
+     "posted": "2026-10-26",
+     "is_reply": false,
+     "replied": true,
+     "theme": "debate"
+    },
+    {
      "id": "18099992468559737",
      "text": "Wild method",
-     "likes": 5,
+     "likes": 6,
      "replies": 1,
      "at": "2026-10-25T16:16:09Z",
      "post": "https://www.instagram.com/reel/De7Av-BSNQ2/",
@@ -4632,7 +4753,7 @@
     {
      "id": "18040518143839767",
      "text": "I like the way you used the first clip to grab out attention",
-     "likes": 1,
+     "likes": 2,
      "replies": 1,
      "at": "2026-10-25T11:41:25Z",
      "post": "https://www.instagram.com/reel/DezTgilSRH3/",
@@ -4788,27 +4909,27 @@
     {
      "id": "18103527992342144",
      "text": "oh shit",
-     "likes": 0,
-     "replies": 0,
+     "likes": 1,
+     "replies": 1,
      "at": "2026-10-10T19:59:25Z",
      "post": "https://www.instagram.com/reel/DeUgJ80yeHp/",
      "caption": "How to ruin your life in 13 steps",
      "posted": "2026-10-10",
      "is_reply": false,
-     "replied": false,
+     "replied": true,
      "theme": "other"
     },
     {
      "id": "18109794038580319",
      "text": "I think that effects are not so necessary but nice video 🙌",
-     "likes": 1,
-     "replies": 0,
+     "likes": 2,
+     "replies": 1,
      "at": "2026-10-10T19:47:03Z",
      "post": "https://www.instagram.com/reel/DeUgJ80yeHp/",
      "caption": "How to ruin your life in 13 steps",
      "posted": "2026-10-10",
      "is_reply": false,
-     "replied": false,
+     "replied": true,
      "theme": "style"
     },
     {
@@ -5356,19 +5477,6 @@
      "is_reply": false,
      "replied": true,
      "theme": "other"
-    },
-    {
-     "id": "17908353327520225",
-     "text": "better not to swear but good message",
-     "likes": 2,
-     "replies": 0,
-     "at": "2026-09-29T03:02:30Z",
-     "post": "https://www.instagram.com/reel/Dd1dEL7SeV_/",
-     "caption": "Actionless prayer 🫥",
-     "posted": "2026-09-28",
-     "is_reply": false,
-     "replied": false,
-     "theme": "style"
     }
    ]
   }
@@ -8017,19 +8125,33 @@
    "date": "2026-10-24",
    "ig_views": 3969,
    "ig_new_followers": 6,
-   "yt_views": null,
-   "yt_net_subscribers": null
+   "yt_views": 85,
+   "yt_net_subscribers": 0
   },
   {
    "date": "2026-10-25",
    "ig_views": 4786,
-   "ig_new_followers": 0,
+   "ig_new_followers": 3,
+   "yt_views": 17,
+   "yt_net_subscribers": 0
+  },
+  {
+   "date": "2026-10-26",
+   "ig_views": 3104,
+   "ig_new_followers": 8,
    "yt_views": null,
    "yt_net_subscribers": null
   },
   {
-   "date": "2026-10-26",
-   "ig_views": 1115,
+   "date": "2026-10-27",
+   "ig_views": 2151,
+   "ig_new_followers": 4,
+   "yt_views": null,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-10-28",
+   "ig_views": 775,
    "ig_new_followers": 0,
    "yt_views": null,
    "yt_net_subscribers": null
@@ -8137,6 +8259,12 @@
    "ig_followers": 7359,
    "yt_subscribers": 85,
    "yt_lifetime_views": 77172
+  },
+  {
+   "date": "2026-10-29",
+   "ig_followers": 7357,
+   "yt_subscribers": 83,
+   "yt_lifetime_views": 77199
   }
  ]
 }
