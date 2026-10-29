@@ -1,17 +1,17 @@
 {
- "updated_at": "2026-10-28T16:19:19.108Z",
+ "updated_at": "2026-10-29T16:32:51.678Z",
  "tracking_since": "2026-10-10",
  "profile": {
   "instagram": {
    "username": "ezekiellaii",
-   "followers": 7357,
-   "posts": 423
+   "followers": 7355,
+   "posts": 427
   },
   "youtube": {
    "title": "Ezekute",
-   "subscribers": 83,
-   "lifetime_views": 77199,
-   "videos": 140
+   "subscribers": 85,
+   "lifetime_views": 77201,
+   "videos": 142
   }
  },
  "daily": [
@@ -4189,11 +4189,11 @@
    "yt_subscribers": 85,
    "yt_change": 0,
    "yt_real": true,
-   "yt_views": null,
+   "yt_views": 12,
    "ig_followers": 7365,
    "ig_change": -6,
    "ig_real": true,
-   "ig_views": 3104
+   "ig_views": 3106
   },
   {
    "date": "2026-10-27",
@@ -4215,7 +4215,7 @@
    "ig_followers": null,
    "ig_change": null,
    "ig_real": false,
-   "ig_views": 775
+   "ig_views": 2063
   },
   {
    "date": "2026-10-29",
@@ -4225,6 +4225,17 @@
    "yt_views": null,
    "ig_followers": 7357,
    "ig_change": null,
+   "ig_real": true,
+   "ig_views": 2299
+  },
+  {
+   "date": "2026-10-30",
+   "yt_subscribers": 85,
+   "yt_change": 2,
+   "yt_real": true,
+   "yt_views": null,
+   "ig_followers": 7355,
+   "ig_change": -2,
    "ig_real": true,
    "ig_views": null
   }
@@ -4262,53 +4273,53 @@
     "saves": 17
    },
    {
+    "permalink": "https://www.instagram.com/reel/De7AtWYSSCR/",
+    "caption": "We are gonna win",
+    "date": "2026-10-25",
+    "views": 2482,
+    "likes": 79,
+    "comments": 0,
+    "shares": 8,
+    "saves": 9
+   },
+   {
     "permalink": "https://www.instagram.com/reel/De4BGMVysTr/",
     "caption": "1% Better everyday is 365% Better every year",
     "date": "2026-10-24",
-    "views": 2456,
+    "views": 2467,
     "likes": 38,
     "comments": 0,
     "shares": 0,
     "saves": 6
    },
    {
-    "permalink": "https://www.instagram.com/reel/De7AtWYSSCR/",
-    "caption": "We are gonna win",
-    "date": "2026-10-25",
-    "views": 2451,
-    "likes": 77,
-    "comments": 0,
-    "shares": 8,
-    "saves": 9
-   },
-   {
     "permalink": "https://www.instagram.com/reel/De7Av-BSNQ2/",
     "caption": "Unpatched method",
     "date": "2026-10-25",
-    "views": 2001,
+    "views": 2008,
     "likes": 44,
     "comments": 7,
     "shares": 77,
     "saves": 9
    },
    {
-    "permalink": "https://www.instagram.com/reel/De1zcSoSgXW/",
-    "caption": "Consistency isnt giving 100% Someday you give 40%",
-    "date": "2026-10-23",
-    "views": 1876,
-    "likes": 34,
-    "comments": 2,
-    "shares": 0,
-    "saves": 6
-   },
-   {
     "permalink": "https://www.instagram.com/reel/De9iMi8SHKw/",
     "caption": "I went downward and upward",
     "date": "2026-10-26",
-    "views": 1846,
-    "likes": 45,
+    "views": 1904,
+    "likes": 46,
     "comments": 9,
-    "shares": 2,
+    "shares": 3,
+    "saves": 6
+   },
+   {
+    "permalink": "https://www.instagram.com/reel/De1zcSoSgXW/",
+    "caption": "Consistency isnt giving 100% Someday you give 40%",
+    "date": "2026-10-23",
+    "views": 1884,
+    "likes": 34,
+    "comments": 2,
+    "shares": 0,
     "saves": 6
    },
    {
@@ -4335,7 +4346,7 @@
     "permalink": "https://www.instagram.com/reel/DezTgilSRH3/",
     "caption": "If you keep polishing things and never send them, here’s what to do instead. 5 steps to overcome perfectionism: 1. Name what you’re avoidin…",
     "date": "2026-10-22",
-    "views": 1806,
+    "views": 1811,
     "likes": 45,
     "comments": 3,
     "shares": 4,
@@ -4345,8 +4356,8 @@
     "permalink": "https://www.instagram.com/reel/DewUXs3S3s1/",
     "caption": "Enlighten me",
     "date": "2026-10-21",
-    "views": 1767,
-    "likes": 35,
+    "views": 1769,
+    "likes": 36,
     "comments": 2,
     "shares": 4,
     "saves": 11
@@ -4365,7 +4376,7 @@
     "permalink": "https://www.instagram.com/reel/DeZUeyEyTj-/",
     "caption": "Canon event",
     "date": "2026-10-12",
-    "views": 1704,
+    "views": 1709,
     "likes": 31,
     "comments": 1,
     "shares": 0,
@@ -4380,16 +4391,6 @@
     "comments": 8,
     "shares": 34,
     "saves": 8
-   },
-   {
-    "permalink": "https://www.instagram.com/reel/Dd39TpryWBI/",
-    "caption": "How to rewire your attention span so you can spot more opportunities in life",
-    "date": "2026-09-29",
-    "views": 1597,
-    "likes": 45,
-    "comments": 8,
-    "shares": 7,
-    "saves": 29
    },
    {
     "permalink": "https://www.instagram.com/reel/DeCHGOUS-3t/",
@@ -4422,10 +4423,20 @@
     "saves": 11
    },
    {
+    "permalink": "https://www.instagram.com/reel/DfEKFRxyarf/",
+    "caption": "Life is a constant up and down",
+    "date": "2026-10-29",
+    "views": 1432,
+    "likes": 27,
+    "comments": 2,
+    "shares": 2,
+    "saves": 5
+   },
+   {
     "permalink": "https://www.instagram.com/reel/DeZUa9MyqyM/",
     "caption": "Canon event",
     "date": "2026-10-12",
-    "views": 1428,
+    "views": 1429,
     "likes": 30,
     "comments": 0,
     "shares": 3,
@@ -4445,9 +4456,9 @@
     "permalink": "https://www.instagram.com/reel/De9hzh-yLaf/",
     "caption": "Break the rules, follow the law",
     "date": "2026-10-26",
-    "views": 1324,
-    "likes": 31,
-    "comments": 0,
+    "views": 1402,
+    "likes": 36,
+    "comments": 1,
     "shares": 7,
     "saves": 13
    },
@@ -4465,7 +4476,7 @@
     "permalink": "https://www.instagram.com/p/Dey_1ZQEmxM/",
     "caption": "Valentines day is still 115 days away 💔🥀 Valentines day is still 115 days away 💔🥀 I built a free Claude skill that walks you through st…",
     "date": "2026-10-22",
-    "views": 1244,
+    "views": 1259,
     "likes": 16,
     "comments": 0,
     "shares": 1,
@@ -4487,7 +4498,7 @@
     "video": "EniSlDEYJ9s",
     "title": "10 Things to Unlearn From School 🤮",
     "published": "2026-10-01",
-    "views": 1863,
+    "views": 1865,
     "likes": 18,
     "comments": 0
    },
@@ -4535,7 +4546,7 @@
     "video": "4YdQvgfU1bU",
     "title": "How to find your IKIGAI in 20 min",
     "published": "2026-10-05",
-    "views": 772,
+    "views": 773,
     "likes": 12,
     "comments": 0
    },
@@ -4609,10 +4620,6 @@
   "instagram": {
    "themes": [
     {
-     "id": "list",
-     "label": "Commenting 48 to get the list"
-    },
-    {
      "id": "praise",
      "label": "Love and hype"
     },
@@ -4646,6 +4653,45 @@
     }
    ],
    "items": [
+    {
+     "id": "18111555446180204",
+     "text": "Fame",
+     "likes": 1,
+     "replies": 0,
+     "at": "2026-10-29T14:16:02Z",
+     "post": "https://www.instagram.com/reel/DfFElqty_l2/",
+     "caption": "",
+     "posted": "2026-10-29",
+     "is_reply": false,
+     "replied": false,
+     "theme": "other"
+    },
+    {
+     "id": "18136040122673649",
+     "text": "🔥",
+     "likes": 0,
+     "replies": 0,
+     "at": "2026-10-29T14:15:43Z",
+     "post": "https://www.instagram.com/reel/De9hzh-yLaf/",
+     "caption": "Break the rules, follow the law",
+     "posted": "2026-10-26",
+     "is_reply": false,
+     "replied": false,
+     "theme": "praise"
+    },
+    {
+     "id": "18145759054517114",
+     "text": "Remember me when u get famous",
+     "likes": 0,
+     "replies": 0,
+     "at": "2026-10-29T10:52:36Z",
+     "post": "https://www.instagram.com/reel/DfEKFRxyarf/",
+     "caption": "Life is a constant up and down",
+     "posted": "2026-10-29",
+     "is_reply": false,
+     "replied": false,
+     "theme": "praise"
+    },
     {
      "id": "18096916136413736",
      "text": "Good boy",
@@ -5425,58 +5471,6 @@
      "is_reply": false,
      "replied": true,
      "theme": "faith"
-    },
-    {
-     "id": "17949101475334808",
-     "text": "Fourty eight",
-     "likes": 1,
-     "replies": 1,
-     "at": "2026-09-30T03:29:54Z",
-     "post": "https://www.instagram.com/reel/Dd39TpryWBI/",
-     "caption": "How to rewire your attention span so you can spot more opportunities in life",
-     "posted": "2026-09-29",
-     "is_reply": false,
-     "replied": true,
-     "theme": "list"
-    },
-    {
-     "id": "18123313588903064",
-     "text": "Why did your head glitch for a second?",
-     "likes": 1,
-     "replies": 1,
-     "at": "2026-09-29T17:40:51Z",
-     "post": "https://www.instagram.com/reel/Dd39TpryWBI/",
-     "caption": "How to rewire your attention span so you can spot more opportunities in life",
-     "posted": "2026-09-29",
-     "is_reply": false,
-     "replied": true,
-     "theme": "style"
-    },
-    {
-     "id": "17974466493131638",
-     "text": "Fourty eight",
-     "likes": 1,
-     "replies": 1,
-     "at": "2026-09-29T15:33:30Z",
-     "post": "https://www.instagram.com/reel/Dd39TpryWBI/",
-     "caption": "How to rewire your attention span so you can spot more opportunities in life",
-     "posted": "2026-09-29",
-     "is_reply": false,
-     "replied": true,
-     "theme": "list"
-    },
-    {
-     "id": "18110131397160805",
-     "text": "Bro I'll get distracted watching the videos itself",
-     "likes": 5,
-     "replies": 1,
-     "at": "2026-09-29T14:52:55Z",
-     "post": "https://www.instagram.com/reel/Dd39TpryWBI/",
-     "caption": "How to rewire your attention span so you can spot more opportunities in life",
-     "posted": "2026-09-29",
-     "is_reply": false,
-     "replied": true,
-     "theme": "other"
     }
    ]
   }
@@ -8137,10 +8131,10 @@
   },
   {
    "date": "2026-10-26",
-   "ig_views": 3104,
+   "ig_views": 3106,
    "ig_new_followers": 8,
-   "yt_views": null,
-   "yt_net_subscribers": null
+   "yt_views": 12,
+   "yt_net_subscribers": -1
   },
   {
    "date": "2026-10-27",
@@ -8151,7 +8145,14 @@
   },
   {
    "date": "2026-10-28",
-   "ig_views": 775,
+   "ig_views": 2063,
+   "ig_new_followers": 0,
+   "yt_views": null,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-10-29",
+   "ig_views": 2299,
    "ig_new_followers": 0,
    "yt_views": null,
    "yt_net_subscribers": null
@@ -8265,6 +8266,12 @@
    "ig_followers": 7357,
    "yt_subscribers": 83,
    "yt_lifetime_views": 77199
+  },
+  {
+   "date": "2026-10-30",
+   "ig_followers": 7355,
+   "yt_subscribers": 85,
+   "yt_lifetime_views": 77201
   }
  ]
 }
