@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: roast-room
+    runtime: node
+    plan: free
+    buildCommand: "echo no build"
+    startCommand: npm start
+    envVars:
+      - key: HOST
+        value: 0.0.0.0
+      - key: COUNCIL_RUNNER
+        value: api
+      - key: ROOM_PASSWORD
+        sync: false
+      - key: ANTHROPIC_API_KEY
+        sync: false

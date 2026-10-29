@@ -8,6 +8,10 @@ import { usage } from "./lib/anthropic.mjs";
 import * as watch from "./lib/watch.mjs";
 
 const PORT = Number(process.env.PORT) || 4730;
+// Hosted: set HOST=0.0.0.0 and ROOM_PASSWORD so the room is reachable from a phone but not open to everyone.
+const HOST = process.env.HOST || "127.0.0.1";
+const PASSWORD = process.env.ROOM_PASSWORD || env("ROOM_PASSWORD");
+if (HOST !== "127.0.0.1" && !PASSWORD) { console.error("Refusing to listen on the network without ROOM_PASSWORD set."); process.exit(1); }
 const PUBLIC = path.join(APP_ROOT, "public");
 const TYPES = { ".html": "text/html; charset=utf-8", ".js": "text/javascript; charset=utf-8", ".css": "text/css; charset=utf-8", ".svg": "image/svg+xml", ".png": "image/png", ".webp": "image/webp", ".jpg": "image/jpeg", ".ico": "image/x-icon", ".json": "application/json", ".ttf": "font/ttf", ".txt": "text/plain; charset=utf-8" };
 
@@ -32,6 +36,10 @@ async function readJson(req) {
 const server = http.createServer(async (req, res) => {
   const url = new URL(req.url, `http://${req.headers.host}`);
   const p = url.pathname;
+  if (PASSWORD) {
+    const given = Buffer.from((req.headers.authorization || "").replace(/^Basic /, ""), "base64").toString().split(":").slice(1).join(":");
+    if (given !== PASSWORD) { res.writeHead(401, { "www-authenticate": 'Basic realm="Roast Room"' }); return res.end("Password needed"); }
+  }
   try {
     if (p === "/api/seats") {
       // portraits: which of the four mouth shapes exist for each seat (a seat with none gets a drawn bust)
@@ -80,4 +88,4 @@ const server = http.createServer(async (req, res) => {
   }
 });
 
-server.listen(PORT, "127.0.0.1", () => console.log(`Roast Room on http://localhost:${PORT} (${RUNNER === "api" ? "viewer + API runner" : "viewer: run /roast-room in Claude Code"})`));
+server.listen(PORT, HOST, () => console.log(`Roast Room on http://${HOST === "127.0.0.1" ? "localhost" : HOST}:${PORT} (${RUNNER === "api" ? "viewer + API runner" : "viewer: run /roast-room in Claude Code"})`));
