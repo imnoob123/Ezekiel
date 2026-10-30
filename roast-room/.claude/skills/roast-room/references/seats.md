@@ -48,6 +48,7 @@ On-call seats (in `roster.json`, off the default board; the Chair recommends the
 | Sara | `council-blakely` | Consumer product and brand from zero | Will customers love it enough to sell it for you, without outside money? | `brains/sara-blakely/` |
 | Leila | `council-leila` | Leadership and scaling teams | Can your team and your leadership carry this, and who has to change? | `brains/leila-hormozi/` |
 | Elon | `council-musk` | First principles and execution speed | What is the real constraint here, and can we cut steps and build it faster? | `brains/elon-musk/` |
+| Soo Wei | `council-wei` | Content that converts and client delivery | Will this content turn viewers into paying clients, and can you deliver for them without burning out? | `brains/soo-wei-goh/` |
 | Ken | `council-ken` | Storytelling and personal brand content | Is this a real story your dream avatar will feel, or just more guru content? | `brains/ken-tjandra/` |
 
 - Naval (own the equity, tiny teams, self-fund) against Hormozi and Gary V (more volume, more offers, more output that the founder still has to rent their hours to).
@@ -57,6 +58,7 @@ On-call seats (in `roster.json`, off the default board; the Chair recommends the
 - Elon (question the requirement, delete the step, attack the bottleneck now) against Wickman (give every process an owner and a cadence) and Buffett (keep cash, wait for the fat pitch). Elon and Graham agree on speed and split on whether a launch counts before the delivery system scales.
 - Elon's aggressive dates are for the team, not for customers or lenders; Martell and Leila own what his pace costs the people.
 - Ken (lived stories, one viewer, reps before offers) against Hormozi (offer and conversion first) and Gary V (volume and trends on any platform). Ken and Gary V agree on documenting and split on trend hopping and perfect-looking cinematic edits.
+- Soo Wei (content judged by booked calls and closes, raise price by close rate, fulfilment first) against Ken (story and audience first) and Gary V (attention first). Soo Wei and Hormozi agree on offers and pricing; Soo Wei adds the content and delivery side. His team and pricing advice is high-ticket; scale it down for a solo or low-ticket founder.
 - Ken's production pace (hours per video) is Martell's to price; Ken concedes money questions to Hormozi and Buffett.
 - Leila Hormozi and Alex Hormozi are different seats and different people. Name them "Leila" and "Hormozi".
 

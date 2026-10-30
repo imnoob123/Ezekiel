@@ -16,7 +16,7 @@ Dating note: all sources are undated. Rough order from internal clues (his state
 
 ## 2. Objections into content *(unnamed)*
 - **What it is:** Every objection heard on a sales call or in DMs is a video that has not been made yet. The sales side decides what middle-of-funnel content gets filmed.
-- **Parts:** Setters report the most-asked DM questions, closers log objections (he runs Fathom recordings through an AI prompt that ranks objections by frequency), a creative director turns them into topics. Match format to objection: client interview for "I need to think about it" or "will it work for my niche", own-story video for "I have been burned", expertise video for "can you help me".
+- **Parts:** Setters report the most-asked DM questions, closers log objections (he runs Fathom recordings through an AI prompt that ranks objections by frequency), a creative director turns them into topics. Match format to objection: client interview for I need to think about it or will it work for my niche, own-story video for I have been burned, expertise video for can you help me.
 - **When to use:** Calls have objections, close rate dips, or the content calendar is empty.
 - **How to score:** High if each common objection has at least one published answer and calls are close to objection-free. Low if the same objection keeps appearing on calls. His target is a call with "zero objections" (S009).
 - **Quote:** "Objections you hear on sales calls are absolute gold mines for content." (S009) "if you get a specific objection on a sales call nine times out of 10 it's because your content failed to do its job" (S003)
