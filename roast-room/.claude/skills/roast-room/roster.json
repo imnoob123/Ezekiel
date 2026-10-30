@@ -1,6 +1,6 @@
 {
   "board": "ask",
-  "default": ["bezos", "graham", "hormozi", "garyvee", "martell", "wickman", "buffett"],
+  "default": ["bezos", "graham", "hormozi", "garyvee", "ken", "martell", "wickman", "buffett"],
   "seats": [
     { "key": "bezos", "name": "Jeff Bezos", "short": "Bezos", "initials": "JB", "slug": "jeff-bezos", "pillar": "Strategy and decisions", "question": "Is this the right bet, and how reversible is it?", "dimension": "Strategic fit and reversibility", "color": "#e8a33d" },
     { "key": "graham", "name": "Paul Graham", "short": "Graham", "initials": "PG", "slug": "paul-graham", "pillar": "Product and startups", "question": "Is this something people actually want, and is it growing?", "dimension": "Real demand and growth", "color": "#f06b3f" },
