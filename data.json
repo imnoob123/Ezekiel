@@ -1,17 +1,17 @@
 {
- "updated_at": "2026-10-29T16:32:51.678Z",
+ "updated_at": "2026-10-30T16:29:38.143Z",
  "tracking_since": "2026-10-10",
  "profile": {
   "instagram": {
    "username": "ezekiellaii",
-   "followers": 7355,
-   "posts": 427
+   "followers": 7356,
+   "posts": 429
   },
   "youtube": {
    "title": "Ezekute",
-   "subscribers": 85,
-   "lifetime_views": 77201,
-   "videos": 142
+   "subscribers": 84,
+   "lifetime_views": 78520,
+   "videos": 143
   }
  },
  "daily": [
@@ -4200,7 +4200,7 @@
    "yt_subscribers": 85,
    "yt_change": 0,
    "yt_real": true,
-   "yt_views": null,
+   "yt_views": 5,
    "ig_followers": 7359,
    "ig_change": -6,
    "ig_real": true,
@@ -4212,8 +4212,8 @@
    "yt_change": null,
    "yt_real": false,
    "yt_views": null,
-   "ig_followers": null,
-   "ig_change": null,
+   "ig_followers": 7357,
+   "ig_change": 6,
    "ig_real": false,
    "ig_views": 2063
   },
@@ -4226,7 +4226,7 @@
    "ig_followers": 7357,
    "ig_change": null,
    "ig_real": true,
-   "ig_views": 2299
+   "ig_views": 3646
   },
   {
    "date": "2026-10-30",
@@ -4236,6 +4236,17 @@
    "yt_views": null,
    "ig_followers": 7355,
    "ig_change": -2,
+   "ig_real": true,
+   "ig_views": 443
+  },
+  {
+   "date": "2026-10-31",
+   "yt_subscribers": 84,
+   "yt_change": -1,
+   "yt_real": true,
+   "yt_views": null,
+   "ig_followers": 7356,
+   "ig_change": 1,
    "ig_real": true,
    "ig_views": null
   }
@@ -4256,27 +4267,17 @@
     "permalink": "https://www.instagram.com/p/DebxCFxEsXD/",
     "caption": "Bro this kid has a kill count of 7 and somehow nobody’s coming after him. Never been arrested. Never been questioned. Honestly the cops wou…",
     "date": "2026-10-13",
-    "views": 3387,
+    "views": 3402,
     "likes": 52,
     "comments": 5,
     "shares": 3,
     "saves": 5
    },
    {
-    "permalink": "https://www.instagram.com/reel/Dd6PJRGSoCO/",
-    "caption": "hot unpopular take",
-    "date": "2026-09-30",
-    "views": 2575,
-    "likes": 53,
-    "comments": 46,
-    "shares": 15,
-    "saves": 17
-   },
-   {
     "permalink": "https://www.instagram.com/reel/De7AtWYSSCR/",
     "caption": "We are gonna win",
     "date": "2026-10-25",
-    "views": 2482,
+    "views": 2510,
     "likes": 79,
     "comments": 0,
     "shares": 8,
@@ -4286,7 +4287,7 @@
     "permalink": "https://www.instagram.com/reel/De4BGMVysTr/",
     "caption": "1% Better everyday is 365% Better every year",
     "date": "2026-10-24",
-    "views": 2467,
+    "views": 2471,
     "likes": 38,
     "comments": 0,
     "shares": 0,
@@ -4296,7 +4297,7 @@
     "permalink": "https://www.instagram.com/reel/De7Av-BSNQ2/",
     "caption": "Unpatched method",
     "date": "2026-10-25",
-    "views": 2008,
+    "views": 2017,
     "likes": 44,
     "comments": 7,
     "shares": 77,
@@ -4306,7 +4307,7 @@
     "permalink": "https://www.instagram.com/reel/De9iMi8SHKw/",
     "caption": "I went downward and upward",
     "date": "2026-10-26",
-    "views": 1904,
+    "views": 1918,
     "likes": 46,
     "comments": 9,
     "shares": 3,
@@ -4316,7 +4317,7 @@
     "permalink": "https://www.instagram.com/reel/De1zcSoSgXW/",
     "caption": "Consistency isnt giving 100% Someday you give 40%",
     "date": "2026-10-23",
-    "views": 1884,
+    "views": 1888,
     "likes": 34,
     "comments": 2,
     "shares": 0,
@@ -4346,7 +4347,7 @@
     "permalink": "https://www.instagram.com/reel/DezTgilSRH3/",
     "caption": "If you keep polishing things and never send them, here’s what to do instead. 5 steps to overcome perfectionism: 1. Name what you’re avoidin…",
     "date": "2026-10-22",
-    "views": 1811,
+    "views": 1815,
     "likes": 45,
     "comments": 3,
     "shares": 4,
@@ -4356,21 +4357,11 @@
     "permalink": "https://www.instagram.com/reel/DewUXs3S3s1/",
     "caption": "Enlighten me",
     "date": "2026-10-21",
-    "views": 1769,
+    "views": 1773,
     "likes": 36,
     "comments": 2,
     "shares": 4,
     "saves": 11
-   },
-   {
-    "permalink": "https://www.instagram.com/reel/Dd6zmNIyA3J/",
-    "caption": "How to become respected like Jesus",
-    "date": "2026-09-30",
-    "views": 1732,
-    "likes": 95,
-    "comments": 2,
-    "shares": 9,
-    "saves": 53
    },
    {
     "permalink": "https://www.instagram.com/reel/DeZUeyEyTj-/",
@@ -4413,6 +4404,26 @@
     "saves": 3
    },
    {
+    "permalink": "https://www.instagram.com/reel/DfEKFRxyarf/",
+    "caption": "Life is a constant up and down",
+    "date": "2026-10-29",
+    "views": 1461,
+    "likes": 27,
+    "comments": 2,
+    "shares": 2,
+    "saves": 5
+   },
+   {
+    "permalink": "https://www.instagram.com/reel/De9hzh-yLaf/",
+    "caption": "Break the rules, follow the law",
+    "date": "2026-10-26",
+    "views": 1456,
+    "likes": 38,
+    "comments": 1,
+    "shares": 7,
+    "saves": 13
+   },
+   {
     "permalink": "https://www.instagram.com/reel/DehMMgEy3B0/",
     "caption": "7 Things that you can’t do as an ambitious man",
     "date": "2026-10-15",
@@ -4421,16 +4432,6 @@
     "comments": 0,
     "shares": 3,
     "saves": 11
-   },
-   {
-    "permalink": "https://www.instagram.com/reel/DfEKFRxyarf/",
-    "caption": "Life is a constant up and down",
-    "date": "2026-10-29",
-    "views": 1432,
-    "likes": 27,
-    "comments": 2,
-    "shares": 2,
-    "saves": 5
    },
    {
     "permalink": "https://www.instagram.com/reel/DeZUa9MyqyM/",
@@ -4453,40 +4454,30 @@
     "saves": 4
    },
    {
-    "permalink": "https://www.instagram.com/reel/De9hzh-yLaf/",
-    "caption": "Break the rules, follow the law",
-    "date": "2026-10-26",
-    "views": 1402,
-    "likes": 36,
-    "comments": 1,
-    "shares": 7,
-    "saves": 13
-   },
-   {
-    "permalink": "https://www.instagram.com/p/Dd6mENiElmW/",
-    "caption": "I lowkey enjoy making this",
-    "date": "2026-09-30",
-    "views": 1264,
-    "likes": 29,
-    "comments": 2,
-    "shares": 0,
-    "saves": 2
-   },
-   {
     "permalink": "https://www.instagram.com/p/Dey_1ZQEmxM/",
     "caption": "Valentines day is still 115 days away 💔🥀 Valentines day is still 115 days away 💔🥀 I built a free Claude skill that walks you through st…",
     "date": "2026-10-22",
-    "views": 1259,
+    "views": 1268,
     "likes": 16,
     "comments": 0,
     "shares": 1,
     "saves": 3
    },
    {
+    "permalink": "https://www.instagram.com/p/DfFVD5oEsPX/",
+    "caption": "In January, both G’s were stuck in bed overthinking. In February, one of them got out of bed. The gap isn’t talent. It’s 11 months of small…",
+    "date": "2026-10-29",
+    "views": 1241,
+    "likes": 37,
+    "comments": 1,
+    "shares": 1,
+    "saves": 9
+   },
+   {
     "permalink": "https://www.instagram.com/reel/DeeX2Uty2_N/",
     "caption": "COMPETITION IS GONNA GET HIGHER AND HIGHER",
     "date": "2026-10-14",
-    "views": 1024,
+    "views": 1038,
     "likes": 12,
     "comments": 1,
     "shares": 6,
@@ -4498,7 +4489,7 @@
     "video": "EniSlDEYJ9s",
     "title": "10 Things to Unlearn From School 🤮",
     "published": "2026-10-01",
-    "views": 1865,
+    "views": 1866,
     "likes": 18,
     "comments": 0
    },
@@ -4567,14 +4558,6 @@
     "comments": 0
    },
    {
-    "video": "xyulRHffTbA",
-    "title": "How I made $17,000 at 16",
-    "published": "2026-10-01",
-    "views": 468,
-    "likes": 6,
-    "comments": 1
-   },
-   {
     "video": "bIKsggODQLQ",
     "title": "Do the work that you've been avoiding",
     "published": "2026-10-13",
@@ -4599,10 +4582,18 @@
     "comments": 0
    },
    {
+    "video": "xyulRHffTbA",
+    "title": "How I made $17,000 at 16",
+    "published": "2026-10-01",
+    "views": 257,
+    "likes": 4,
+    "comments": 0
+   },
+   {
     "video": "33ETDRA-F1E",
     "title": "entrepurner 🔥",
     "published": "2026-10-24",
-    "views": 93,
+    "views": 95,
     "likes": 1,
     "comments": 0
    },
@@ -4654,6 +4645,19 @@
    ],
    "items": [
     {
+     "id": "18125321434904632",
+     "text": "Start",
+     "likes": 0,
+     "replies": 0,
+     "at": "2026-10-30T14:07:27Z",
+     "post": "https://www.instagram.com/p/DfFVD5oEsPX/",
+     "caption": "In January, both G’s were stuck in bed overthinking. In February, one of them got out of bed. The gap isn’t talent. It’s 11 months of small…",
+     "posted": "2026-10-29",
+     "is_reply": false,
+     "replied": false,
+     "theme": "in"
+    },
+    {
      "id": "18111555446180204",
      "text": "Fame",
      "likes": 1,
@@ -4682,7 +4686,7 @@
     {
      "id": "18145759054517114",
      "text": "Remember me when u get famous",
-     "likes": 0,
+     "likes": 2,
      "replies": 0,
      "at": "2026-10-29T10:52:36Z",
      "post": "https://www.instagram.com/reel/DfEKFRxyarf/",
@@ -5135,19 +5139,6 @@
      "theme": "in"
     },
     {
-     "id": "17940791328364054",
-     "text": "He loves me and He keep saving me.Loving Him back is the least I can do.",
-     "likes": 0,
-     "replies": 0,
-     "at": "2026-10-02T07:38:32Z",
-     "post": "https://www.instagram.com/reel/Dd6PJRGSoCO/",
-     "caption": "hot unpopular take",
-     "posted": "2026-09-30",
-     "is_reply": false,
-     "replied": false,
-     "theme": "faith"
-    },
-    {
      "id": "18628795264027932",
      "text": "And its all due to God’s mercy. Friend is what Jesus called Judas as he was dragged to the cross. If it wasn’t for Him to show us that we can be forgiven there would be no hope. The branch broke twice before Judas was allowed to hang himself too.",
      "likes": 3,
@@ -5185,292 +5176,6 @@
      "is_reply": false,
      "replied": false,
      "theme": "praise"
-    },
-    {
-     "id": "18077463794710648",
-     "text": "I’m 26 and accepted Christ as my savior I follow Jesus because he is God. He took my punishment on the cross there’s nothing I could ever do to repay him besides obeying him and following him with my life ❤️🙌",
-     "likes": 1,
-     "replies": 0,
-     "at": "2026-10-01T00:42:57Z",
-     "post": "https://www.instagram.com/reel/Dd6PJRGSoCO/",
-     "caption": "hot unpopular take",
-     "posted": "2026-09-30",
-     "is_reply": false,
-     "replied": false,
-     "theme": "faith"
-    },
-    {
-     "id": "18170307193415264",
-     "text": "I am leaving this message here for the non-Christians who want eternal life! ❤️ Luke 11:13 \"If you then, though you are evil, know how to give good gifts to your children, how much more will your Father in heaven give the Holy Spirit to those who ask him!\" John 14:26 \"But the Advocate, the Holy Spirit, whom the Father will send in my name, will teach you all things and will remind you of everythi…",
-     "likes": 1,
-     "replies": 0,
-     "at": "2026-09-30T22:55:51Z",
-     "post": "https://www.instagram.com/reel/Dd6PJRGSoCO/",
-     "caption": "hot unpopular take",
-     "posted": "2026-09-30",
-     "is_reply": false,
-     "replied": false,
-     "theme": "faith"
-    },
-    {
-     "id": "18115271141320848",
-     "text": "yes i questioned it... and now my faith is strong than ever! Every time you seek truth you will end up in Christianity. every time!",
-     "likes": 1,
-     "replies": 1,
-     "at": "2026-09-30T21:16:47Z",
-     "post": "https://www.instagram.com/reel/Dd6PJRGSoCO/",
-     "caption": "hot unpopular take",
-     "posted": "2026-09-30",
-     "is_reply": false,
-     "replied": true,
-     "theme": "faith"
-    },
-    {
-     "id": "17911099278498658",
-     "text": "Bros slandering the one religion that is genuinely the most believable 😂 you gotta research other religions bro",
-     "likes": 2,
-     "replies": 1,
-     "at": "2026-09-30T20:49:11Z",
-     "post": "https://www.instagram.com/reel/Dd6PJRGSoCO/",
-     "caption": "hot unpopular take",
-     "posted": "2026-09-30",
-     "is_reply": false,
-     "replied": true,
-     "theme": "pushback"
-    },
-    {
-     "id": "18626298382058912",
-     "text": "I was born into a christian family however we weren’t actively doing Christian things. I grew up lukewarm. If the pursuit of christianity is out of fear, then there would be almost no lukewarm christians. However that’s not the case. I’ve grew up lukewarm and had an experience when I questioned reality, god, and existence itself. I never had anything happen to me out of coincidence before. But it…",
-     "likes": 1,
-     "replies": 1,
-     "at": "2026-09-30T20:46:58Z",
-     "post": "https://www.instagram.com/reel/Dd6PJRGSoCO/",
-     "caption": "hot unpopular take",
-     "posted": "2026-09-30",
-     "is_reply": false,
-     "replied": true,
-     "theme": "faith"
-    },
-    {
-     "id": "18129906586697524",
-     "text": "No. I was in an anti-religious group that hated Christianity more than anything. I never set foot from my childhood until I was 16, I was a Satanist and witchcraft was part of my childhood. I became so because of the experiences that proved to me that this Jesus existed and I decided of my own free will to be a Christian. Maybe you won't believe me, but know that even the one who hates Jesus more…",
-     "likes": 1,
-     "replies": 0,
-     "at": "2026-09-30T20:31:19Z",
-     "post": "https://www.instagram.com/reel/Dd6PJRGSoCO/",
-     "caption": "hot unpopular take",
-     "posted": "2026-09-30",
-     "is_reply": false,
-     "replied": false,
-     "theme": "faith"
-    },
-    {
-     "id": "17968530161960261",
-     "text": "Same thing as islam (im an ex muslim)",
-     "likes": 1,
-     "replies": 0,
-     "at": "2026-09-30T20:26:31Z",
-     "post": "https://www.instagram.com/reel/Dd6PJRGSoCO/",
-     "caption": "hot unpopular take",
-     "posted": "2026-09-30",
-     "is_reply": false,
-     "replied": false,
-     "theme": "debate"
-    },
-    {
-     "id": "17903554698355818",
-     "text": "Dogs never get tired of barking",
-     "likes": 1,
-     "replies": 1,
-     "at": "2026-09-30T20:10:57Z",
-     "post": "https://www.instagram.com/reel/Dd6PJRGSoCO/",
-     "caption": "hot unpopular take",
-     "posted": "2026-09-30",
-     "is_reply": false,
-     "replied": true,
-     "theme": "pushback"
-    },
-    {
-     "id": "18188570911363242",
-     "text": "It's because I did my own research",
-     "likes": 2,
-     "replies": 1,
-     "at": "2026-09-30T19:55:08Z",
-     "post": "https://www.instagram.com/reel/Dd6PJRGSoCO/",
-     "caption": "hot unpopular take",
-     "posted": "2026-09-30",
-     "is_reply": false,
-     "replied": true,
-     "theme": "faith"
-    },
-    {
-     "id": "18115433269807442",
-     "text": "You forgot the question mark my guy, and I believe in him because first it’s logical and he showed me what love is. My past was bad in every aspect and then I got shot at a party and doctors told my mom I barely had a chance of living and they did 3 surgeries and opened my stomach for 3 days and then when I made it they told my parents it was a real miracle, my parents prayed day and night and my…",
-     "likes": 1,
-     "replies": 1,
-     "at": "2026-09-30T19:28:59Z",
-     "post": "https://www.instagram.com/reel/Dd6PJRGSoCO/",
-     "caption": "hot unpopular take",
-     "posted": "2026-09-30",
-     "is_reply": false,
-     "replied": true,
-     "theme": "faith"
-    },
-    {
-     "id": "18168151528482316",
-     "text": "nah i'm christian becuz it's the only logical system",
-     "likes": 1,
-     "replies": 2,
-     "at": "2026-09-30T19:15:25Z",
-     "post": "https://www.instagram.com/reel/Dd6PJRGSoCO/",
-     "caption": "hot unpopular take",
-     "posted": "2026-09-30",
-     "is_reply": false,
-     "replied": true,
-     "theme": "faith"
-    },
-    {
-     "id": "18108233072241387",
-     "text": "How do you know that Jesus helped you overcome those problems and not just the belief in him",
-     "likes": 1,
-     "replies": 1,
-     "at": "2026-09-30T18:52:46Z",
-     "post": "https://www.instagram.com/reel/Dd6PJRGSoCO/",
-     "caption": "hot unpopular take",
-     "posted": "2026-09-30",
-     "is_reply": false,
-     "replied": true,
-     "theme": "ask"
-    },
-    {
-     "id": "18114851306092020",
-     "text": "Is your faith is built on the back of your own understanding your own reasoning instead of the word of god then repent and test by the scripture as strong and firm foundation.",
-     "likes": 1,
-     "replies": 1,
-     "at": "2026-09-30T18:38:21Z",
-     "post": "https://www.instagram.com/reel/Dd6PJRGSoCO/",
-     "caption": "hot unpopular take",
-     "posted": "2026-09-30",
-     "is_reply": false,
-     "replied": true,
-     "theme": "debate"
-    },
-    {
-     "id": "17904086808351496",
-     "text": "I actually wasn’t born christian and i dont remember following jesus until around 19 years old when i thought the arguments for it to me sounded well enough",
-     "likes": 17,
-     "replies": 1,
-     "at": "2026-09-30T17:37:28Z",
-     "post": "https://www.instagram.com/reel/Dd6PJRGSoCO/",
-     "caption": "hot unpopular take",
-     "posted": "2026-09-30",
-     "is_reply": false,
-     "replied": true,
-     "theme": "faith"
-    },
-    {
-     "id": "17982683220088314",
-     "text": "All reasonable use of slurs",
-     "likes": 4,
-     "replies": 1,
-     "at": "2026-09-30T17:30:26Z",
-     "post": "https://www.instagram.com/reel/Dd6zmNIyA3J/",
-     "caption": "How to become respected like Jesus",
-     "posted": "2026-09-30",
-     "is_reply": false,
-     "replied": true,
-     "theme": "style"
-    },
-    {
-     "id": "18069433562774100",
-     "text": "Ragebaiting for engagement.",
-     "likes": 2,
-     "replies": 1,
-     "at": "2026-09-30T17:29:45Z",
-     "post": "https://www.instagram.com/reel/Dd6PJRGSoCO/",
-     "caption": "hot unpopular take",
-     "posted": "2026-09-30",
-     "is_reply": false,
-     "replied": true,
-     "theme": "pushback"
-    },
-    {
-     "id": "18028463240689129",
-     "text": "👏🏿",
-     "likes": 1,
-     "replies": 1,
-     "at": "2026-09-30T16:58:55Z",
-     "post": "https://www.instagram.com/p/Dd6mENiElmW/",
-     "caption": "I lowkey enjoy making this",
-     "posted": "2026-09-30",
-     "is_reply": false,
-     "replied": true,
-     "theme": "praise"
-    },
-    {
-     "id": "18430486861196777",
-     "text": "I figured everything out, and I realized that I should be a converted orthodox christian",
-     "likes": 1,
-     "replies": 0,
-     "at": "2026-09-30T16:30:36Z",
-     "post": "https://www.instagram.com/reel/Dd6PJRGSoCO/",
-     "caption": "hot unpopular take",
-     "posted": "2026-09-30",
-     "is_reply": false,
-     "replied": false,
-     "theme": "faith"
-    },
-    {
-     "id": "17912777838469962",
-     "text": "Doubt can make you lose your faith entirely or make it stronger. I dont like how they treat people doubting christianity as sinners, it comes with the process of becoming a better person",
-     "likes": 3,
-     "replies": 2,
-     "at": "2026-09-30T16:04:48Z",
-     "post": "https://www.instagram.com/reel/Dd6PJRGSoCO/",
-     "caption": "hot unpopular take",
-     "posted": "2026-09-30",
-     "is_reply": false,
-     "replied": false,
-     "theme": "debate"
-    },
-    {
-     "id": "18144049399605634",
-     "text": "I think you’ll come to learn; “fear” isn’t fear in the way we think it is! It’s more of an adoration and respect for the lord",
-     "likes": 5,
-     "replies": 1,
-     "at": "2026-09-30T15:12:08Z",
-     "post": "https://www.instagram.com/reel/Dd6PJRGSoCO/",
-     "caption": "hot unpopular take",
-     "posted": "2026-09-30",
-     "is_reply": false,
-     "replied": false,
-     "theme": "debate"
-    },
-    {
-     "id": "17985625857072753",
-     "text": "You're plainly wrong",
-     "likes": 3,
-     "replies": 1,
-     "at": "2026-09-30T13:27:11Z",
-     "post": "https://www.instagram.com/reel/Dd6PJRGSoCO/",
-     "caption": "hot unpopular take",
-     "posted": "2026-09-30",
-     "is_reply": false,
-     "replied": true,
-     "theme": "pushback"
-    },
-    {
-     "id": "17986367970027073",
-     "text": "I believe in jesus because my mother and my little sister (when my sister was in the womb of my mother) were destined to die but survived. My little sister came out at around 6-7 months old and she still wasnt fully developed to come out, and my mom had a medical issue that made it impossible for both of them to stay alive. it was either my mom survive and let my sister die or both of them died.…",
-     "likes": 16,
-     "replies": 1,
-     "at": "2026-09-30T12:22:56Z",
-     "post": "https://www.instagram.com/reel/Dd6PJRGSoCO/",
-     "caption": "hot unpopular take",
-     "posted": "2026-09-30",
-     "is_reply": false,
-     "replied": true,
-     "theme": "faith"
     }
    ]
   }
@@ -8140,19 +7845,26 @@
    "date": "2026-10-27",
    "ig_views": 2151,
    "ig_new_followers": 4,
-   "yt_views": null,
-   "yt_net_subscribers": null
+   "yt_views": 5,
+   "yt_net_subscribers": -1
   },
   {
    "date": "2026-10-28",
    "ig_views": 2063,
-   "ig_new_followers": 0,
+   "ig_new_followers": 6,
    "yt_views": null,
    "yt_net_subscribers": null
   },
   {
    "date": "2026-10-29",
-   "ig_views": 2299,
+   "ig_views": 3646,
+   "ig_new_followers": 0,
+   "yt_views": null,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-10-30",
+   "ig_views": 443,
    "ig_new_followers": 0,
    "yt_views": null,
    "yt_net_subscribers": null
@@ -8272,6 +7984,12 @@
    "ig_followers": 7355,
    "yt_subscribers": 85,
    "yt_lifetime_views": 77201
+  },
+  {
+   "date": "2026-10-31",
+   "ig_followers": 7356,
+   "yt_subscribers": 84,
+   "yt_lifetime_views": 78520
   }
  ]
 }
