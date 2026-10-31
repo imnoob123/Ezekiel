@@ -1,16 +1,16 @@
 {
- "updated_at": "2026-10-30T16:29:38.143Z",
+ "updated_at": "2026-10-31T16:15:38.449Z",
  "tracking_since": "2026-10-10",
  "profile": {
   "instagram": {
    "username": "ezekiellaii",
-   "followers": 7356,
-   "posts": 429
+   "followers": 7353,
+   "posts": 431
   },
   "youtube": {
    "title": "Ezekute",
    "subscribers": 84,
-   "lifetime_views": 78520,
+   "lifetime_views": 78543,
    "videos": 143
   }
  },
@@ -4208,11 +4208,11 @@
   },
   {
    "date": "2026-10-28",
-   "yt_subscribers": null,
-   "yt_change": null,
+   "yt_subscribers": 83,
+   "yt_change": 0,
    "yt_real": false,
-   "yt_views": null,
-   "ig_followers": 7357,
+   "yt_views": 2,
+   "ig_followers": 7351,
    "ig_change": 6,
    "ig_real": false,
    "ig_views": 2063
@@ -4224,7 +4224,7 @@
    "yt_real": true,
    "yt_views": null,
    "ig_followers": 7357,
-   "ig_change": null,
+   "ig_change": 6,
    "ig_real": true,
    "ig_views": 3646
   },
@@ -4237,7 +4237,7 @@
    "ig_followers": 7355,
    "ig_change": -2,
    "ig_real": true,
-   "ig_views": 443
+   "ig_views": 1869
   },
   {
    "date": "2026-10-31",
@@ -4247,6 +4247,17 @@
    "yt_views": null,
    "ig_followers": 7356,
    "ig_change": 1,
+   "ig_real": true,
+   "ig_views": 809
+  },
+  {
+   "date": "2026-11-01",
+   "yt_subscribers": 84,
+   "yt_change": 0,
+   "yt_real": true,
+   "yt_views": null,
+   "ig_followers": 7353,
+   "ig_change": -3,
    "ig_real": true,
    "ig_views": null
   }
@@ -4277,7 +4288,7 @@
     "permalink": "https://www.instagram.com/reel/De7AtWYSSCR/",
     "caption": "We are gonna win",
     "date": "2026-10-25",
-    "views": 2510,
+    "views": 2530,
     "likes": 79,
     "comments": 0,
     "shares": 8,
@@ -4287,7 +4298,7 @@
     "permalink": "https://www.instagram.com/reel/De4BGMVysTr/",
     "caption": "1% Better everyday is 365% Better every year",
     "date": "2026-10-24",
-    "views": 2471,
+    "views": 2474,
     "likes": 38,
     "comments": 0,
     "shares": 0,
@@ -4297,8 +4308,8 @@
     "permalink": "https://www.instagram.com/reel/De7Av-BSNQ2/",
     "caption": "Unpatched method",
     "date": "2026-10-25",
-    "views": 2017,
-    "likes": 44,
+    "views": 2028,
+    "likes": 45,
     "comments": 7,
     "shares": 77,
     "saves": 9
@@ -4307,8 +4318,8 @@
     "permalink": "https://www.instagram.com/reel/De9iMi8SHKw/",
     "caption": "I went downward and upward",
     "date": "2026-10-26",
-    "views": 1918,
-    "likes": 46,
+    "views": 1929,
+    "likes": 47,
     "comments": 9,
     "shares": 3,
     "saves": 6
@@ -4317,21 +4328,11 @@
     "permalink": "https://www.instagram.com/reel/De1zcSoSgXW/",
     "caption": "Consistency isnt giving 100% Someday you give 40%",
     "date": "2026-10-23",
-    "views": 1888,
+    "views": 1889,
     "likes": 34,
     "comments": 2,
     "shares": 0,
     "saves": 6
-   },
-   {
-    "permalink": "https://www.instagram.com/reel/Dd9T_YvS1nK/",
-    "caption": "Only one went to heaven 👆",
-    "date": "2026-10-01",
-    "views": 1841,
-    "likes": 110,
-    "comments": 2,
-    "shares": 15,
-    "saves": 21
    },
    {
     "permalink": "https://www.instagram.com/reel/DeUgJ80yeHp/",
@@ -4347,7 +4348,7 @@
     "permalink": "https://www.instagram.com/reel/DezTgilSRH3/",
     "caption": "If you keep polishing things and never send them, here’s what to do instead. 5 steps to overcome perfectionism: 1. Name what you’re avoidin…",
     "date": "2026-10-22",
-    "views": 1815,
+    "views": 1817,
     "likes": 45,
     "comments": 3,
     "shares": 4,
@@ -4357,7 +4358,7 @@
     "permalink": "https://www.instagram.com/reel/DewUXs3S3s1/",
     "caption": "Enlighten me",
     "date": "2026-10-21",
-    "views": 1773,
+    "views": 1775,
     "likes": 36,
     "comments": 2,
     "shares": 4,
@@ -4404,24 +4405,24 @@
     "saves": 3
    },
    {
+    "permalink": "https://www.instagram.com/reel/De9hzh-yLaf/",
+    "caption": "Break the rules, follow the law",
+    "date": "2026-10-26",
+    "views": 1472,
+    "likes": 39,
+    "comments": 1,
+    "shares": 7,
+    "saves": 13
+   },
+   {
     "permalink": "https://www.instagram.com/reel/DfEKFRxyarf/",
     "caption": "Life is a constant up and down",
     "date": "2026-10-29",
-    "views": 1461,
+    "views": 1465,
     "likes": 27,
     "comments": 2,
     "shares": 2,
     "saves": 5
-   },
-   {
-    "permalink": "https://www.instagram.com/reel/De9hzh-yLaf/",
-    "caption": "Break the rules, follow the law",
-    "date": "2026-10-26",
-    "views": 1456,
-    "likes": 38,
-    "comments": 1,
-    "shares": 7,
-    "saves": 13
    },
    {
     "permalink": "https://www.instagram.com/reel/DehMMgEy3B0/",
@@ -4454,24 +4455,24 @@
     "saves": 4
    },
    {
-    "permalink": "https://www.instagram.com/p/Dey_1ZQEmxM/",
-    "caption": "Valentines day is still 115 days away 💔🥀 Valentines day is still 115 days away 💔🥀 I built a free Claude skill that walks you through st…",
-    "date": "2026-10-22",
-    "views": 1268,
-    "likes": 16,
-    "comments": 0,
-    "shares": 1,
-    "saves": 3
-   },
-   {
     "permalink": "https://www.instagram.com/p/DfFVD5oEsPX/",
     "caption": "In January, both G’s were stuck in bed overthinking. In February, one of them got out of bed. The gap isn’t talent. It’s 11 months of small…",
     "date": "2026-10-29",
-    "views": 1241,
+    "views": 1396,
     "likes": 37,
     "comments": 1,
     "shares": 1,
     "saves": 9
+   },
+   {
+    "permalink": "https://www.instagram.com/p/Dey_1ZQEmxM/",
+    "caption": "Valentines day is still 115 days away 💔🥀 Valentines day is still 115 days away 💔🥀 I built a free Claude skill that walks you through st…",
+    "date": "2026-10-22",
+    "views": 1285,
+    "likes": 18,
+    "comments": 0,
+    "shares": 1,
+    "saves": 3
    },
    {
     "permalink": "https://www.instagram.com/reel/DeeX2Uty2_N/",
@@ -4485,14 +4486,6 @@
    }
   ],
   "youtube": [
-   {
-    "video": "EniSlDEYJ9s",
-    "title": "10 Things to Unlearn From School 🤮",
-    "published": "2026-10-01",
-    "views": 1866,
-    "likes": 18,
-    "comments": 0
-   },
    {
     "video": "iXmnfgqiEj4",
     "title": "Stop crying about it 😂",
@@ -4529,7 +4522,7 @@
     "video": "wimPlb5srU0",
     "title": "You don't fight level 100 boss at level 2",
     "published": "2026-10-01",
-    "views": 1060,
+    "views": 841,
     "likes": 6,
     "comments": 1
    },
@@ -4548,6 +4541,14 @@
     "views": 712,
     "likes": 5,
     "comments": 3
+   },
+   {
+    "video": "EniSlDEYJ9s",
+    "title": "10 Things to Unlearn From School 🤮",
+    "published": "2026-10-01",
+    "views": 684,
+    "likes": 6,
+    "comments": 0
    },
    {
     "video": "fkGlcE8Ys08",
@@ -4579,14 +4580,6 @@
     "published": "2026-10-07",
     "views": 303,
     "likes": 8,
-    "comments": 0
-   },
-   {
-    "video": "xyulRHffTbA",
-    "title": "How I made $17,000 at 16",
-    "published": "2026-10-01",
-    "views": 257,
-    "likes": 4,
     "comments": 0
    },
    {
@@ -5137,45 +5130,6 @@
      "is_reply": false,
      "replied": true,
      "theme": "in"
-    },
-    {
-     "id": "18628795264027932",
-     "text": "And its all due to God’s mercy. Friend is what Jesus called Judas as he was dragged to the cross. If it wasn’t for Him to show us that we can be forgiven there would be no hope. The branch broke twice before Judas was allowed to hang himself too.",
-     "likes": 3,
-     "replies": 0,
-     "at": "2026-10-01T22:15:34Z",
-     "post": "https://www.instagram.com/reel/Dd9T_YvS1nK/",
-     "caption": "Only one went to heaven 👆",
-     "posted": "2026-10-01",
-     "is_reply": false,
-     "replied": false,
-     "theme": "faith"
-    },
-    {
-     "id": "18089142155690468",
-     "text": "beast",
-     "likes": 1,
-     "replies": 0,
-     "at": "2026-10-01T17:39:17Z",
-     "post": "https://www.instagram.com/p/Dd9bl43knoE/",
-     "caption": "",
-     "posted": "2026-10-01",
-     "is_reply": false,
-     "replied": false,
-     "theme": "praise"
-    },
-    {
-     "id": "18124380713307241",
-     "text": "Loving the content mN",
-     "likes": 3,
-     "replies": 0,
-     "at": "2026-10-01T17:25:16Z",
-     "post": "https://www.instagram.com/reel/Dd9T_YvS1nK/",
-     "caption": "Only one went to heaven 👆",
-     "posted": "2026-10-01",
-     "is_reply": false,
-     "replied": false,
-     "theme": "praise"
     }
    ]
   }
@@ -7852,19 +7806,26 @@
    "date": "2026-10-28",
    "ig_views": 2063,
    "ig_new_followers": 6,
-   "yt_views": null,
-   "yt_net_subscribers": null
+   "yt_views": 2,
+   "yt_net_subscribers": 0
   },
   {
    "date": "2026-10-29",
    "ig_views": 3646,
-   "ig_new_followers": 0,
+   "ig_new_followers": 6,
    "yt_views": null,
    "yt_net_subscribers": null
   },
   {
    "date": "2026-10-30",
-   "ig_views": 443,
+   "ig_views": 1869,
+   "ig_new_followers": 0,
+   "yt_views": null,
+   "yt_net_subscribers": null
+  },
+  {
+   "date": "2026-10-31",
+   "ig_views": 809,
    "ig_new_followers": 0,
    "yt_views": null,
    "yt_net_subscribers": null
@@ -7990,6 +7951,12 @@
    "ig_followers": 7356,
    "yt_subscribers": 84,
    "yt_lifetime_views": 78520
+  },
+  {
+   "date": "2026-11-01",
+   "ig_followers": 7353,
+   "yt_subscribers": 84,
+   "yt_lifetime_views": 78543
   }
  ]
 }
